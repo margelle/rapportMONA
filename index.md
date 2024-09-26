@@ -27,6 +27,7 @@ _17 septembre_
   - apprendre l'existence du site web qui aide à trouver les mots inclusifs https://eninclusif.fr/
 - apprendre l'existence de la _Politique d’intégration des arts à l’architecture et à l’environnement des bâtiments et des sites gouvernementaux et publics_
   - 1% des fonds dédiés à l'art public
+
 ### semaine 2 
 _24 septembre_
 - assister à une réunion avec Lena pour apprendre quels outils on utilise chez MONA
@@ -50,6 +51,6 @@ _24 septembre_
 - commencer les rapports hebdomadaires
 
 **TODO**
-- assister à l'atelier Wikipedia 
+- assister à l'atelier Wikipedia le 26 sept
 - trouver un titre
 - lire beaucoup

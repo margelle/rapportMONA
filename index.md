@@ -37,34 +37,38 @@ _23 septembre_
     - typora
     - pcloud
     - clickup
-    - zettlrhttps://hackmd.io/@MONAmtl/dir-tech#Rencontre-Tiffany
+    - zettlr
     - github
     - google cloud
     - hackmd.io 
 - assister à une réunion avec Lena et Camila pour deviner plus familière avec l'organization
 - assister à une réunion Tech Team et rencontrer les autres membres de l'équipe tech :  
   -  Corélie qui travaille sur l'interface admin
-  -  Sarah qui travailhttps://hackmd.io/@MONAmtl/dir-tech#Rencontre-Tiffanyle sur l'application
+  -  Sarah qui travaille sur l'application
   -  Simon qui travaille sur le serveur et avec les données ouvertes
 - discuter la situation mobilière du bureau
 - creer des comptes pour les outils
 - commencer les rapports hebdomadaires
-- assister à l'atelier Wikipedia le 26 sept : https://hackmd.io/qWy3pnbnSjCaSAE1m9Wn4Q#Journ%C3%A9e-pratique-Wikimedia-commons
+- assister à la [Journée pratique Wikimedia commons](https://hackmd.io/qWy3pnbnSjCaSAE1m9Wn4Q#Journ%C3%A9e-pratique-Wikimedia-commons) le 26 septembre
    
 ### semaine 3 
 _30 septembre_
 - assister à la réunion essai pour l'aterlier wiki
 - transférer la liste de références pour les artistes Lucie Duval et Cécile Gariépy en zotéro
 - assister à l'atelier wiki MONA x Sporobole à Sherbrooke
+  - une licence qui inclut l'utilisation du contenu pour une visée marchandise est due au clés USB wikipédia qui sont vendus au pays qui ont un accès limité à l'Internet
 - prendre des photos à Sherbrooke
-- ajouter l'oeuvre Mémoire Vive de Lucie Duval sur Wikidata https://www.wikidata.org/wiki/Q130419921, et ajouter sa photo sur wikimedia commons
+- ajouter l'oeuvre [Mémoire Vive de Lucie Duval sur Wikidata](https://www.wikidata.org/wiki/Q130419921), et ajouter [sa photo sur wikimedia commons](https://commons.wikimedia.org/wiki/File:M%C3%A9moire_vive_sculpture_de_Lucie_Duval.jpg)
   
 ### semaine 4 
 _7 octobre_
-- lire les notes de direction technique https://hackmd.io/@MONAmtl/dir-tech#Dir-Tech
+- lire [les notes de direction technique](https://hackmd.io/@MONAmtl/dir-tech#Dir-Tech)
+- lire sur [Wikimedia global account](https://meta.wikimedia.org/wiki/Help:Unified_login)
+- lire [Vers un commun numérique de l’art public](https://sens-public.org/dossiers/1759/)
 
 **TODO**
 - trouver un titre - factotum en herbe ?
-- réunion sur LOD Export
+- réunion sur LOD Export le 9 octobre
 - liste de lectures: https://hackmd.io/@MONAmtl/dir-tech#Rencontre-Tiffany
 - lecture: Message commons artiste https://hackmd.io/ahLyaWuST5iY3t2pB-GBDw
+

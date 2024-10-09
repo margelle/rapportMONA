@@ -59,16 +59,19 @@ _30 septembre_
   - funfact: une licence qui inclut l'utilisation du contenu pour une visée marchandise est due aux clés USB Wikipédia qui sont vendus au pays qui ont un accès limité à l'Internet
 - prendre des photos à Sherbrooke
 - ajouter l'œuvre [Mémoire vive de Lucie Duval sur Wikidata](https://www.wikidata.org/wiki/Q130419921), et ajouter [sa photo sur Wikimédia commons](https://commons.wikimedia.org/wiki/File:M%C3%A9moire_vive_sculpture_de_Lucie_Duval.jpg)
+- assister à l'atelier **Faire bonne impression en 30 secondes** offert par l'UdeM
   
 ### semaine 4 
 _7 octobre_
 - lire [les notes de direction technique](https://hackmd.io/@MONAmtl/dir-tech#Dir-Tech)
 - lire sur [Wikimedia global account](https://meta.wikimedia.org/wiki/Help:Unified_login)
 - lire [Vers un commun numérique de l’art public](https://sens-public.org/dossiers/1759/)
+- créer [ma page d'utilisateur meta-wiki](https://meta.wikimedia.org/wiki/User:Anthraciter)
 
 **TODO**
 - trouver un titre - factotum en herbe ?
-- réunion sur LOD Export le 9 octobre
+- assister à la réunion sur LOD Export le 9 octobre
+- assister à la réunion Tech Team le 9 octobre
 - liste de lectures: https://hackmd.io/@MONAmtl/dir-tech#Rencontre-Tiffany
 - lecture: Message commons artiste https://hackmd.io/ahLyaWuST5iY3t2pB-GBDw
 

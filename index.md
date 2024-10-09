@@ -67,6 +67,12 @@ _7 octobre_
 - lire sur [Wikimedia global account](https://meta.wikimedia.org/wiki/Help:Unified_login)
 - lire [Vers un commun numérique de l’art public](https://sens-public.org/dossiers/1759/)
 - créer [ma page d'utilisateur meta-wiki](https://meta.wikimedia.org/wiki/User:Anthraciter)
+- ajouter ces images sur wikimedia pour l'artiste [Zema](https://www.wikidata.org/wiki/Q124846279)
+  de [cette oeuvre](https://www.wikidata.org/wiki/Q130369646)
+  - https://commons.wikimedia.org/wiki/File:Sans_titre_murale_par_Zema1.jpg
+  - https://commons.wikimedia.org/wiki/File:Sans_titre_murale_par_Zema2.jpg
+
+  
 
 **TODO**
 - trouver un titre - factotum en herbe ?

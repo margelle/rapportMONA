@@ -24,7 +24,7 @@ _16 septembre_
   - créer mon compte Wikipédia
   - faire ma première contribution à Wikipédia
 - assister à l'atelier **Faire la différence: parler et écrire un français inclusif** offert par l'UdeM
-  - apprendre l'existence du site web qui aide à trouver les mots inclusifs https://eninclusif.fr/
+  - apprendre l'existence du site web qui aide à trouver les mots inclusifs [https://eninclusif.fr/](https://eninclusif.fr/)
 - apprendre l'existence de la _Politique d’intégration des arts à l’architecture et à l’environnement des bâtiments et des sites gouvernementaux et publics_
   - 1% des fonds dédiés à l'art public
 
@@ -78,8 +78,8 @@ _7 octobre_
 **TODO**
 - trouver un titre ~~factotum en herbe~~ TGDN technicienne en gestion des données numérique (artistique?) https://www.btb.termiumplus.gc.ca/tpv2alpha/alpha-eng.html?lang=eng&i=1&srchtxt=DATA+WRANGLER&codom2nd_wet=1#resultrecs
 - assister à la réunion Tech Team le 9 octobre
-- liste de lectures: https://hackmd.io/@MONAmtl/dir-tech#Rencontre-Tiffany
-- lecture: Message commons artiste https://hackmd.io/ahLyaWuST5iY3t2pB-GBDw
-- suivre le tutoriel sur protegé https://www.iro.umontreal.ca/~lapalme/ift6281/OWL/EtapesCreationOntologie.html
+- [liste de lectures](https://hackmd.io/@MONAmtl/dir-tech#Rencontre-Tiffany)
+- lecture: [Message commons artiste](https://hackmd.io/ahLyaWuST5iY3t2pB-GBDw)
+- suivre [le tutoriel sur protegé](https://www.iro.umontreal.ca/~lapalme/ift6281/OWL/EtapesCreationOntologie.html)
 
 

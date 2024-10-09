@@ -71,13 +71,15 @@ _7 octobre_
   de [cette oeuvre](https://www.wikidata.org/wiki/Q130369646)
   - https://commons.wikimedia.org/wiki/File:Sans_titre_murale_par_Zema1.jpg
   - https://commons.wikimedia.org/wiki/File:Sans_titre_murale_par_Zema2.jpg
-
-  
+- assister à la réunion sur LOD Export le 9 octobre avec Guy Lapalme, Camille, Lena, Simon, et David
+- ajouter [l'image](https://commons.wikimedia.org/wiki/File:Cap_Tourmente_murale_par_STARE.jpg) sur wikimedia pour l'artiste [STARE](https://www.wikidata.org/wiki/Q125246059) 
+  après avoir ajouté l'entrée wikidata de la murale [Cap Tourmente](https://www.wikidata.org/wiki/Q130474060)
 
 **TODO**
-- trouver un titre - factotum en herbe ?
-- assister à la réunion sur LOD Export le 9 octobre
+- trouver un titre - TGDN technicienne en gestion des données numérique (artistique?) https://www.btb.termiumplus.gc.ca/tpv2alpha/alpha-eng.html?lang=eng&i=1&srchtxt=DATA+WRANGLER&codom2nd_wet=1#resultrecs
 - assister à la réunion Tech Team le 9 octobre
 - liste de lectures: https://hackmd.io/@MONAmtl/dir-tech#Rencontre-Tiffany
 - lecture: Message commons artiste https://hackmd.io/ahLyaWuST5iY3t2pB-GBDw
+- suivre le tutoriel sur protegé https://www.iro.umontreal.ca/~lapalme/ift6281/OWL/EtapesCreationOntologie.html
+
 

@@ -16,7 +16,7 @@ Pendant ce stage, je voudrais développer et approfondir mes connaissances de l'
 ## <a name="rapports-hebdomadaires"></a>Rapports hebdomadaires
 
 <details>
-<summary> semaine 1 (16 septembre) 
+<summary>semaine 1 (16 septembre) 
 </summary>
 
 
@@ -106,6 +106,7 @@ Cette semaine, j'ai :
 <details>
 <summary>semaine 5 (14 octobre)</summary>
 
+Cette semaine, j'ai :
 - commencé à [Définir les types dans les sources de données](https://hackmd.io/@tiffanym/definir-types)
 - assisté à la réunion de préparation pour [WikiConvention francophone](https://meta.wikimedia.org/wiki/WikiConvention_francophone)
 - assisté à la réunion Tech Team le 16 octobre
@@ -129,6 +130,7 @@ Cette semaine, j'ai :
 - rechercher et rassembler une liste d'œuvres pour le parcours à Saint-Roch et créer une page wiki
 - continuer à [Définir les types dans les sources de données](https://hackmd.io/@tiffanym/definir-types) avec Rimouski en priorité
 - étudier les données d'artpublic rimouski
+- regarder les données ouvertes zotero
 - [liste de lectures](https://hackmd.io/@MONAmtl/dir-tech#Rencontre-Tiffany)
 - lecture: [Message commons artiste](https://hackmd.io/ahLyaWuST5iY3t2pB-GBDw)
 - suivre [le tutoriel sur protegé](https://www.iro.umontreal.ca/~lapalme/ift6281/OWL/EtapesCreationOntologie.html)
@@ -149,7 +151,6 @@ Cette semaine, j'ai :
 - présent liste TODO liste fini
 - rapport de reception Rimouski
 - garder communs numeriques zotero pour les belles listes bien rangées
-- regarder les données ouvertes zotero
 - relire et ajout commentaires sur senspublic
 </details>
 

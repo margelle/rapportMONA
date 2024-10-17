@@ -1,6 +1,6 @@
 ![Mona logo](Mona-Logo.svg)
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
-<link rel="stylesheet" href="assets/css/style.scss">
+
 ## **Automne 2024** - Tiffany M
 
 ### <a name="description-du-stage"></a>Description du stage

@@ -113,6 +113,7 @@ Cette semaine, j'ai :
 - assisté à la réunion Tech Team le 16 octobre
 </details>
 
+
 ## <a name="varia"></a>Varia
 
 <details>
@@ -167,3 +168,15 @@ Cette semaine, j'ai :
 - technicienne malvu
 - similaire à technothérapeute mais pour les données ?
 </details>
+
+## <a name="liens-utiles"></a>Liens utiles
+
+- [Dir Tech](https://hackmd.io/MqtzFtLkR0mVxUfaEtBVsA?view)
+- [Pepinière](https://hackmd.io/@MONAmtl/pep)
+- [Définir les types dans les sources de données](https://hackmd.io/@tiffanym/definir-types)
+- [Mandat Rimouski](https://hackmd.io/@MONAmtl/rimouski-2024)
+- [Wikidata:WikiProject Maison MONA / Vers un commun numérique de l'art public](https://www.wikidata.org/wiki/Wikidata:WikiProject_Maison_MONA_/_Vers_un_commun_num%C3%A9rique_de_l%27art_public)
+- [Wikipédia:GLAM/Québec/InstitutWikiGLAMU](https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:GLAM/Qu%C3%A9bec/InstitutWikiGLAMU)
+- [WikiConvention francophone](https://meta.wikimedia.org/wiki/WikiConvention_francophone/2024)
+- [Enjeux juridiques de la transformation numérique](https://www.culturelibre.ca)
+  - [zotero associé](https://www.zotero.org/culturelibre/library)

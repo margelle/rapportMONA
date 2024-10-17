@@ -17,10 +17,13 @@ Pendant ce stage, je voudrais développer et approfondir mes connaissances de l'
 
 <details>
 <summary> semaine 1 (16 septembre) 
+</summary>
 
-Cette semaine, j'ai participé à divers réunions et ateliers et je me suis engagée dans un cheminement pour m'intégrer dans une organisation en plein essor qui fonctionne à but non lucratif. J'adore qu'elle travaille ouvertement par défaut, et je pense que cette pratique m'aidera dans les semaines à venir quand je cherche de l'information d'une façon autonome. 
-J'ai également pris mes premiers pas en tant que wikimédienne en devenir.</summary>
+Cette semaine, j'ai participé à divers réunions et ateliers et je me suis engagée dans un cheminement pour m'intégrer dans une organisation en plein essor qui fonctionne à but non lucratif. J'adore qu'elle travaille ouvertement par défaut, et je pense que cette pratique m'aidera dans les semaines à venir quand je cherche de l'information d'une façon autonome.
 
+J'ai également pris mes premiers pas en tant que wikimédienne en devenir.
+
+De plus, j'ai :
 - assisté à une réunion avec mon professeur superviseur Benoit Baudry pour discuter le projet
 - assisté à la **Matinée numérique #7**
   - au programme de la Matinée :  
@@ -38,10 +41,15 @@ J'ai également pris mes premiers pas en tant que wikimédienne en devenir.</sum
 <details>
 <summary>semaine 2 (23 septembre)</summary>
 
+Cette semaine, je suis toujours en train de me familiariser avec les projets et outils de l'équipe.  J'ai rencontré des membres de l'équipe Tech, et j'ai continué mon progrès avec l'univers Wiki.
+
+J'aime bien le fait qu'«ici, on fait des décisions à deux».  Ça en dit long sur la structure horizontale de l'organisation.
+
+De plus, j'ai :
 - assisté à une réunion avec Lena pour apprendre quels outils on utilise chez MONA
   - ici on fait les décisions à deux
   - outils et logiciels
-    - zotero
+    - zoterom
     - typora
     - pcloud
     - clickup

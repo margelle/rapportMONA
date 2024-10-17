@@ -19,6 +19,7 @@ Pendant ce stage, je voudrais développer et approfondir mes connaissances de l'
 <summary> semaine 1 (16 septembre) 
 </summary>
 
+
 Cette semaine, j'ai participé à divers réunions et ateliers et je me suis engagée dans un cheminement pour m'intégrer dans une organisation en plein essor qui fonctionne à but non lucratif. J'adore qu'elle travaille ouvertement par défaut, et je pense que cette pratique m'aidera dans les semaines à venir quand je cherche de l'information d'une façon autonome.
 
 J'ai également pris mes premiers pas en tant que wikimédienne en devenir.
@@ -43,7 +44,7 @@ De plus, j'ai :
 
 Cette semaine, je suis toujours en train de me familiariser avec les projets et outils de l'équipe.  J'ai rencontré des membres de l'équipe Tech, et j'ai continué mon progrès avec l'univers Wiki.
 
-J'aime bien le fait qu'«ici, on fait des décisions à deux».  Ça en dit long sur la structure horizontale de l'organisation.
+J'aime bien le fait qu'«ici, on fait des décisions à deux».  Cela en dit long sur la structure horizontale de l'organisation.
 
 De plus, j'ai :
 - assisté à une réunion avec Lena pour apprendre quels outils on utilise chez MONA
@@ -70,6 +71,9 @@ De plus, j'ai :
 <details>   
 <summary>semaine 3 (30 septembre)</summary>
 
+Cette semaine, je suis allée à Sherbrooke pour assister à l'atelier wiki MONA x Sporobole.  La présence des vrai·e·s artistes à l'atelier qui montraient leur intérêt m'a donné un sens de l'utilité concrète d'acquérir des connaissances sur le processus d'ajout sur Wikimédia et Wikipédia.
+
+De plus, j'ai :
 - assisté à la réunion essaie pour l'atelier wiki
 - transféré la liste de références pour les artistes Lucie Duval et Cécile Gariépy [en zotéro](https://www.zotero.org/groups/5110127/communs-numeriques/collections/8WCS6TZ2)
 - assisté à l'atelier wiki MONA x Sporobole à Sherbrooke
@@ -81,6 +85,7 @@ De plus, j'ai :
 <details>
 <summary>semaine 4 (7 octobre)</summary>
 
+Cette semaine, j'ai :
 - lu [les notes de direction technique](https://hackmd.io/@MONAmtl/dir-tech#Dir-Tech)
 - lu sur [Wikimedia global account](https://meta.wikimedia.org/wiki/Help:Unified_login)
 - lu [Vers un commun numérique de l’art public](https://sens-public.org/dossiers/1759/)

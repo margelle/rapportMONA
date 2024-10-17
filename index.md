@@ -14,7 +14,10 @@ Pendant ce stage, je voudrais développer et approfondir mes connaissances de l'
 <a href="Description_du_stage_16sep2024.pdf" target="_blank">Description initiale du stage en PDF</a>
 
 
+
 ## <a name="rapports-hebdomadaires"></a>Rapports hebdomadaires
+
+
 
 <details>
 <summary>semaine 1 (16 septembre) 
@@ -114,7 +117,10 @@ Cette semaine, j'ai :
 </details>
 
 
+
 ## <a name="varia"></a>Varia
+
+
 
 <details>
 
@@ -169,7 +175,10 @@ Cette semaine, j'ai :
 - similaire à technothérapeute mais pour les données ?
 </details>
 
+
+
 ## <a name="liens-utiles"></a>Liens utiles
+
 
 - [Dir Tech](https://hackmd.io/MqtzFtLkR0mVxUfaEtBVsA?view)
 - [Pepinière](https://hackmd.io/@MONAmtl/pep)

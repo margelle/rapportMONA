@@ -1,5 +1,6 @@
 ![Mona logo](Mona-Logo.svg)
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+<link rel="stylesheet" href="assets/css/style.scss">
 ## **Automne 2024** - Tiffany M
 
 ### <a name="description-du-stage"></a>Description du stage
@@ -113,7 +114,7 @@ Cette semaine, j'ai :
 </details>
 
 <details>
-<summary> à la recherche d'un titre juste</summary>
+<summary>à la recherche d'un titre juste</summary>
 
 - trouver un titre ~~factotum en herbe~~ ~~TGDN technicienne en gestion des données numérique (artistique?)~~ [data wrangler?](https://www.btb.termiumplus.gc.ca/tpv2alpha/alpha-eng.html?lang=eng&i=1&srchtxt=DATA+WRANGLER&codom2nd_wet=1#resultrecs) ou chercher dans un lexique de jardinage pour un terme similaire à data nurturer pour continuer la métaphore pepinière/cultiver 
 - data nurturer en français ou collaboratrice

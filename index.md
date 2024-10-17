@@ -113,14 +113,7 @@ Cette semaine, j'ai :
 - assisté à la réunion Tech Team le 16 octobre
 </details>
 
-<details>
-<summary>à la recherche d'un titre juste</summary>
-
-- trouver un titre ~~factotum en herbe~~ ~~TGDN technicienne en gestion des données numérique (artistique?)~~ [data wrangler?](https://www.btb.termiumplus.gc.ca/tpv2alpha/alpha-eng.html?lang=eng&i=1&srchtxt=DATA+WRANGLER&codom2nd_wet=1#resultrecs) ou chercher dans un lexique de jardinage pour un terme similaire à data nurturer pour continuer la métaphore pepinière/cultiver 
-- data nurturer en français ou collaboratrice
-- technicienne malvu
-- similaire à technothérapeute mais pour les données ?
-</details>
+## <a name="varia"></a>Varia
 
 <details>
 
@@ -137,23 +130,40 @@ Cette semaine, j'ai :
 - suivre [le tutoriel sur protegé](https://www.iro.umontreal.ca/~lapalme/ift6281/OWL/EtapesCreationOntologie.html)
 - lire intro et section 2 Feminist in a Software Lab; section 1 tries to create links where they don't exist
 - envoi rapport lien courriel Guy et Benoit quand il est debroussaillé
-- chercher broken telephone en français
 - ne pas regarder CIDOC CRM (orienté événement)
-- faire en amont (prétraitement)
-- getty AAT ULAN
-- un standard de fait
-- wikidata et LINCS féderation dans une seule direction
-- LINCS LODexport premier API vs csv normalement
-- empétrer - in a pickle ?
-- « l'explicitation des corrections »
-- l'interface admin va aussi faire la sémantisation
-- trace d'accès en interface admin
-- mobilisation des connaissances
-- présent liste TODO liste fini
+- ajouter trace d'accès en interface admin?
 - rapport de reception Rimouski
-- garder communs numeriques zotero pour les belles listes bien rangées
 - relire et ajout commentaires sur senspublic
 </details>
 
+<details>
+<summary>vocabulaire</summary>
+- mobilisation des connaissances
+- « l'explicitation des corrections » ?
+- faire en amont (prétraitement)
+- getty AAT ULAN
+- un standard de fait
+- chercher broken telephone en français
+- [table de concertation](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8364034/table-de-concertation)
+- [écrémer](https://fr.wiktionary.org/wiki/%C3%A9cr%C3%A9mer)
+- [empêtrer](https://fr.wiktionary.org/wiki/emp%C3%AAtrer)
+</details>
 
+<details>
+<summary>notes</summary>
+- garder communs numeriques zotero pour les belles listes bien rangées
+- présent en forme de liste TODO et puis liste fini
+- l'interface admin va aussi faire la sémantisation
+- wikidata et LINCS féderation dans une seule direction
+- LINCS LODexport premier API vs csv normalement
 
+</details>
+
+<details>
+<summary>à la recherche d'un titre juste</summary>
+
+- trouver un titre ~~factotum en herbe~~ ~~TGDN technicienne en gestion des données numérique (artistique?)~~ [data wrangler?](https://www.btb.termiumplus.gc.ca/tpv2alpha/alpha-eng.html?lang=eng&i=1&srchtxt=DATA+WRANGLER&codom2nd_wet=1#resultrecs) ou chercher dans un lexique de jardinage pour un terme similaire à data nurturer pour continuer la métaphore pepinière/cultiver 
+- data nurturer en français ou collaboratrice
+- technicienne malvu
+- similaire à technothérapeute mais pour les données ?
+</details>

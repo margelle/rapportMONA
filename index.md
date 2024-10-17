@@ -114,6 +114,13 @@ Cette semaine, j'ai :
 - commencé à [Définir les types dans les sources de données](https://hackmd.io/@tiffanym/definir-types)
 - assisté à la réunion de préparation pour [WikiConvention francophone](https://meta.wikimedia.org/wiki/WikiConvention_francophone)
 - assisté à la réunion Tech Team le 16 octobre
+- ajouté des phrases complètes à mes rapports hebdos initials
+- appris comment ajouter les «accordions» en markdown
+- investigué le fonctionnement du markdown des pages github.io
+  - le markdown github (GLM) diffère d'autres [« saveurs » de markdown](https://github.com/commonmark/commonmark-spec/wiki/Markdown-Flavors)
+- lu de l'info sur les formats possibles des coordonnées géographiques et les projections
+- cherché la référence spatiale utilisée par [la liste des oeuvres en Saint-Roch](https://www.ville.quebec.qc.ca/citoyens/art-culture/art-public/repertoire/secteur-06.aspx) dans les fichiers sources de [la carte interactive d'une oeuvre](https://carte.ville.quebec.qc.ca/mobile?z=9&x=249739.878&y=5186556.635) sur cette liste
+
 </details>
 
 
@@ -145,6 +152,7 @@ Cette semaine, j'ai :
 
 <details>
 <summary>vocabulaire</summary>
+
 - mobilisation des connaissances
 - « l'explicitation des corrections » ?
 - faire en amont (prétraitement)
@@ -158,6 +166,7 @@ Cette semaine, j'ai :
 
 <details>
 <summary>notes</summary>
+
 - garder communs numeriques zotero pour les belles listes bien rangées
 - présent en forme de liste TODO et puis liste fini
 - l'interface admin va aussi faire la sémantisation

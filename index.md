@@ -120,7 +120,9 @@ Cette semaine, j'ai :
   - le markdown github (GLM) diffère d'autres [« saveurs » de markdown](https://github.com/commonmark/commonmark-spec/wiki/Markdown-Flavors)
 - lu de l'info sur les formats possibles des coordonnées géographiques et les projections
 - cherché la référence spatiale utilisée par [la liste des oeuvres en Saint-Roch](https://www.ville.quebec.qc.ca/citoyens/art-culture/art-public/repertoire/secteur-06.aspx) dans les fichiers sources de [la carte interactive d'une oeuvre](https://carte.ville.quebec.qc.ca/mobile?z=9&x=249739.878&y=5186556.635) sur cette liste
-
+- ajouté 3 images au [WikiProject Maison MONA / Vers un commun numérique de l'art public](https://commons.wikimedia.org/wiki/Category:WikiProject_Maison_MONA_/_Vers_un_commun_num%C3%A9rique_de_l%27art_public) : 
+    - [Duo-Denum par Danaé Brissonet](https://commons.wikimedia.org/wiki/File:Duo-Denum_murale_de_Dana%C3%A9_Brissonnet_01.jpg) et [2](https://commons.wikimedia.org/wiki/File:Duo-Denum_murale_de_Dana%C3%A9_Brissonnet_02.jpg)  
+    - [Flourishing farm par Borrris](https://commons.wikimedia.org/wiki/File:Flourishing_farm_murale_de_Borrris.jpg)
 </details>
 
 
@@ -193,6 +195,7 @@ Cette semaine, j'ai :
 - [Pepinière](https://hackmd.io/@MONAmtl/pep)
 - [Définir les types dans les sources de données](https://hackmd.io/@tiffanym/definir-types)
 - [Mandat Rimouski](https://hackmd.io/@MONAmtl/rimouski-2024)
+- [Journée pratique Wikimedia commons](https://hackmd.io/qWy3pnbnSjCaSAE1m9Wn4Q?view)
 - [Wikidata:WikiProject Maison MONA / Vers un commun numérique de l'art public](https://www.wikidata.org/wiki/Wikidata:WikiProject_Maison_MONA_/_Vers_un_commun_num%C3%A9rique_de_l%27art_public)
 - [Wikipédia:GLAM/Québec/InstitutWikiGLAMU](https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:GLAM/Qu%C3%A9bec/InstitutWikiGLAMU)
 - [WikiConvention francophone](https://meta.wikimedia.org/wiki/WikiConvention_francophone/2024)

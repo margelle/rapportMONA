@@ -110,6 +110,8 @@ Cette semaine, j'ai :
 <details>
 <summary>semaine 5 (14 octobre)</summary>
 
+Ce soir, quand j'ai commencé à cataloguer les types des champs dans les données ouvertes de la ville de Rimouski, j'ai compris un peu plus le sentiment que Lena a exprimé il y a quelques semaines par rapport à être bergère/protectrice/gardienne des données.  À un moment, j'ai essayé de confirmer un titre inédit qui semblait coupé, et je n'ai rien trouvé.  J'étais un peu triste, car je savais que cet enregistrement du titre pourrait être l'un des seuls qui existent. 
+
 Cette semaine, j'ai :
 - commencé à [Définir les types dans les sources de données](https://hackmd.io/@tiffanym/definir-types)
 - assisté à la réunion de préparation pour [WikiConvention francophone](https://meta.wikimedia.org/wiki/WikiConvention_francophone)

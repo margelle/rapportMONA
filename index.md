@@ -123,6 +123,8 @@ Cette semaine, j'ai :
 - ajouté 3 images au [WikiProject Maison MONA / Vers un commun numérique de l'art public](https://commons.wikimedia.org/wiki/Category:WikiProject_Maison_MONA_/_Vers_un_commun_num%C3%A9rique_de_l%27art_public) : 
     - [Duo-Denum par Danaé Brissonet](https://commons.wikimedia.org/wiki/File:Duo-Denum_murale_de_Dana%C3%A9_Brissonnet_01.jpg) et [2](https://commons.wikimedia.org/wiki/File:Duo-Denum_murale_de_Dana%C3%A9_Brissonnet_02.jpg)  
     - [Flourishing farm par Borrris](https://commons.wikimedia.org/wiki/File:Flourishing_farm_murale_de_Borrris.jpg)
+- défini les types dans les données d'artpublic rimouski
+- examiné les données d'artpublic rimouski
 </details>
 
 

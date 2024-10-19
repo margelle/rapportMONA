@@ -122,11 +122,15 @@ Cette semaine, j'ai :
   - le markdown github (GLM) diffère d'autres [« saveurs » de markdown](https://github.com/commonmark/commonmark-spec/wiki/Markdown-Flavors)
 - lu de l'info sur les formats possibles des coordonnées géographiques et les projections
 - cherché la référence spatiale utilisée par [la liste des oeuvres en Saint-Roch](https://www.ville.quebec.qc.ca/citoyens/art-culture/art-public/repertoire/secteur-06.aspx) dans les fichiers sources de [la carte interactive d'une oeuvre](https://carte.ville.quebec.qc.ca/mobile?z=9&x=249739.878&y=5186556.635) sur cette liste
-- ajouté 3 images au [WikiProject Maison MONA / Vers un commun numérique de l'art public](https://commons.wikimedia.org/wiki/Category:WikiProject_Maison_MONA_/_Vers_un_commun_num%C3%A9rique_de_l%27art_public) : 
-    - [Duo-Denum par Danaé Brissonet](https://commons.wikimedia.org/wiki/File:Duo-Denum_murale_de_Dana%C3%A9_Brissonnet_01.jpg) et [2](https://commons.wikimedia.org/wiki/File:Duo-Denum_murale_de_Dana%C3%A9_Brissonnet_02.jpg)  
-    - [Flourishing farm par Borrris](https://commons.wikimedia.org/wiki/File:Flourishing_farm_murale_de_Borrris.jpg)
-- défini les types dans les données d'artpublic rimouski
-- examiné les données d'artpublic rimouski
+- ajouté 4 images au [WikiProject Maison MONA / Vers un commun numérique de l'art public](https://commons.wikimedia.org/wiki/Category:WikiProject_Maison_MONA_/_Vers_un_commun_num%C3%A9rique_de_l%27art_public) : 
+    - [Duo-Denum de Danaé Brissonet](https://commons.wikimedia.org/wiki/File:Duo-Denum_murale_de_Dana%C3%A9_Brissonnet_01.jpg) et [2](https://commons.wikimedia.org/wiki/File:Duo-Denum_murale_de_Dana%C3%A9_Brissonnet_02.jpg)  
+    - [Flourishing farm de Borrris](https://commons.wikimedia.org/wiki/File:Flourishing_farm_murale_de_Borrris.jpg)
+    - [Cap Tourmente de STARE](https://commons.wikimedia.org/wiki/File:Cap_Tourmente_murale_de_STARE.jpg)
+    - [Bgirls de Miss Wuna](https://commons.wikimedia.org/wiki/File:Bgirls_murale_de_Miss_Wuna.jpg)
+    - [L'ange de Bordeaux d'Awie](https://commons.wikimedia.org/wiki/File:L%27ange_de_Bordeaux_murale_d%27Awie.jpg)
+    - [Un vent de liberté de Mélany Fay](https://commons.wikimedia.org/wiki/File:Un_vent_de_libert%C3%A9_murale_de_M%C3%A9lany_Fay.jpg)[2](https://commons.wikimedia.org/wiki/File:Un_vent_de_libert%C3%A9_murale_de_M%C3%A9lany_Fay-2.jpg)
+- défini les types dans les données d'artpublic Rimouski
+- examiné les données d'artpublic Rimouski
 </details>
 
 
@@ -142,8 +146,8 @@ Cette semaine, j'ai :
 - ajouter des phrases complètes aux rapports hebdomadaires
 - ajouter aux rapports les choses apprises, inspirées, creusées
 - rechercher et rassembler une liste d'œuvres pour le parcours à Saint-Roch et créer une page wiki
-- continuer à [Définir les types dans les sources de données](https://hackmd.io/@tiffanym/definir-types) avec Rimouski en priorité
-- étudier les données d'artpublic rimouski
+- continuer à [Définir les types dans les sources de données](https://hackmd.io/@tiffanym/definir-types)
+- étudier encore plus les données d'artpublic rimouski
 - regarder les données ouvertes zotero
 - [liste de lectures](https://hackmd.io/@MONAmtl/dir-tech#Rencontre-Tiffany)
 - lecture: [Message commons artiste](https://hackmd.io/ahLyaWuST5iY3t2pB-GBDw)

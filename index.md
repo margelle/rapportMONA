@@ -110,7 +110,7 @@ Cette semaine, j'ai :
 <details>
 <summary>semaine 5 (14 octobre)</summary>
 
-Ce soir, quand j'ai commencé à cataloguer les types des champs dans les données ouvertes de la ville de Rimouski, j'ai compris un peu plus le sentiment que Lena a exprimé il y a quelques semaines par rapport à être bergère/protectrice/gardienne des données.  À un moment, j'ai essayé de confirmer un titre inédit qui semblait coupé, et je n'ai rien trouvé.  J'étais un peu triste, car je savais que cet enregistrement du titre pourrait être l'un des seuls qui existent. 
+Aujourd'hui, quand j'ai commencé à cataloguer les types des champs dans les données ouvertes de la ville de Rimouski, j'ai compris un peu plus le sentiment que Lena a exprimé il y a quelques semaines par rapport à être bergère/protectrice/gardienne des données.  À un moment, j'ai essayé de confirmer un titre inédit qui semblait coupé (le titre c'était «Cette histoire est vraie parce que je l’» de Gilles Pitre), et je n'ai rien trouvé.  J'étais un peu triste, car je savais que cet enregistrement du titre pourrait être l'un des seuls qui existent sur Internet. 
 
 Cette semaine, j'ai :
 - commencé à [Définir les types dans les sources de données](https://hackmd.io/@tiffanym/definir-types)
@@ -128,9 +128,12 @@ Cette semaine, j'ai :
     - [Cap Tourmente de STARE](https://commons.wikimedia.org/wiki/File:Cap_Tourmente_murale_de_STARE.jpg)
     - [Bgirls de Miss Wuna](https://commons.wikimedia.org/wiki/File:Bgirls_murale_de_Miss_Wuna.jpg)
     - [L'ange de Bordeaux d'Awie](https://commons.wikimedia.org/wiki/File:L%27ange_de_Bordeaux_murale_d%27Awie.jpg)
-    - [Un vent de liberté de Mélany Fay](https://commons.wikimedia.org/wiki/File:Un_vent_de_libert%C3%A9_murale_de_M%C3%A9lany_Fay.jpg)[2](https://commons.wikimedia.org/wiki/File:Un_vent_de_libert%C3%A9_murale_de_M%C3%A9lany_Fay-2.jpg)
+    - [Un vent de liberté de Mélany Fay](https://commons.wikimedia.org/wiki/File:Un_vent_de_libert%C3%A9_murale_de_M%C3%A9lany_Fay.jpg) et [2](https://commons.wikimedia.org/wiki/File:Un_vent_de_libert%C3%A9_murale_de_M%C3%A9lany_Fay-2.jpg)
+- appris que les templates {{Art Photo}} du wikimédia commons exigent que la nature de l'objet est oeuvre d'art afin d'afficher le cadre de l'objet avec les liens vers les fiches wikidata
 - défini les types dans les données d'artpublic Rimouski
 - examiné les données d'artpublic Rimouski
+- appris que les pivot tables [tableaux croisés dynamiques](https://www.btb.termiumplus.gc.ca/tpv2alpha/alpha-eng.html?lang=eng&i=1&srchtxt=pivot+table&codom2nd_wet=1#resultrecs) ne sont pas sensible à la casse [comme décrit ici](https://bugs.documentfoundation.org/show_bug.cgi?id=140510)
+- continué à [Définir les types dans les sources de données](https://hackmd.io/@tiffanym/definir-types)
 </details>
 
 
@@ -146,7 +149,6 @@ Cette semaine, j'ai :
 - ajouter des phrases complètes aux rapports hebdomadaires
 - ajouter aux rapports les choses apprises, inspirées, creusées
 - rechercher et rassembler une liste d'œuvres pour le parcours à Saint-Roch et créer une page wiki
-- continuer à [Définir les types dans les sources de données](https://hackmd.io/@tiffanym/definir-types)
 - étudier encore plus les données d'artpublic rimouski
 - regarder les données ouvertes zotero
 - [liste de lectures](https://hackmd.io/@MONAmtl/dir-tech#Rencontre-Tiffany)

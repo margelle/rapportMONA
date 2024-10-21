@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 	<base target="_top">
 	<meta charset="utf-8">
@@ -41,9 +41,7 @@
 		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 	}).addTo(map);
 
-	const marker = L.marker([46.8164685, -71.239748]).addTo(map)
-		.bindPopup('<b>Hello world!</b><br />I am a popup.').openPopup();
-    
+	
         const reunion = L.marker([46.8164685, -71.239748]).addTo(map).bindPopup("<b2>Réunion</b><br />Melvyn Flórez").openPopup();
 const suivre_son_cours = L.marker([46.8168842, -71.2395041]).addTo(map).bindPopup("<b2>Suivre son cours</b><br />Caroline Gagné").openPopup();
 const habitats_fauniques_canard = L.marker([46.8214473, -71.2390939]).addTo(map).bindPopup("<b2>Habitats fauniques</b><br />Chanh Trung Truong").openPopup();
@@ -77,25 +75,7 @@ const chevelure_perdue = L.marker([46.8139081, -71.2209608]).addTo(map).bindPopu
 const racines = L.marker([46.8129009, -71.2206319]).addTo(map).bindPopup("<b2>Racines</b><br />Lucienne Cornet").openPopup();
 const roi_fleuve = L.marker([46.81816, -71.2185801]).addTo(map).bindPopup("<b2>Le Roi du fleuve</b><br />Luce Pelletier").openPopup();
 const hommage_sphere = L.marker([46.8153728, -71.2181858]).addTo(map).bindPopup("<b2>Hommage à une sphère</b><br />Armand Robitaille").openPopup();
-
-	const circle = L.circle([46.8164685, -71.239750], {
-		color: 'red',
-		fillColor: '#f03',
-		fillOpacity: 0.5,
-		radius: 500
-	}).addTo(map).bindPopup('I am a circle.');
-
-	const polygon = L.polygon([
-		[46.8164685, -71.239748],
-		[46.8164578, -71.239740],
-		[46.8164785, -71.239753]
-	]).addTo(map).bindPopup('I am a polygon.');
-
-
-	const popup = L.popup()
-		.setLatLng([46.8164685, -71.239748])
-		.setContent('I am a standalone popup.')
-		.openOn(map);
+	
 
 	function onMapClick(e) {
 		popup

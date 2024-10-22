@@ -149,7 +149,8 @@ J'ai créé [cette carte](https://margelle.github.io/rapportMONA/carte-saint-roc
 ## <a name="varia"></a>Varia
 
 <p><a href="carte-saint-roch.html">carte saint roch</a></p>
-User:Anthraciter/SaintRoch
+
+https://meta.wikimedia.org/wiki/User:Anthraciter/SaintRoch
 
 <details>
 
@@ -220,3 +221,5 @@ User:Anthraciter/SaintRoch
 - [WikiConvention francophone](https://meta.wikimedia.org/wiki/WikiConvention_francophone/2024)
 - [Enjeux juridiques de la transformation numérique](https://www.culturelibre.ca)
   - [zotero associé](https://www.zotero.org/culturelibre/library)
+- https://streetartcities.com/cities/montreal
+- https://streetartcities.com/cities/quebec

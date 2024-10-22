@@ -141,7 +141,18 @@ Cette semaine, j'ai :
 
 J'ai commencé la page wiki pour la chasse aux photos de Saint-Roch pour l'InstitutWikiGLAMU.  Les coordonnées étant dans un format non reconnu par OpenStreetMap (EPSG:32187), j'ai cherché et essayé plusieurs façons de les convertir. J'ai fais mes premiers pas avec le logiciel intimidant QGIS et j'ai réussi à faire une conversion, grâce aux consignes sur [stackexchange](https://gis.stackexchange.com/a/64543).  Maintenant il faut les verifier.
 
-J'ai créé [cette carte](https://margelle.github.io/rapportMONA/carte-saint-roch.html) que j'espère ajouter au wiki.
+J'ai créé [cette carte](https://margelle.github.io/rapportMONA/carte-saint-roch.html) et aussi commencé [cette page d'utlisateur wiki pour Saint-Roch](https://meta.wikimedia.org/wiki/User:Anthraciter/SaintRoch) 
+
+Cette semaine, j'ai :
+- envoyé des requêtes de suppression pour les fichiers de Zema qui a changé d'idée sur le partage
+- envoyé une requête de changement de nom pour le fichier [Bgirls murale de Wüna](https://commons.wikimedia.org/wiki/File:Bgirls_murale_de_W%C3%BCna.jpg)
+- essayé d'écrire une requête SPARQL qui pourrait trouver les artistes sur wikidata, mais elle a toujours fini en «timed-out»
+- cherché un·e par un·e les artistes du Saint-Roch sur wikidata, et j'ai heureeusement retrouvé plusieurs IDs
+- cherché un·e par un·e les oeuvres du Saint-Roch sur wikidata, et je n'ai rien trouvé 
+- travaillé sur la liste des oeuvres du Saint-Roch avec des recherches sur Internet
+- appris comment changer la couleur des épingles dans le logiciel de carte Leaflet
+- appris comment faire un lien dans un wiki vers une fiche wikidata, voici un exemple de la syntaxe '[[wikidata:Q2031780|Rasputina]]' qui apparaîtra comme [Rasputina](https://www.wikidata.org/wiki/Q2031780)
+
 </details>
 
 

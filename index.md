@@ -153,7 +153,9 @@ Cette semaine, j'ai :
 - appris comment changer la couleur des épingles dans le logiciel de carte Leaflet
 - appris comment faire un lien dans un wiki vers une fiche wikidata, voici un exemple de la syntaxe '[[wikidata:Q2031780|Rasputina]]' qui apparaîtra comme [Rasputina](https://www.wikidata.org/wiki/Q2031780)
 - utilisé [cet outil](https://tableconvert.com/csv-to-markdown) qui transforme les fichiers csv aux tables en format markdown ou format media wiki (parmi plusieurs formats disponibles)
-
+- regardé [cette vidéo](https://www.youtube.com/watch?v=bksdUi6bidg) sur l'oeuvre «Les petits oiseaux d’argile»
+- révisé [la version anglaise de la description du WikiProject](https://www.wikidata.org/wiki/Wikidata:WikiProject_Maison_MONA_/_Vers_un_commun_num%C3%A9rique_de_l%27art_public#%7B%7BTranslateThis_%7C_fr_%3D_Liste_des_artistes_%7C_en_%3D_Artists_%7D%7D)
+- ajouté une référence vers [Wikidata:WikiProject Neighborhood Public Art in Boston](https://www.wikidata.org/wiki/Wikidata:WikiProject_Neighborhood_Public_Art_in_Boston) à la [liste zotero ](https://www.zotero.org/groups/5110127/communs-numeriques/collections/GTM97UFJ)et à [la bibliographie du projet MONA](https://www.wikidata.org/wiki/Wikidata:WikiProject_Maison_MONA_/_Vers_un_commun_num%C3%A9rique_de_l%27art_public/Bibliographie) et j'ai demandé à David s'il y a une convention différente pour reconnaître les autres WikiProjects
 </details>
 
 
@@ -164,13 +166,30 @@ Cette semaine, j'ai :
 
 https://meta.wikimedia.org/wiki/User:Anthraciter/SaintRoch
 
+<p><a href="/apropos/apropos.md">ébauche de la section apropos de l'app</a></p>
+
+<details>
+<summary>calendrier</summary>
+- 24 octobre
+  - réunion pépi sur zoom
+- 11 novembre
+  - 13h30 réunion Tech sur zoom
+- 13 novembre 
+  - 14h30 à 19h30 assister à la présentation de Camila [Les arts et la culture peuvent-ils (vraiment) être des points de jonction entre Villeray et Parc-Extension ?](https://www.facebook.com/events/579253684456451/)
+  - 18h30 [La Grande finale du concours L'impact Millénium Québecor 2024](https://reseau.umontreal.ca/s/1857/bp18/interior.aspx?sid=1857&gid=2&pgid=1512#:~:text=L'Universit%C3%A9%20de%20Montr%C3%A9al%20lance,et%20se%20lancer%20en%20affaires)
+
+</details>
+
 <details>
 
 <summary>à faire</summary>
 
+- premier jet du texte qui sommes-nous dans hackmd (mercredi soir)
+- écrire un résumé des données ouvertes pour le site web MONA
+- ajouter l'information que j'ai partagée sur Element et les raisonnements derrières ici dans le rapport
 - ajouter des phrases complètes aux rapports hebdomadaires
 - ajouter aux rapports les choses apprises, inspirées, creusées
-- rechercher et rassembler une liste d'œuvres pour le parcours à Saint-Roch et créer une page wiki
+- continuer à travailler sur le wiki pour le parcours à Saint-Roch
 - étudier encore plus les données d'artpublic rimouski
 - regarder les données ouvertes zotero
 - [liste de lectures](https://hackmd.io/@MONAmtl/dir-tech#Rencontre-Tiffany)
@@ -182,6 +201,11 @@ https://meta.wikimedia.org/wiki/User:Anthraciter/SaintRoch
 - ajouter trace d'accès en interface admin?
 - rapport de reception Rimouski
 - relire et ajout commentaires sur senspublic
+- relire et ajout commentaires rapport de reception Concordia
+- appprendre plus sur cet outil pour faire les importations en lot à wiki https://be.wikimedia.org/wiki/OpenRefine
+- appprendre plus sur cet outil pour reviser des wikis automatiquement https://be.wikimedia.org/wiki/Pywikibot
+- Women In Red https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Women_in_Red/Awards/France
+- utliser cette requete pour l'art public de Rimouski https://js.histropedia.com/apps/query-timeline/?q=select%20?work%20?workLabel%20?coords%20?date%20%20(9%20as%20?start_precision)%20(SAMPLE(?image)%20AS%20?image)%20?address%20?materialLabel%20?categoryLabel%20(group_concat(distinct%20?creatorLabel;%20separator%3D%22;%20%22)%20as%20?creators)%20where%20%7B?work%20wdt:P31/wdt:P279*%20wd:Q386724;%20wdt:P136%20wd:Q557141;%20wdt:P131%20wd:Q2304457;%20wdt:P31%20?category.%20%20optional%7B?work%20wdt:P625%20?coords.%7D%20%20optional%7B?work%20wdt:P571%20?date.%7D%20%20optional%7B?work%20wdt:P18%20?image.%7D%20%20optional%7B?work%20wdt:P170%20?creator.%7D%20%20optional%7B?work%20wdt:P6375%20?address.%7D%20%20optional%7B?work%20wdt:P186%20?material.%7D%20%20SERVICE%20wikibase:label%20%7B%20bd:serviceParam%20wikibase:language%20%22en%22.%20%20?work%20rdfs:label%20?workLabel.%20?category%20rdfs:label%20?categoryLabel.%20?creator%20rdfs:label%20?creatorLabel.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20?material%20rdfs:label%20?materialLabel%20%7D%20%7D%20group%20by%20?work%20?workLabel%20?coords%20?date%20?image%20?address%20?materialLabel%20?categoryLabel&d=0&md=true&g=work&l=work&t=workLabel&s=date&sp=start_precision&i=image&c=materialLabel,categoryLabel&f=materialLabel,categoryLabel&v=t
 </details>
 
 <details>
@@ -234,4 +258,10 @@ https://meta.wikimedia.org/wiki/User:Anthraciter/SaintRoch
 - [Enjeux juridiques de la transformation numérique](https://www.culturelibre.ca)
   - [zotero associé](https://www.zotero.org/culturelibre/library)
 - https://streetartcities.com/cities/montreal
-- https://streetartcities.com/cities/quebec
+- https://streetartcities.com/cities/qpolitiquedeconfidentialite.md
+- [Table de concertation culturelle Villeray Parc-Extension](https://tccvpe.my.canva.site/2#infos)
+- [créer un bouton «Aime» adapté](https://developers.facebook.com/docs/plugins/like-button/)
+- [demander une note sur l'App Store](https://github.com/capacitor-community/in-app-review)politiquedeconfidentialite.md
+- [Web sharing API](https://web.dev/articles/web-share)
+- [@capacitor/share]https://ionicframework.com/docs/native/share
+- [Inclure les avis Open Source](https://developers.google.com/android/guides/opensource?hl=fr)

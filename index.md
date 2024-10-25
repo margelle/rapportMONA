@@ -185,11 +185,17 @@ https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
 
 <details>
 <summary>calendrier</summary>
+
 - 24 octobre
+
   - 13h réunion pépi sur zoom
-  - 18h30 réunion avec Barbara (facultatif)
-  - 31 oct à 3 nov wikiconvention à Québec
-  - 5 nov à 8 nov à Rimouski
+  - 17h30 réunion graphisme sur zoom
+
+- 31 oct au 1 nov InstitutWikiGLAMU à Québec
+- 2 nov au 3 nov wikiconvention à Québec
+
+- 5 nov à 8 nov à Rimouski
+
 - 11 novembre
   - 13h30 réunion Tech sur zoom
 - 13 novembre 

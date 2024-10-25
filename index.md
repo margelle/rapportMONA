@@ -143,6 +143,9 @@ J'ai commencé la page wiki pour la chasse aux photos de Saint-Roch pour l'Insti
 
 J'ai créé [cette carte](https://margelle.github.io/rapportMONA/carte-saint-roch.html) et aussi commencé [cette page d'utlisateur wiki pour Saint-Roch](https://meta.wikimedia.org/wiki/User:Anthraciter/SaintRoch).  Pendant que je faisais mes premiers essais, j'ai eu le sentiment de marcher dans la boue avec le format wiki et le surplus d'information nécessaire pour faire la moindre chose.
 
+Je voudrais intégrer la carte pour les oeuvres de Saint-Roch directement sur la page wikimedia, alors j'ai commencé à apprendre les templates avec [ce tutoriel](https://meta.wikimedia.org/wiki/Learning_patterns/Doing_more,_with_templates:_A_tutorial_for_Wikimedia_project_creators).
+J'ai appris les noms de templates sont sensibles à la case, sauf pour le premier lettre.  J'étais curieiuse par rapport à cela, parce que j'avais vu le format pour les coordonnées géographiques exprimer dans deux manières {{coord||}} et {{Coord}}, alors mystère résolu.
+
 Cette semaine, j'ai :
 - envoyé des requêtes de suppression pour les fichiers de Zema qui a changé d'idée sur le partage
 - envoyé une requête de changement de nom pour le fichier [Bgirls murale de Wüna](https://commons.wikimedia.org/wiki/File:Bgirls_murale_de_W%C3%BCna.jpg)
@@ -156,6 +159,16 @@ Cette semaine, j'ai :
 - regardé [cette vidéo](https://www.youtube.com/watch?v=bksdUi6bidg) sur l'oeuvre «Les petits oiseaux d’argile»
 - révisé [la version anglaise de la description du WikiProject](https://www.wikidata.org/wiki/Wikidata:WikiProject_Maison_MONA_/_Vers_un_commun_num%C3%A9rique_de_l%27art_public#%7B%7BTranslateThis_%7C_fr_%3D_Liste_des_artistes_%7C_en_%3D_Artists_%7D%7D)
 - ajouté une référence vers [Wikidata:WikiProject Neighborhood Public Art in Boston](https://www.wikidata.org/wiki/Wikidata:WikiProject_Neighborhood_Public_Art_in_Boston) à la [liste zotero ](https://www.zotero.org/groups/5110127/communs-numeriques/collections/GTM97UFJ)et à [la bibliographie du projet MONA](https://www.wikidata.org/wiki/Wikidata:WikiProject_Maison_MONA_/_Vers_un_commun_num%C3%A9rique_de_l%27art_public/Bibliographie) et j'ai demandé à David s'il y a une convention différente pour reconnaître les autres WikiProjects
+- écrit l'ébauche de [la section À propos](https://hackmd.io/@tiffanym/apropos/edit) pour l'app
+- aussi écrit [un autre document](https://hackmd.io/@tiffanym/changements/edit) qui explique mes changements et qui parle aussi des choses encore à travailler.
+- écrit [Crédits des données](https://hackmd.io/@tiffanym/creditsdesdonnees/edit)
+- regardé le forme du document [Licences](https://hackmd.io/@tiffanym/licences/edit) et essayé de trouver quelles choses doivent être incluses dans cette partie pour les apps open source
+- ajouté une phrase à la [Politique de confidentialité](https://hackmd.io/@tiffanym/politiquedeconfidentialite/edit)
+- assisté à la réunion planning pour la session Institut GLAMU
+- assisté à la réunion design avec Barbara et discuté la page à propos
+- fait une session de débogage avec Sarah sur Zoom pour essayer de déboguer la présence du mot undefined sur l'onglet Badges dans l'app
+- fait des premiers pas avec adb shell, et essayé de créer moi-même une copie de l'apk avec le drapeau debuggable=true dans AndroidManifest.xml (pas réussi à cause de processus package signing, je devais manqué une étape)
+
 </details>
 
 
@@ -164,14 +177,19 @@ Cette semaine, j'ai :
 
 <p><a href="carte-saint-roch.html">carte saint roch</a></p>
 
+version wikimedia (Template GeoGroup ne semble pas dispo)
 https://meta.wikimedia.org/wiki/User:Anthraciter/SaintRoch
 
-<p><a href="/apropos/apropos.md">ébauche de la section apropos de l'app</a></p>
+version wikipedia avec un lien vers la carte directe
+https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
 
 <details>
 <summary>calendrier</summary>
 - 24 octobre
-  - réunion pépi sur zoom
+  - 13h réunion pépi sur zoom
+  - 18h30 réunion avec Barbara (facultatif)
+  - 31 oct à 3 nov wikiconvention à Québec
+  - 5 nov à 8 nov à Rimouski
 - 11 novembre
   - 13h30 réunion Tech sur zoom
 - 13 novembre 
@@ -184,7 +202,6 @@ https://meta.wikimedia.org/wiki/User:Anthraciter/SaintRoch
 
 <summary>à faire</summary>
 
-- premier jet du texte qui sommes-nous dans hackmd (mercredi soir)
 - écrire un résumé des données ouvertes pour le site web MONA
 - ajouter l'information que j'ai partagée sur Element et les raisonnements derrières ici dans le rapport
 - ajouter des phrases complètes aux rapports hebdomadaires
@@ -226,10 +243,12 @@ https://meta.wikimedia.org/wiki/User:Anthraciter/SaintRoch
 <summary>notes</summary>
 
 - garder communs numeriques zotero pour les belles listes bien rangées
-- présent en forme de liste TODO et puis liste fini
+- présenter en forme de liste TODO et puis liste fini
 - l'interface admin va aussi faire la sémantisation
 - wikidata et LINCS féderation dans une seule direction
 - LINCS LODexport premier API vs csv normalement
+- projet Wikimédia s’intéressant à l'élément (P5008) 
+- maintenu par le wikiprojet (P6104) 
 
 </details>
 
@@ -240,6 +259,7 @@ https://meta.wikimedia.org/wiki/User:Anthraciter/SaintRoch
 - data nurturer en français ou collaboratrice
 - technicienne malvu
 - similaire à technothérapeute mais pour les données ?
+- cultivatrice ?
 </details>
 
 
@@ -261,7 +281,11 @@ https://meta.wikimedia.org/wiki/User:Anthraciter/SaintRoch
 - https://streetartcities.com/cities/qpolitiquedeconfidentialite.md
 - [Table de concertation culturelle Villeray Parc-Extension](https://tccvpe.my.canva.site/2#infos)
 - [créer un bouton «Aime» adapté](https://developers.facebook.com/docs/plugins/like-button/)
-- [demander une note sur l'App Store](https://github.com/capacitor-community/in-app-review)politiquedeconfidentialite.md
+- [demander une note sur l'App Store](https://github.com/capacitor-community/in-app-review)
 - [Web sharing API](https://web.dev/articles/web-share)
 - [@capacitor/share]https://ionicframework.com/docs/native/share
 - [Inclure les avis Open Source](https://developers.google.com/android/guides/opensource?hl=fr)
+- [tldr licenses](https://www.tldrlegal.com/) 
+
+
+ 

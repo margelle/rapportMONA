@@ -112,7 +112,7 @@ Cette semaine, j'ai :
 
 Aujourd'hui, quand j'ai commencé à cataloguer les types des champs dans les données ouvertes de la ville de Rimouski, j'ai compris un peu plus le sentiment que Lena a exprimé il y a quelques semaines par rapport à être bergère/protectrice/gardienne des données.  À un moment, j'ai essayé de confirmer un titre inédit qui semblait coupé (le titre c'était «Cette histoire est vraie parce que je l’» de Gilles Pitre), et je n'ai rien trouvé.  J'étais un peu triste, car je savais que cet enregistrement du titre pourrait être l'un des seuls qui existent sur Internet. 
 
-Cette semaine, j'ai :
+Cette semaine, j'ai également :
 - commencé à [Définir les types dans les sources de données](https://hackmd.io/@tiffanym/definir-types)
 - assisté à la réunion de préparation pour [WikiConvention francophone](https://meta.wikimedia.org/wiki/WikiConvention_francophone)
 - assisté à la réunion Tech Team le 16 octobre
@@ -143,12 +143,9 @@ Cette semaine, j'ai :
 <details open>
 <summary>semaine 6 (21 octobre)</summary>
 
-J'ai commencé la page wiki pour la chasse aux photos de Saint-Roch pour l'InstitutWikiGLAMU.  Les coordonnées étant dans un format non reconnu par OpenStreetMap (EPSG:32187), j'ai cherché et essayé plusieurs façons de les convertir. J'ai fais mes premiers pas avec le logiciel intimidant QGIS et j'ai réussi à faire une conversion, grâce aux consignes sur [stackexchange](https://gis.stackexchange.com/a/64543).  Maintenant il faut les verifier.
+### côté WikiProject Maison MONA / Vers un commun numérique de l'art public
 
-J'ai créé [cette carte](https://margelle.github.io/rapportMONA/carte-saint-roch.html) et aussi commencé [cette page d'utlisateur wiki pour Saint-Roch](https://meta.wikimedia.org/wiki/User:Anthraciter/SaintRoch).  Pendant que je faisais mes premiers essais, j'ai eu le sentiment de marcher dans la boue avec le format wiki et le surplus d'information nécessaire pour faire la moindre chose.
-
-Je voudrais intégrer la carte pour les oeuvres de Saint-Roch directement sur la page wikimedia, alors j'ai commencé à apprendre les templates avec [ce tutoriel](https://meta.wikimedia.org/wiki/Learning_patterns/Doing_more,_with_templates:_A_tutorial_for_Wikimedia_project_creators).
-J'ai appris les noms de templates sont sensibles à la case, sauf pour le premier lettre.  J'étais curieuse par rapport à cela, parce que j'avais vu le format pour les coordonnées géographiques exprimer dans deux manières {{coord||}} et {{Coord}}, alors mystère résolu.
+Pour me préparer à la relecture de la partie anglaise de notre WikiProject, j'ai regardé des pages d'autres WikiProjects pour alimenter mon cerveau avec la syntaxe anglaise pour parler des projets sur wiki, et j'ai remarqué que quelques-uns ont inclus des liens vers des SPARQL queries qui réfèrent à leurs données.  J'ai trouvé un projet qui pourrait bien servir comme modèle.
 
 J'ai ajouté les onglets à [la page pour le WikiProject Maison MONA / Vers un commun numérique de l'art public](https://www.wikidata.org/wiki/Wikidata:WikiProject_Maison_MONA_/_Vers_un_commun_num%C3%A9rique_de_l%27art_public) à l'instar de [ce projet : WikiProject Neighborhood Public Art in Boston](https://www.wikidata.org/wiki/Wikidata:WikiProject_Neighborhood_Public_Art_in_Boston)
 
@@ -159,12 +156,13 @@ J'ai ajouté les onglets à [la page pour le WikiProject Maison MONA / Vers un c
 - **Liste des artistes** (Wikilist générée automatiquement, j'ai ajouté P6104 pour le projet où cela manquait aux artistes afin d'avoir un critère de recherche dans la requête SPARQL)
 - **Bibliographie** (ça vient du zotero [1. Wikidata et la création de données biographiques](https://www.zotero.org/groups/5110127/communs-numeriques/collections/GTM97UFJ) )
 
-J'ai préparé [ce brouillon](https://hackmd.io/@tiffanym/creditsdesdonneessiteweb/edit) sur les données pour le site web.
+J'ai enlevé, publié et puis reajouté le template art photo afin de forcer le «refresh» et Sophie Wilkins de 1976 apparaît maintenant dans la fiche de l'oeuvre 1
 
-J'ai utilisé [ce site de la collection des données de Rijksmuseum](https://www.rijksmuseum.nl/en/research/conduct-research/data/overview) comme modèle (en anglais ou néerlandais) qui était tiré de [cette liste sur github d'APIs publics sur l'art et design](https://github.com/public-api-lists/public-api-lists?tab=readme-ov-file#art--design)
+La prochaine fois qu'on remarque que l'info liée au template n'a pas changé comme prévu, on peut essayer une Modification nulle (null edit) décrit sur la page [Purge du cache](https://fr.wikipedia.org/wiki/Aide:Purge_du_cache)
+j'ai appris que cette option existait grâce à [MediaWiki: How do I force MediaWiki to update a certain Category:XXX page?](https://webmasters.stackexchange.com/a/78448)
 
 Cette semaine, j'ai également :
-### côté WikiProject
+
 - envoyé des requêtes de suppression pour les fichiers de Zema qui a changé d'idée sur le partage
 - envoyé une requête de changement de nom pour le fichier [Bgirls murale de Wüna](https://commons.wikimedia.org/wiki/File:Bgirls_murale_de_W%C3%BCna.jpg)
 - essayé d'écrire une requête SPARQL qui pourrait trouver les artistes sur wikidata, mais elle a toujours fini en «timed-out»
@@ -172,6 +170,17 @@ Cette semaine, j'ai également :
 - ajouté une référence vers [Wikidata:WikiProject Neighborhood Public Art in Boston](https://www.wikidata.org/wiki/Wikidata:WikiProject_Neighborhood_Public_Art_in_Boston) à la [liste zotero ](https://www.zotero.org/groups/5110127/communs-numeriques/collections/GTM97UFJ)et à [la bibliographie du projet MONA](https://www.wikidata.org/wiki/Wikidata:WikiProject_Maison_MONA_/_Vers_un_commun_num%C3%A9rique_de_l%27art_public/Bibliographie) et j'ai demandé à David s'il y a une convention différente pour reconnaître les autres WikiProjects
 
 ### côté chasse à Saint-Roch
+
+
+J'ai commencé la page wiki pour la chasse aux photos de Saint-Roch pour l'InstitutWikiGLAMU.  Les coordonnées étant dans un format non reconnu par OpenStreetMap (EPSG:32187), j'ai cherché et essayé plusieurs façons de les convertir. J'ai fais mes premiers pas avec le logiciel intimidant QGIS et j'ai réussi à faire une conversion, grâce aux consignes sur [stackexchange](https://gis.stackexchange.com/a/64543).  Maintenant il faut les verifier.
+
+J'ai créé [cette carte](https://margelle.github.io/rapportMONA/carte-saint-roch.html) et aussi commencé [cette page d'utlisateur wiki pour Saint-Roch](https://meta.wikimedia.org/wiki/User:Anthraciter/SaintRoch).  Pendant que je faisais mes premiers essais, j'ai eu le sentiment de marcher dans la boue avec le format wiki et le surplus d'information nécessaire pour faire la moindre chose.
+
+Je voudrais intégrer la carte pour les oeuvres de Saint-Roch directement sur la page wikimedia, alors j'ai commencé à apprendre les templates avec [ce tutoriel](https://meta.wikimedia.org/wiki/Learning_patterns/Doing_more,_with_templates:_A_tutorial_for_Wikimedia_project_creators).
+J'ai appris les noms de templates sont sensibles à la case, sauf pour le premier lettre.  J'étais curieuse par rapport à cela, parce que j'avais vu le format pour les coordonnées géographiques exprimer dans deux manières {{coord||}} et {{Coord}}, alors mystère résolu.
+
+Cette semaine, j'ai également :
+
 - cherché un·e par un·e les artistes du Saint-Roch sur wikidata, et j'ai heureeusement retrouvé plusieurs IDs
 - cherché un·e par un·e les oeuvres du Saint-Roch sur wikidata, et je n'ai rien trouvé 
 - travaillé sur la liste des oeuvres du Saint-Roch avec des recherches sur Internet
@@ -179,15 +188,27 @@ Cette semaine, j'ai également :
 - appris comment faire un lien dans un wiki vers une fiche wikidata, voici un exemple de la syntaxe '[[wikidata:Q2031780|Rasputina]]' qui apparaîtra comme [Rasputina](https://www.wikidata.org/wiki/Q2031780)
 - utilisé [cet outil](https://tableconvert.com/csv-to-markdown) qui transforme les fichiers csv aux tables en format markdown ou format media wiki (parmi plusieurs formats disponibles)
 - regardé [cette vidéo](https://www.youtube.com/watch?v=bksdUi6bidg) sur l'oeuvre «Les petits oiseaux d’argile»
-- assisté à la réunion planning pour la session Institut GLAMU
+- assisté à [la réunion planning](https://hackmd.io/@MONAmtl/institut-GLAMu/edit) pour la session Institut GLAMU
 - cherché les galeries wikimedia pour toutes les oeuvres et les ajouté à la liste
 - divisé la liste d'oeuvres poru la chasse Saint-Roch en deux, et ajouté une colonne de distances de la bibliothèque Gabrielle-Roy
 - cherché des pages wikipedia pour toutes les oeuvres sur la liste, mais je n'en ai rien trouvé
 
-### côté app mobile
-- écrit l'ébauche de [la section À propos](https://hackmd.io/@tiffanym/apropos/edit) pour l'app
-- aussi écrit [un autre document](https://hackmd.io/@tiffanym/changements/edit) qui explique mes changements et qui parle aussi des choses encore à travailler.
-- écrit [Crédits des données](https://hackmd.io/@tiffanym/creditsdesdonnees/edit)
+### côté app mobile et site web
+
+J'ai redigé l'ébauche de [la section À propos](https://hackmd.io/@tiffanym/apropos/edit) pour l'app.
+J'ai aussi écrit [un autre document](https://hackmd.io/@tiffanym/changements/edit) qui explique mes changements et qui parle aussi des choses encore à travailler.
+Il y a des liens dans ces documents qui mènent aux autres parties, mais je vais aussi les inclure ici, au cas où
+
+- [Crédits des données](https://hackmd.io/@tiffanym/creditsdesdonnees/edit)
+- [Licences](https://hackmd.io/@tiffanym/licences/edit)
+- [Politique de confidentialité](https://hackmd.io/@tiffanym/politiquedeconfidentialite/edit)
+
+J'ai préparé [ce brouillon](https://hackmd.io/@tiffanym/creditsdesdonneessiteweb/edit) sur les données pour le site web.
+
+J'ai utilisé [ce site de la collection des données de Rijksmuseum](https://www.rijksmuseum.nl/en/research/conduct-research/data/overview) comme modèle (en anglais ou néerlandais) qui était tiré de [cette liste sur github d'APIs publics sur l'art et design](https://github.com/public-api-lists/public-api-lists?tab=readme-ov-file#art--design)
+
+Cette semaine, j'ai aussi :
+
 - regardé le forme du document [Licences](https://hackmd.io/@tiffanym/licences/edit) et essayé de trouver quelles choses doivent être incluses dans cette partie pour les apps open source
 - ajouté une phrase à la [Politique de confidentialité](https://hackmd.io/@tiffanym/politiquedeconfidentialite/edit)
 - assisté à la réunion design avec Barbara et discuté la page à propos
@@ -233,10 +254,11 @@ https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
 
 <summary>à faire</summary>
 
-- ajouter l'information que j'ai partagée sur Element et les raisonnements derrières ici dans le rapport
-- ajouter des phrases complètes aux rapports hebdomadaires
-- ajouter aux rapports les choses apprises, inspirées, creusées
+- toujours ajouter l'information que j'ai partagée sur Element et les raisonnements derrières ici dans le rapport
+- toujours ajouter aux rapports les choses apprises, inspirées, creusées
 - continuer à travailler sur le wiki pour le parcours à Saint-Roch
+  - ajouter des sources pour l'atelier dans zotero
+  - regarder le [dashboard pour l'atelier](https://outreachdashboard.wmflabs.org/courses/Institut_WikiGLAMU_x_Maison_MONA/Institut_WikiGLAMU)
 - étudier encore plus les données d'artpublic rimouski
 - [liste de lectures](https://hackmd.io/@MONAmtl/dir-tech#Rencontre-Tiffany)
 - lecture: [Message commons artiste](https://hackmd.io/ahLyaWuST5iY3t2pB-GBDw)
@@ -270,7 +292,7 @@ https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
 - [table de concertation](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8364034/table-de-concertation)
 - [écrémer](https://fr.wiktionary.org/wiki/%C3%A9cr%C3%A9mer)
 - [empêtrer](https://fr.wiktionary.org/wiki/emp%C3%AAtrer)
-- [Moissonnage du Web](https://www.statcan.gc.ca/fr/nos-donnees/ou/moissonnage-web)
+- [Moissonnage du Web](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/26507119/moissonnage-du-web)
 </details>
 
 <details>

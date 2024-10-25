@@ -243,6 +243,7 @@ https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
 - [table de concertation](https://vitrinelinguistique.oqlf.gouv.qc.ca/fiche-gdt/fiche/8364034/table-de-concertation)
 - [écrémer](https://fr.wiktionary.org/wiki/%C3%A9cr%C3%A9mer)
 - [empêtrer](https://fr.wiktionary.org/wiki/emp%C3%AAtrer)
+- [Moissonnage du Web](https://www.statcan.gc.ca/fr/nos-donnees/ou/moissonnage-web)
 </details>
 
 <details>

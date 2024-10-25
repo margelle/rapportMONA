@@ -151,14 +151,15 @@ J'ai ajouté les onglets à [la page pour le WikiProject Maison MONA / Vers un c
 
 - **Accueil**
 - **Modèles de données** (j'ai fait les traductions de mon mieux)
-- **Requêtes** (adapté pour utilisé P6104 au lieu de P5008; je suggère d'aller voir les listes créées par l'outil externe TABernacle, c'est étonnant à mon avis, voici [un lien](https://tabernacle.toolforge.org/?#/tab/sparql/select%20%3Fitem%20where%20%7B%20hint%3AQuery%20hint%3Aoptimizer%20%22None%22.%20%3Fitem%20wdt%3AP6104%20wd%3AQ122764837%3B%20wdt%3AP31%20wd%3AQ838948.%20%7D/Len%3BDen%3BP31%3BP571%3BP170%3BP131%3BP276%3BP6375%3BP625%3BP186%3BP180%3BP576%3BP18) pour la liste des oeuvres)
+- **Requêtes** (adapté pour utiliser P6104 au lieu de P5008; je suggère d'aller voir les listes créées par l'outil externe TABernacle, c'est étonnant à mon avis, voici [un lien](https://tabernacle.toolforge.org/?#/tab/sparql/select%20%3Fitem%20where%20%7B%20hint%3AQuery%20hint%3Aoptimizer%20%22None%22.%20%3Fitem%20wdt%3AP6104%20wd%3AQ122764837%3B%20wdt%3AP31%20wd%3AQ838948.%20%7D/Len%3BDen%3BP31%3BP571%3BP170%3BP131%3BP276%3BP6375%3BP625%3BP186%3BP180%3BP576%3BP18) pour la liste des oeuvres)
 - **Liste des oeuvres** (Wikilist générée automatiquement, j'ai ajouté P6104 pour le projet où cela manquait aux oeuvres afin d'avoir un critère de recherche dans la requête SPARQL)
 - **Liste des artistes** (Wikilist générée automatiquement, j'ai ajouté P6104 pour le projet où cela manquait aux artistes afin d'avoir un critère de recherche dans la requête SPARQL)
 - **Bibliographie** (ça vient du zotero [1. Wikidata et la création de données biographiques](https://www.zotero.org/groups/5110127/communs-numeriques/collections/GTM97UFJ) )
 
-J'ai enlevé, publié et puis reajouté le template art photo afin de forcer le «refresh» et Sophie Wilkins de 1976 apparaît maintenant dans la fiche de l'oeuvre 1
+Il y avait un problème avec la fiche wikidata de Sophie Wilkins.
+J'ai enlevé, puis publié à nouveau le template {{Art photo}} pour forcer un rafraîchissement et Sophie Wilkins de 1976 apparaît maintenant dans la fiche de l'oeuvre 1.
 
-La prochaine fois qu'on remarque que l'info liée au template n'a pas changé comme prévu, on peut essayer une Modification nulle (null edit) décrit sur la page [Purge du cache](https://fr.wikipedia.org/wiki/Aide:Purge_du_cache)
+La prochaine fois qu'on remarque que l'info liée au template n'a pas changé comme prévu, on peut essayer une Modification nulle (null edit) décrite sur la page [Purge du cache](https://fr.wikipedia.org/wiki/Aide:Purge_du_cache)
 j'ai appris que cette option existait grâce à [MediaWiki: How do I force MediaWiki to update a certain Category:XXX page?](https://webmasters.stackexchange.com/a/78448)
 
 Cette semaine, j'ai également :
@@ -172,16 +173,16 @@ Cette semaine, j'ai également :
 ### côté chasse à Saint-Roch
 
 
-J'ai commencé la page wiki pour la chasse aux photos de Saint-Roch pour l'InstitutWikiGLAMU.  Les coordonnées étant dans un format non reconnu par OpenStreetMap (EPSG:32187), j'ai cherché et essayé plusieurs façons de les convertir. J'ai fais mes premiers pas avec le logiciel intimidant QGIS et j'ai réussi à faire une conversion, grâce aux consignes sur [stackexchange](https://gis.stackexchange.com/a/64543).  Maintenant il faut les verifier.
+J'ai commencé la page wiki pour la chasse aux photos de Saint-Roch pour l'InstitutWikiGLAMU.  Les coordonnées étant dans un format non reconnu par OpenStreetMap (EPSG:32187), j'ai cherché et essayé plusieurs façons de les convertir. J'ai fais mes premiers pas avec le logiciel intimidant QGIS et j'ai réussi à faire une conversion, grâce aux consignes sur [stackexchange](https://gis.stackexchange.com/a/64543).  Maintenant il faut les vérifier.
 
-J'ai créé [cette carte](https://margelle.github.io/rapportMONA/carte-saint-roch.html) et aussi commencé [cette page d'utlisateur wiki pour Saint-Roch](https://meta.wikimedia.org/wiki/User:Anthraciter/SaintRoch).  Pendant que je faisais mes premiers essais, j'ai eu le sentiment de marcher dans la boue avec le format wiki et le surplus d'information nécessaire pour faire la moindre chose.
+J'ai créé [cette carte](https://margelle.github.io/rapportMONA/carte-saint-roch.html) et aussi commencé [cette page d'utilisateur wiki pour Saint-Roch](https://meta.wikimedia.org/wiki/User:Anthraciter/SaintRoch).  Pendant que je faisais mes premiers essais, j'ai eu le sentiment de marcher dans la boue avec le format wiki et le surplus d'information nécessaire pour faire la moindre chose.
 
 Je voudrais intégrer la carte pour les oeuvres de Saint-Roch directement sur la page wikimedia, alors j'ai commencé à apprendre les templates avec [ce tutoriel](https://meta.wikimedia.org/wiki/Learning_patterns/Doing_more,_with_templates:_A_tutorial_for_Wikimedia_project_creators).
-J'ai appris les noms de templates sont sensibles à la case, sauf pour le premier lettre.  J'étais curieuse par rapport à cela, parce que j'avais vu le format pour les coordonnées géographiques exprimer dans deux manières {{coord||}} et {{Coord}}, alors mystère résolu.
+J'ai appris que les noms de templates sont sensibles à la case, sauf pour la première lettre.  J'étais curieuse par rapport à cela, parce que j'avais vu le format pour les coordonnées géographiques exprimer dans deux manières {{coord||}} et {{Coord}} alors, mystère résolu.
 
 Cette semaine, j'ai également :
 
-- cherché un·e par un·e les artistes du Saint-Roch sur wikidata, et j'ai heureeusement retrouvé plusieurs IDs
+- cherché un·e par un·e les artistes du Saint-Roch sur wikidata, et j'ai heureusement retrouvé plusieurs IDs
 - cherché un·e par un·e les oeuvres du Saint-Roch sur wikidata, et je n'ai rien trouvé 
 - travaillé sur la liste des oeuvres du Saint-Roch avec des recherches sur Internet
 - appris comment changer la couleur des épingles dans le logiciel de carte Leaflet
@@ -190,12 +191,12 @@ Cette semaine, j'ai également :
 - regardé [cette vidéo](https://www.youtube.com/watch?v=bksdUi6bidg) sur l'oeuvre «Les petits oiseaux d’argile»
 - assisté à [la réunion planning](https://hackmd.io/@MONAmtl/institut-GLAMu/edit) pour la session Institut GLAMU
 - cherché les galeries wikimedia pour toutes les oeuvres et les ajouté à la liste
-- divisé la liste d'oeuvres poru la chasse Saint-Roch en deux, et ajouté une colonne de distances de la bibliothèque Gabrielle-Roy
+- divisé la liste d'oeuvres pour la chasse Saint-Roch en deux, et ajouté une colonne de distances de la bibliothèque Gabrielle-Roy
 - cherché des pages wikipedia pour toutes les oeuvres sur la liste, mais je n'en ai rien trouvé
 
 ### côté app mobile et site web
 
-J'ai redigé l'ébauche de [la section À propos](https://hackmd.io/@tiffanym/apropos/edit) pour l'app.
+J'ai rédigé l'ébauche de [la section À propos](https://hackmd.io/@tiffanym/apropos/edit) pour l'app.
 J'ai aussi écrit [un autre document](https://hackmd.io/@tiffanym/changements/edit) qui explique mes changements et qui parle aussi des choses encore à travailler.
 Il y a des liens dans ces documents qui mènent aux autres parties, mais je vais aussi les inclure ici, au cas où
 
@@ -209,7 +210,7 @@ J'ai utilisé [ce site de la collection des données de Rijksmuseum](https://www
 
 Cette semaine, j'ai aussi :
 
-- regardé le forme du document [Licences](https://hackmd.io/@tiffanym/licences/edit) et essayé de trouver quelles choses doivent être incluses dans cette partie pour les apps open source
+- regardé la forme du document [Licences](https://hackmd.io/@tiffanym/licences/edit) et essayé de trouver quelles choses doivent être incluses dans cette partie pour les apps open source
 - ajouté une phrase à la [Politique de confidentialité](https://hackmd.io/@tiffanym/politiquedeconfidentialite/edit)
 - assisté à la réunion design avec Barbara et discuté la page à propos
 - fait une session de débogage avec Sarah sur Zoom pour essayer de déboguer la présence du mot undefined sur l'onglet Badges dans l'app
@@ -226,7 +227,7 @@ Cette semaine, j'ai aussi :
 version wikimedia (Template GeoGroup ne semble pas dispo sur wikimedia)
 https://meta.wikimedia.org/wiki/User:Anthraciter/SaintRoch
 
-version wikipedia avec un lien vers la carte directe
+version wikipedia avec un lien direct vers la carte 
 https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
 
 <details>

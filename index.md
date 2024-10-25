@@ -140,7 +140,7 @@ Cette semaine, j'ai :
   - les images de badge sont identiques pour le Sud-Ouest et l'université de Montréal
 </details>
 
-<details>
+<details open>
 <summary>semaine 6 (21 octobre)</summary>
 
 J'ai commencé la page wiki pour la chasse aux photos de Saint-Roch pour l'InstitutWikiGLAMU.  Les coordonnées étant dans un format non reconnu par OpenStreetMap (EPSG:32187), j'ai cherché et essayé plusieurs façons de les convertir. J'ai fais mes premiers pas avec le logiciel intimidant QGIS et j'ai réussi à faire une conversion, grâce aux consignes sur [stackexchange](https://gis.stackexchange.com/a/64543).  Maintenant il faut les verifier.

@@ -134,6 +134,10 @@ Cette semaine, j'ai :
 - examiné les données d'artpublic Rimouski
 - appris que les pivot tables [tableaux croisés dynamiques](https://www.btb.termiumplus.gc.ca/tpv2alpha/alpha-eng.html?lang=eng&i=1&srchtxt=pivot+table&codom2nd_wet=1#resultrecs) ne sont pas sensible à la casse [comme décrit ici](https://bugs.documentfoundation.org/show_bug.cgi?id=140510)
 - continué à [Définir les types dans les sources de données](https://hackmd.io/@tiffanym/definir-types)
+- testé la nouvelle version de l'application mobile et donné des commentaires à Sarah
+  - bug avec "/defined" sur la page des Badges
+  - l'ordre de ma collection est changé 
+  - les images de badge sont identiques pour le Sud-Ouest et l'université de Montréal
 </details>
 
 <details>
@@ -144,12 +148,30 @@ J'ai commencé la page wiki pour la chasse aux photos de Saint-Roch pour l'Insti
 J'ai créé [cette carte](https://margelle.github.io/rapportMONA/carte-saint-roch.html) et aussi commencé [cette page d'utlisateur wiki pour Saint-Roch](https://meta.wikimedia.org/wiki/User:Anthraciter/SaintRoch).  Pendant que je faisais mes premiers essais, j'ai eu le sentiment de marcher dans la boue avec le format wiki et le surplus d'information nécessaire pour faire la moindre chose.
 
 Je voudrais intégrer la carte pour les oeuvres de Saint-Roch directement sur la page wikimedia, alors j'ai commencé à apprendre les templates avec [ce tutoriel](https://meta.wikimedia.org/wiki/Learning_patterns/Doing_more,_with_templates:_A_tutorial_for_Wikimedia_project_creators).
-J'ai appris les noms de templates sont sensibles à la case, sauf pour le premier lettre.  J'étais curieiuse par rapport à cela, parce que j'avais vu le format pour les coordonnées géographiques exprimer dans deux manières {{coord||}} et {{Coord}}, alors mystère résolu.
+J'ai appris les noms de templates sont sensibles à la case, sauf pour le premier lettre.  J'étais curieuse par rapport à cela, parce que j'avais vu le format pour les coordonnées géographiques exprimer dans deux manières {{coord||}} et {{Coord}}, alors mystère résolu.
 
-Cette semaine, j'ai :
+J'ai ajouté les onglets à [la page pour le WikiProject Maison MONA / Vers un commun numérique de l'art public](https://www.wikidata.org/wiki/Wikidata:WikiProject_Maison_MONA_/_Vers_un_commun_num%C3%A9rique_de_l%27art_public) à l'instar de [ce projet : WikiProject Neighborhood Public Art in Boston](https://www.wikidata.org/wiki/Wikidata:WikiProject_Neighborhood_Public_Art_in_Boston)
+
+- **Accueil**
+- **Modèles de données** (j'ai fait les traductions de mon mieux)
+- **Requêtes** (adapté pour utilisé P6104 au lieu de P5008; je suggère d'aller voir les listes créées par l'outil externe TABernacle, c'est étonnant à mon avis, voici [un lien](https://tabernacle.toolforge.org/?#/tab/sparql/select%20%3Fitem%20where%20%7B%20hint%3AQuery%20hint%3Aoptimizer%20%22None%22.%20%3Fitem%20wdt%3AP6104%20wd%3AQ122764837%3B%20wdt%3AP31%20wd%3AQ838948.%20%7D/Len%3BDen%3BP31%3BP571%3BP170%3BP131%3BP276%3BP6375%3BP625%3BP186%3BP180%3BP576%3BP18) pour la liste des oeuvres)
+- **Liste des oeuvres** (Wikilist générée automatiquement, j'ai ajouté P6104 pour le projet où cela manquait aux oeuvres afin d'avoir un critère de recherche dans la requête SPARQL)
+- **Liste des artistes** (Wikilist générée automatiquement, j'ai ajouté P6104 pour le projet où cela manquait aux artistes afin d'avoir un critère de recherche dans la requête SPARQL)
+- **Bibliographie** (ça vient du zotero [1. Wikidata et la création de données biographiques](https://www.zotero.org/groups/5110127/communs-numeriques/collections/GTM97UFJ) )
+
+J'ai préparé [ce brouillon](https://hackmd.io/@tiffanym/creditsdesdonneessiteweb/edit) sur les données pour le site web.
+
+J'ai utilisé [ce site de la collection des données de Rijksmuseum](https://www.rijksmuseum.nl/en/research/conduct-research/data/overview) comme modèle (en anglais ou néerlandais) qui était tiré de [cette liste sur github d'APIs publics sur l'art et design](https://github.com/public-api-lists/public-api-lists?tab=readme-ov-file#art--design)
+
+Cette semaine, j'ai également :
+### côté WikiProject
 - envoyé des requêtes de suppression pour les fichiers de Zema qui a changé d'idée sur le partage
 - envoyé une requête de changement de nom pour le fichier [Bgirls murale de Wüna](https://commons.wikimedia.org/wiki/File:Bgirls_murale_de_W%C3%BCna.jpg)
 - essayé d'écrire une requête SPARQL qui pourrait trouver les artistes sur wikidata, mais elle a toujours fini en «timed-out»
+- révisé [la version anglaise de la description du WikiProject](https://www.wikidata.org/wiki/Wikidata:WikiProject_Maison_MONA_/_Vers_un_commun_num%C3%A9rique_de_l%27art_public#%7B%7BTranslateThis_%7C_fr_%3D_Liste_des_artistes_%7C_en_%3D_Artists_%7D%7D)
+- ajouté une référence vers [Wikidata:WikiProject Neighborhood Public Art in Boston](https://www.wikidata.org/wiki/Wikidata:WikiProject_Neighborhood_Public_Art_in_Boston) à la [liste zotero ](https://www.zotero.org/groups/5110127/communs-numeriques/collections/GTM97UFJ)et à [la bibliographie du projet MONA](https://www.wikidata.org/wiki/Wikidata:WikiProject_Maison_MONA_/_Vers_un_commun_num%C3%A9rique_de_l%27art_public/Bibliographie) et j'ai demandé à David s'il y a une convention différente pour reconnaître les autres WikiProjects
+
+### côté chasse à Saint-Roch
 - cherché un·e par un·e les artistes du Saint-Roch sur wikidata, et j'ai heureeusement retrouvé plusieurs IDs
 - cherché un·e par un·e les oeuvres du Saint-Roch sur wikidata, et je n'ai rien trouvé 
 - travaillé sur la liste des oeuvres du Saint-Roch avec des recherches sur Internet
@@ -157,14 +179,17 @@ Cette semaine, j'ai :
 - appris comment faire un lien dans un wiki vers une fiche wikidata, voici un exemple de la syntaxe '[[wikidata:Q2031780|Rasputina]]' qui apparaîtra comme [Rasputina](https://www.wikidata.org/wiki/Q2031780)
 - utilisé [cet outil](https://tableconvert.com/csv-to-markdown) qui transforme les fichiers csv aux tables en format markdown ou format media wiki (parmi plusieurs formats disponibles)
 - regardé [cette vidéo](https://www.youtube.com/watch?v=bksdUi6bidg) sur l'oeuvre «Les petits oiseaux d’argile»
-- révisé [la version anglaise de la description du WikiProject](https://www.wikidata.org/wiki/Wikidata:WikiProject_Maison_MONA_/_Vers_un_commun_num%C3%A9rique_de_l%27art_public#%7B%7BTranslateThis_%7C_fr_%3D_Liste_des_artistes_%7C_en_%3D_Artists_%7D%7D)
-- ajouté une référence vers [Wikidata:WikiProject Neighborhood Public Art in Boston](https://www.wikidata.org/wiki/Wikidata:WikiProject_Neighborhood_Public_Art_in_Boston) à la [liste zotero ](https://www.zotero.org/groups/5110127/communs-numeriques/collections/GTM97UFJ)et à [la bibliographie du projet MONA](https://www.wikidata.org/wiki/Wikidata:WikiProject_Maison_MONA_/_Vers_un_commun_num%C3%A9rique_de_l%27art_public/Bibliographie) et j'ai demandé à David s'il y a une convention différente pour reconnaître les autres WikiProjects
+- assisté à la réunion planning pour la session Institut GLAMU
+- cherché les galeries wikimedia pour toutes les oeuvres et les ajouté à la liste
+- divisé la liste d'oeuvres poru la chasse Saint-Roch en deux, et ajouté une colonne de distances de la bibliothèque Gabrielle-Roy
+- cherché des pages wikipedia pour toutes les oeuvres sur la liste, mais je n'en ai rien trouvé
+
+### côté app mobile
 - écrit l'ébauche de [la section À propos](https://hackmd.io/@tiffanym/apropos/edit) pour l'app
 - aussi écrit [un autre document](https://hackmd.io/@tiffanym/changements/edit) qui explique mes changements et qui parle aussi des choses encore à travailler.
 - écrit [Crédits des données](https://hackmd.io/@tiffanym/creditsdesdonnees/edit)
 - regardé le forme du document [Licences](https://hackmd.io/@tiffanym/licences/edit) et essayé de trouver quelles choses doivent être incluses dans cette partie pour les apps open source
 - ajouté une phrase à la [Politique de confidentialité](https://hackmd.io/@tiffanym/politiquedeconfidentialite/edit)
-- assisté à la réunion planning pour la session Institut GLAMU
 - assisté à la réunion design avec Barbara et discuté la page à propos
 - fait une session de débogage avec Sarah sur Zoom pour essayer de déboguer la présence du mot undefined sur l'onglet Badges dans l'app
 - fait des premiers pas avec adb shell, et essayé de créer moi-même une copie de l'apk avec le drapeau debuggable=true dans AndroidManifest.xml (pas réussi à cause de processus package signing, je devais manqué une étape)
@@ -177,7 +202,7 @@ Cette semaine, j'ai :
 
 <p><a href="carte-saint-roch.html">carte saint roch</a></p>
 
-version wikimedia (Template GeoGroup ne semble pas dispo)
+version wikimedia (Template GeoGroup ne semble pas dispo sur wikimedia)
 https://meta.wikimedia.org/wiki/User:Anthraciter/SaintRoch
 
 version wikipedia avec un lien vers la carte directe
@@ -194,7 +219,7 @@ https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
 - 31 oct au 1 nov InstitutWikiGLAMU à Québec
 - 2 nov au 3 nov wikiconvention à Québec
 
-- 5 nov à 8 nov à Rimouski
+- 5 nov au 8 nov à Rimouski
 
 - 11 novembre
   - 13h30 réunion Tech sur zoom
@@ -208,13 +233,11 @@ https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
 
 <summary>à faire</summary>
 
-- écrire un résumé des données ouvertes pour le site web MONA
 - ajouter l'information que j'ai partagée sur Element et les raisonnements derrières ici dans le rapport
 - ajouter des phrases complètes aux rapports hebdomadaires
 - ajouter aux rapports les choses apprises, inspirées, creusées
 - continuer à travailler sur le wiki pour le parcours à Saint-Roch
 - étudier encore plus les données d'artpublic rimouski
-- regarder les données ouvertes zotero
 - [liste de lectures](https://hackmd.io/@MONAmtl/dir-tech#Rencontre-Tiffany)
 - lecture: [Message commons artiste](https://hackmd.io/ahLyaWuST5iY3t2pB-GBDw)
 - suivre [le tutoriel sur protegé](https://www.iro.umontreal.ca/~lapalme/ift6281/OWL/EtapesCreationOntologie.html)
@@ -228,7 +251,11 @@ https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
 - appprendre plus sur cet outil pour faire les importations en lot à wiki https://be.wikimedia.org/wiki/OpenRefine
 - appprendre plus sur cet outil pour reviser des wikis automatiquement https://be.wikimedia.org/wiki/Pywikibot
 - Women In Red https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Women_in_Red/Awards/France
-- utliser cette requete pour l'art public de Rimouski https://js.histropedia.com/apps/query-timeline/?q=select%20?work%20?workLabel%20?coords%20?date%20%20(9%20as%20?start_precision)%20(SAMPLE(?image)%20AS%20?image)%20?address%20?materialLabel%20?categoryLabel%20(group_concat(distinct%20?creatorLabel;%20separator%3D%22;%20%22)%20as%20?creators)%20where%20%7B?work%20wdt:P31/wdt:P279*%20wd:Q386724;%20wdt:P136%20wd:Q557141;%20wdt:P131%20wd:Q2304457;%20wdt:P31%20?category.%20%20optional%7B?work%20wdt:P625%20?coords.%7D%20%20optional%7B?work%20wdt:P571%20?date.%7D%20%20optional%7B?work%20wdt:P18%20?image.%7D%20%20optional%7B?work%20wdt:P170%20?creator.%7D%20%20optional%7B?work%20wdt:P6375%20?address.%7D%20%20optional%7B?work%20wdt:P186%20?material.%7D%20%20SERVICE%20wikibase:label%20%7B%20bd:serviceParam%20wikibase:language%20%22en%22.%20%20?work%20rdfs:label%20?workLabel.%20?category%20rdfs:label%20?categoryLabel.%20?creator%20rdfs:label%20?creatorLabel.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20?material%20rdfs:label%20?materialLabel%20%7D%20%7D%20group%20by%20?work%20?workLabel%20?coords%20?date%20?image%20?address%20?materialLabel%20?categoryLabel&d=0&md=true&g=work&l=work&t=workLabel&s=date&sp=start_precision&i=image&c=materialLabel,categoryLabel&f=materialLabel,categoryLabel&v=t
+- utliser cette requete pour l'art public de Rimouski 
+  ```
+  https://js.histropedia.com/apps/query-timeline/?q=select%20?work%20?workLabel%20?coords%20?date%20%20(9%20as%20?start_precision)%20(SAMPLE(?image)%20AS%20?image)%20?address%20?materialLabel%20?categoryLabel%20(group_concat(distinct%20?creatorLabel;%20separator%3D%22;%20%22)%20as%20?creators)%20where%20%7B?work%20wdt:P31/wdt:P279*%20wd:Q386724;%20wdt:P136%20wd:Q557141;%20wdt:P131%20wd:Q2304457;%20wdt:P31%20?category.%20%20optional%7B?work%20wdt:P625%20?coords.%7D%20%20optional%7B?work%20wdt:P571%20?date.%7D%20%20optional%7B?work%20wdt:P18%20?image.%7D%20%20optional%7B?work%20wdt:P170%20?creator.%7D%20%20optional%7B?work%20wdt:P6375%20?address.%7D%20%20optional%7B?work%20wdt:P186%20?material.%7D%20%20SERVICE%20wikibase:label%20%7B%20bd:serviceParam%20wikibase:language%20%22en%22.%20%20?work%20rdfs:label%20?workLabel.%20?category%20rdfs:label%20?categoryLabel.%20?creator%20rdfs:label%20?creatorLabel.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20?material%20rdfs:label%20?materialLabel%20%7D%20%7D%20group%20by%20?work%20?workLabel%20?coords%20?date%20?image%20?address%20?materialLabel%20?categoryLabel&d=0&md=true&g=work&l=work&t=workLabel&s=date&sp=start_precision&i=image&c=materialLabel,categoryLabel&f=materialLabel,categoryLabel&v=t
+  ```
+
 </details>
 
 <details>

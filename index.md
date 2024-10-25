@@ -264,7 +264,6 @@ https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
 - lecture: [Message commons artiste](https://hackmd.io/ahLyaWuST5iY3t2pB-GBDw)
 - suivre [le tutoriel sur protegé](https://www.iro.umontreal.ca/~lapalme/ift6281/OWL/EtapesCreationOntologie.html)
 - lire intro et section 2 Feminist in a Software Lab; section 1 tries to create links where they don't exist
-- envoi rapport lien courriel Guy et Benoit quand il est debroussaillé
 - ne pas regarder CIDOC CRM (orienté événement)
 - ajouter trace d'accès en interface admin?
 - rapport de reception Rimouski

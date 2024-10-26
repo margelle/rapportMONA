@@ -156,6 +156,11 @@ J'ai ajouté les onglets à [la page pour le WikiProject Maison MONA / Vers un c
 - **Liste des artistes** (Wikilist générée automatiquement, j'ai ajouté P6104 pour le projet où cela manquait aux artistes afin d'avoir un critère de recherche dans la requête SPARQL)
 - **Bibliographie** (ça vient du zotero [1. Wikidata et la création de données biographiques](https://www.zotero.org/groups/5110127/communs-numeriques/collections/GTM97UFJ) )
 
+J'ai fait quelques changements à [la description du projet en anglais](https://www.wikidata.org/wiki/Wikidata:WikiProject_Maison_MONA_/_Vers_un_commun_num%C3%A9rique_de_l%27art_public).  Mon choix du mot  «equity-denied» dans la partie Wikidata, est basé sur [ce document du gouvernement fédéral](https://www.noslangues-ourlanguages.gc.ca/en/publications/equite-diversite-inclusion-equity-diversity-inclusion-eng?view_mode=bilingual#notion-99335) qui parle des différences entre
+- equity-denied group (proposal, noun phrase)
+- equity-deserving group (noun phrase)
+- equity-seeking group (noun phrase)
+
 Il y avait un problème avec la fiche wikidata de Sophie Wilkins.
 J'ai enlevé, puis publié à nouveau le template {{Art photo}} pour forcer un rafraîchissement et Sophie Wilkins de 1976 apparaît maintenant dans la fiche de l'oeuvre 1.
 
@@ -163,7 +168,9 @@ La prochaine fois qu'on remarque que l'info liée au template n'a pas changé co
 j'ai appris que cette option existait grâce à [MediaWiki: How do I force MediaWiki to update a certain Category:XXX page?](https://webmasters.stackexchange.com/a/78448)
 
 Cette semaine, j'ai également :
+- trouvé [cette page](https://www.wikidata.org/wiki/Wikidata:Autobiography/fr)  qui s'aligne bien avec une discussion sur les auto-modifications de fiches wikidata par des artistes, notamment:
 
+> En général, sur Wikidata, il est permis de modifier votre propre Élément de données.
 - envoyé des requêtes de suppression pour les fichiers de Zema qui a changé d'idée sur le partage
 - envoyé une requête de changement de nom pour le fichier [Bgirls murale de Wüna](https://commons.wikimedia.org/wiki/File:Bgirls_murale_de_W%C3%BCna.jpg)
 - essayé d'écrire une requête SPARQL qui pourrait trouver les artistes sur wikidata, mais elle a toujours fini en «timed-out»

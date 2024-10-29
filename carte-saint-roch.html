@@ -71,7 +71,7 @@ function onLocationFound(e) {
 		const locationMarker = L.marker(e.latlng).addTo(map)
 			.bindPopup(`Vous êtes à moins de ${radius} mètres de ce point`).openPopup();
 
-		const l{{Template:Wikidata}}ocationCircle = L.circle(e.latlng, radius).addTo(map);
+		const locationCircle = L.circle(e.latlng, radius).addTo(map);
 	}
 
 	function onLocationError(e) {

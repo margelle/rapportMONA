@@ -41,32 +41,37 @@
 		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 	}).addTo(map);
 
-const monumentwilfridlaurier = L.marker([46.8116484, -71.2308515]).addTo(map).bindPopup("<b2>Monument Wilfrid-Laurier</b><br />[[wikidata:Q3588381|Émile Brunet]],[[wikidata:Q28329637|André Gilbert]]").openPopup();
-const sanstitrevuefragmentaire = L.marker([46.8142261, -71.2218666]).addTo(map).bindPopup("<b2>Sans titre (vue fragmentaire)</b><br />[[wikidata:Q16064291|Paul Lacroix]]").openPopup();
-const lespetitsoiseauxdargile = L.marker([46.8141074, -71.2281203]).addTo(map).bindPopup("<b2>Les petits oiseaux d’argile</b><br />[[wikidata:Q64157154|Marcel, Jean]]").openPopup();
-const lejour = L.marker([46.8119004, -71.2252834]).addTo(map).bindPopup("<b2>Le jour</b><br />[[wikidata:Q59668288|Paryse Martin]], Jean-François Fillion").openPopup();
-const monumentrenerichard = L.marker([46.8124295, -71.2225498]).addTo(map).bindPopup("<b2>Monument René-Richard</b><br />[[wikidata:Q2866694|Alain Gourdon]]").openPopup();
-const racines = L.marker([46.8129009, -71.2206319]).addTo(map).bindPopup("<b2>Racines</b><br />[[wikidata:Q64584723|Lucienne Cornet]]").openPopup();
-const centremateria = L.marker([46.8133548, -71.2269495]).addTo(map).bindPopup("<b2>Centre Matéria</b><br />").openPopup();
-const monumenthoratiowalker = L.marker([46.813264, -71.2230741]).addTo(map).bindPopup("<b2>Monument Horatio-Walker</b><br />[[wikidata:Q109265943|Jan Stohl]]").openPopup();
-const bustedoscargilbert = L.marker([46.8121752, -71.2232311]).addTo(map).bindPopup("<b2>Buste d'Oscar Gilbert</b><br />[[wikidata:Q2422286|Félix Benneteau-Desgrois]]").openPopup();
-const foule = L.marker([46.813637, -71.2260993]).addTo(map).bindPopup("<b2>Foule</b><br />[[wikidata:Q109500848|Atwood]]").openPopup();
-const lascension = L.marker([46.8162751, -71.2215429]).addTo(map).bindPopup("<b2>L'Ascension</b><br />Easy Brad").openPopup();
-const lenoyaucytoarchitectonique = L.marker([46.8140586394804, -71.2264815561103]).addTo(map).bindPopup("<b2>Le noyau cyt(o)-architectonique</b><br />[[wikidata:Q63565394|Ludovic Boney ]]").openPopup();
+const monumentwilfridlaurier = L.marker([46.8113858, -71.2307003]).addTo(map).bindPopup("<b2>Monument Wilfrid-Laurier</b><br />Émile Brunet, André Gilbert").openPopup();
+const lespetitsoiseauxdargile = L.marker([46.8141205325206, -71.2262032845334]).addTo(map).bindPopup("<b2>Les petits oiseaux d’argile</b><br />Jean Marcel").openPopup();
+const unsieclefigedanslemulsiondutemps  = L.marker([46.8142701404557, -71.226466528459]).addTo(map).bindPopup("<b2>Un siècle figé dans l’émulsion du temps </b><br />Nadia Morin").openPopup();
 const grizzlyfuzz = L.marker([46.8131276, -71.2279667]).addTo(map).bindPopup("<b2>Grizzly Fuzz</b><br />").openPopup();
-const unsieclefigedanslemulsiondutemps = L.marker([46.81427014045569, -71.22646652845899]).addTo(map).bindPopup("<b2>Un siècle figé dans l’émulsion du temps </b><br />Nadia Morin").openPopup();
+const centremateria = L.marker([46.8133548, -71.2269495]).addTo(map).bindPopup("<b2>Centre Matéria</b><br />").openPopup();
+const lenoyaucytoarchitectonique = L.marker([46.8140586394804, -71.2264815561103]).addTo(map).bindPopup("<b2>Le noyau cyt(o)-architectonique</b><br />Ludovic Boney").openPopup();
+const foule = L.marker([46.813637, -71.2260993]).addTo(map).bindPopup("<b2>Foule</b><br />Atwood").openPopup();
+const lejour = L.marker([46.8119004, -71.2252834]).addTo(map).bindPopup("<b2>Le jour</b><br />Paryse Martin, Jean-François Fillion").openPopup();
+const bustedoscargilbert = L.marker([46.8121752, -71.2232311]).addTo(map).bindPopup("<b2>Buste d'Oscar Gilbert</b><br />Félix Benneteau-Desgrois").openPopup();
+const monumenthoratiowalker = L.marker([46.813264, -71.2230741]).addTo(map).bindPopup("<b2>Monument Horatio-Walker</b><br />Jan Stohl").openPopup();
+const monumentrenerichard = L.marker([46.8124295, -71.2225498]).addTo(map).bindPopup("<b2>Monument René-Richard</b><br />Alain Gourdon").openPopup();
+const sanstitrevuefragmentaire = L.marker([46.8142261, -71.2218666]).addTo(map).bindPopup("<b2>Sans titre (vue fragmentaire)</b><br />Paul Lacroix").openPopup();
+const lascension = L.marker([46.8162751, -71.2215429]).addTo(map).bindPopup("<b2>L'Ascension</b><br />Easy Brad").openPopup();
+const racines = L.marker([46.8129009, -71.2206319]).addTo(map).bindPopup("<b2>Racines</b><br />Lucienne Cornet").openPopup();
+
 
 monumentwilfridlaurier._icon.style.filter = "hue-rotate(90deg)"
-sanstitrevuefragmentaire._icon.style.filter = "hue-rotate(90deg)"
 lespetitsoiseauxdargile._icon.style.filter = "hue-rotate(90deg)"
-lejour._icon.style.filter = "hue-rotate(90deg)"
-monumentrenerichard._icon.style.filter = "hue-rotate(90deg)"
-
-racines._icon.style.filter = "hue-rotate(270deg)"
-centremateria._icon.style.filter = "hue-rotate(270deg)"
-bustedoscargilbert._icon.style.filter = "hue-rotate(270deg)"
-monumenthoratiowalker._icon.style.filter = "hue-rotate(270deg)"
+unsieclefigedanslemulsiondutemps ._icon.style.filter = "hue-rotate(270deg)"
+grizzlyfuzz._icon.style.filter = "hue-rotate(90deg)"
+centremateria._icon.style.filter = "hue-rotate(90deg)"
+lenoyaucytoarchitectonique._icon.style.filter = "hue-rotate(0deg)"
 foule._icon.style.filter = "hue-rotate(270deg)"
+lejour._icon.style.filter = "hue-rotate(90deg)"
+bustedoscargilbert._icon.style.filter = "hue-rotate(270deg)"
+monumenthoratiowalker._icon.style.filter = "hue-rotate(0deg)"
+monumentrenerichard._icon.style.filter = "hue-rotate(270deg)"
+sanstitrevuefragmentaire._icon.style.filter = "hue-rotate(0deg)"
+lascension._icon.style.filter = "hue-rotate(0deg)"
+racines._icon.style.filter = "hue-rotate(0deg)"
+
 
 
 

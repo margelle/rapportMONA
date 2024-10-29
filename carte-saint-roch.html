@@ -76,18 +76,19 @@ const roi_fleuve = L.marker([46.81816, -71.2185801]).addTo(map).bindPopup("<b2>L
 const hommage_sphere = L.marker([46.8153728, -71.2181858]).addTo(map).bindPopup("<b2>Hommage à une sphère</b><br />Armand Robitaille").openPopup();
 const le_noyau_cyto_architectonique = L.marker([46.8141074, -71.2281203]).addTo(map).bindPopup("<b2>Le noyau cyt(o)-architectonique</b><br />Boney, Ludovic").openPopup();
 const il_semble_y_avoir_comme_une_pluie_dor = L.marker([46.8141074, -71.2281203]).addTo(map).bindPopup("<b2>Il semble y avoir comme une pluie d’or</b><br />Beauchemin, Micheline").openPopup();
-const un_siecle_fige_dans_lemulsion_du_temps  = L.marker([46.8141074, -71.2281203]).addTo(map).bindPopup("<b2>Un siècle figé dans l’émulsion du temps </b><br />Morin, Nadia").openPopup();
+const un_siecle_fige_dans_lemulsion_du_temps = L.marker([46.8141074, -71.2281203]).addTo(map).bindPopup("<b2>Un siècle figé dans l’émulsion du temps </b><br />Morin, Nadia").openPopup();
 const les_petits_oiseaux_dargile = L.marker([46.8141074, -71.2281203]).addTo(map).bindPopup("<b2>Les petits oiseaux d’argile</b><br />Jean, Marcel").openPopup();
 const fresque_sur_le_mur_arriere_du_theatre_de_la_bordee = L.marker([46.813632, -71.2286909]).addTo(map).bindPopup("<b2>Fresque sur le mur arrière du Théâtre de la Bordée</b><br />").openPopup();
 const facade_de_la_maison_de_la_danse = L.marker([46.814533, -71.2291184]).addTo(map).bindPopup("<b2>façade de la maison de la danse</b><br />").openPopup();
 const facade_du_theatre = L.marker([46.813632, -71.2286909]).addTo(map).bindPopup("<b2>Façade du théâtre</b><br />").openPopup();
 const centre_materia = L.marker([46.8133548, -71.2269495]).addTo(map).bindPopup("<b2>Centre Matéria plus spécifiquement</b><br />").openPopup();
 const grizzly_fuzz = L.marker([46.8131276, -71.2279667]).addTo(map).bindPopup("<b2>Grizzly Fuzz - salle de spectacle</b><br />").openPopup();
+monument_wilfrid_laurier._icon.style.filter = "hue-rotate(120deg)"
 atopie_textuelle._icon.style.filter = "hue-rotate(120deg)"
 benjo_grenouille._icon.style.filter = "hue-rotate(120deg)"
 le_noyau_cyto_architectonique._icon.style.filter = "hue-rotate(120deg)"
 il_semble_y_avoir_comme_une_pluie_dor._icon.style.filter = "hue-rotate(120deg)"
-un_siecle_fige_dans_lemulsion_du_temps ._icon.style.filter = "hue-rotate(120deg)"
+un_siecle_fige_dans_lemulsion_du_temps._icon.style.filter = "hue-rotate(120deg)"
 les_petits_oiseaux_dargile._icon.style.filter = "hue-rotate(120deg)"
 fresque_sur_le_mur_arriere_du_theatre_de_la_bordee._icon.style.filter = "hue-rotate(120deg)"
 facade_de_la_maison_de_la_danse._icon.style.filter = "hue-rotate(120deg)"
@@ -99,18 +100,19 @@ function onLocationFound(e) {
 		const radius = e.accuracy / 2;
 
 		const locationMarker = L.marker(e.latlng).addTo(map)
-			.bindPopup(`You are within ${radius} meters from this point`).openPopup();
+			.bindPopup(`Vous êtes à moins de ${radius} mètres de ce point`).openPopup();
 
 		const locationCircle = L.circle(e.latlng, radius).addTo(map);
 	}
 
 	function onLocationError(e) {
 		alert(e.message);
+		e.latlng = L.latlng(46.8141074, -71.22255454)
 	}
 
 	map.on('locationfound', onLocationFound);
 	map.on('locationerror', onLocationError);
-
+	
 	map.locate({setView: true, maxZoom: 16});
 
 	function onMapClick(e) {

@@ -24,14 +24,14 @@
 			max-height: 100%;
 		}
 	</style>
-
+<style>body { padding: 0; margin: 0; } #map { height: 100%; width: 100vw; }</style>
 	
 </head>
 <body>
 
 
 
-<div id="map" style="width: 600px; height: 400px;"></div>
+<div id="map"></div>
 <script>
 
 	const map = L.map('map').setView([46.8164685, -71.239748], 13);
@@ -94,7 +94,23 @@ facade_de_la_maison_de_la_danse._icon.style.filter = "hue-rotate(120deg)"
 facade_du_theatre._icon.style.filter = "hue-rotate(120deg)"
 centre_materia._icon.style.filter = "hue-rotate(120deg)"
 grizzly_fuzz._icon.style.filter = "hue-rotate(120deg)"
-	
+function onLocationFound(e) {
+		const radius = e.accuracy / 2;
+
+		const locationMarker = L.marker(e.latlng).addTo(map)
+			.bindPopup(`You are within ${radius} meters from this point`).openPopup();
+
+		const locationCircle = L.circle(e.latlng, radius).addTo(map);
+	}
+
+	function onLocationError(e) {
+		alert(e.message);
+	}
+
+	map.on('locationfound', onLocationFound);
+	map.on('locationerror', onLocationError);
+
+	map.locate({setView: true, maxZoom: 16});
 
 	function onMapClick(e) {
 		popup

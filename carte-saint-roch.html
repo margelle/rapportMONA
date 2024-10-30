@@ -66,7 +66,23 @@ monumenthoratiowalker._icon.style.filter = "hue-rotate(180deg)"
 monumentrenerichard._icon.style.filter = "hue-rotate(180deg)"
 racines._icon.style.filter = "hue-rotate(180deg)"
 
+function onLocationFound(e) {
+		const radius = e.accuracy / 2;
 
+		const locationMarker = L.marker(e.latlng).addTo(map)
+			.bindPopup(`Vous êtes à moins de ${radius} mètres de ce point`).openPopup();
+
+		const locationCircle = L.circle(e.latlng, radius).addTo(map);
+	}
+
+	function onLocationError(e) {
+		e.latlng = L.latlng(46.8141074, -71.22255454)
+	}
+
+	map.on('locationfound', onLocationFound);
+	map.on('locationerror', onLocationError);
+	
+	map.locate({setView: true, maxZoom: 16});
 
 
 	function onMapClick(e) {

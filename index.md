@@ -140,7 +140,7 @@ Cette semaine, j'ai également :
   - les images de badge sont identiques pour le Sud-Ouest et l'université de Montréal
 </details>
 
-<details open>
+<details>
 <summary>semaine 6 (21 octobre)</summary>
 
 ### côté WikiProject Maison MONA / Vers un commun numérique de l'art public
@@ -225,7 +225,23 @@ Cette semaine, j'ai aussi :
 
 </details>
 
+<details open>
+<summary>semaine 7 (28 octobre)</summary>
 
+### côté WikiProject Maison MONA / Vers un commun numérique de l'art public
+
+J'ai lu les notes de présentation qui étaient préparer pour Québec et ajouté quelques commentaires. 
+
+### côté chasse à Saint-Roch
+
+J'ai verifié les coordonnées et corrigé quelques-unes. J'ai deplacer les murales et le collage vers la liste d'oeuvres avoisinantes.  J'ai changé la couleur des épingles selon le groupe, et j'ai mis à jour la carte.  J'ai aussi ajouté la géolocalisation. 
+J'ai ajouté la colonne Wikipedia à la table d'oeuvres.
+
+### côté app mobile et site web
+
+J'ai regardé la nouvelle release interne et transmis mes commentaires sur le fonctionnment des filtres en combinaison avec barre de recherche à Sarah.  Je lui ai  aussi indiqué quelques changements suggérés pour les boutons superposés dans le tutoriel et le manque du mot «un» dans la description du projet.
+
+</details>
 
 ## <a name="varia"></a>Varia
 

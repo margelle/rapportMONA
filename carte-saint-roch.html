@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<title>Carte Saint-Roch</title>
+	<title>Wikifier l'art qui nous entoure à Saint-Roch</title>
 	
 	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
 
@@ -75,13 +75,13 @@ function onLocationFound(e) {
 	}
 
 	function onLocationError(e) {
-		e.latlng = L.latlng(46.8141074, -71.22255454)
+		e.latlng = L.latlng(46.8141074, -71.22255454);
 	}
 
 	map.on('locationfound', onLocationFound);
 	map.on('locationerror', onLocationError);
 	
-	map.locate({setView: true, maxZoom: 16});
+	map.locate({setView: true, maxZoom: 15});
 
 
 	function onMapClick(e) {

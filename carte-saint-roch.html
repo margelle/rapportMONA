@@ -67,10 +67,9 @@ monumentrenerichard._icon.style.filter = "hue-rotate(180deg)"
 racines._icon.style.filter = "hue-rotate(180deg)"
 
 function onLocationFound(e) {
-		const radius = e.accuracy / 2;
+		const radius = e.accuracy / 4;
 
-		const locationMarker = L.marker(e.latlng).addTo(map)
-		//	.bindPopup(`Vous êtes à moins de ${radius} mètres de ce point`).openPopup();
+		const locationMarker = L.marker(e.latlng).addTo(map)		
 
 		const locationCircle = L.circle(e.latlng, radius).addTo(map);
 	}
@@ -88,7 +87,7 @@ function onLocationFound(e) {
 	function onMapClick(e) {
 		popup
 			.setLatLng(e.latlng)
-			.setContent(`You clicked the map at ${e.latlng.toString()}`)
+			.setContent(`Vous avez cliqué ${e.latlng.toString()}`)
 			.openOn(map);
 	}
 

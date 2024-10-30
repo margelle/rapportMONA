@@ -69,7 +69,7 @@ racines._icon.style.filter = "hue-rotate(180deg)"
 function onLocationFound(e) {
 		const radius = e.accuracy / 4;
 
-		const locationMarker = L.marker(e.latlng).addTo(map)		
+		const locationMarker = L.marker(e.latlng).addTo(map);		
 
 		const locationCircle = L.circle(e.latlng, radius).addTo(map);
 	}

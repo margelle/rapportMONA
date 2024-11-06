@@ -245,8 +245,9 @@ J'ai regardé la nouvelle release interne et transmis mes commentaires sur le fo
 
 J'ai assisté à la session inaugurale de [l'Institut WikiGLAMU](https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:GLAM/Qu%C3%A9bec/InstitutWikiGLAMU#) où iels ont pris une approche dite « anti-conférénce »
 Le terme wikipédiste (ou wikimédiste, selon la personne) est préféré au wikimédien·ne ou wikipédien·ne.
-Je me demandais pendant la session si les établissements québécois qui profitent des outils et services wiki contribuent à la fondation Wikimedia. 
-Dans la même veine, je me suis demandé plus tard si les contrôleurs français qui suppriment le contenu d'ailleurs le font par crainte de dépasser le budget annuel d'hébergement pour les serveurs.
+On a parlé de la force de l'intelligence collective et qu'en ouvrant sur l'univers wiki, on ouvre pour le bien commun. 
+Je me demandais pendant la session si les établissements québécois qui profitent des outils et services wiki contribuent à la fondation Wikimedia (avec les redevances ?). 
+Dans la même veine, je me suis demandé plus tard si les fameux 4 contrôleurs français qui suppriment le contenu d'ailleurs le font par crainte de dépasser le budget annuel d'hébergement pour les serveurs.  Sinon, j'ai du mal à trouver des motivations intelligibles pour supprimer le contenu qui était ajouté à wiki de bonne foi
 
 ### WikiConvention francophone
 

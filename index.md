@@ -225,7 +225,7 @@ Cette semaine, j'ai aussi :
 
 </details>
 
-<details open>
+<details>
 <summary>semaine 7 (28 octobre)</summary>
 
 ### côté WikiProject Maison MONA / Vers un commun numérique de l'art public
@@ -241,6 +241,44 @@ J'ai ajouté la colonne Wikipedia à la table d'oeuvres.
 
 J'ai regardé la nouvelle release interne et transmis mes commentaires sur le fonctionnment des filtres en combinaison avec barre de recherche à Sarah.  Je lui ai  aussi indiqué quelques changements suggérés pour les boutons superposés dans le tutoriel et le manque du mot «un» dans la description du projet.
 
+### Institut WikiGLAMU
+
+J'ai assisté à la session inaugurale de [l'Institut WikiGLAMU](https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:GLAM/Qu%C3%A9bec/InstitutWikiGLAMU#) où iels ont pris une approche dite « anti-conférénce »
+Le terme wikipédiste (ou wikimédiste, selon la personne) est préféré au wikimédien·ne ou wikipédien·ne.
+Je me demandais pendant la session si les établissements québécois qui profitent des outils et services wiki contribuent à la fondation Wikimedia. 
+Dans la même veine, je me suis demandé plus tard si les contrôleurs français qui suppriment le contenu d'ailleurs le font par crainte de dépasser le budget annuel d'hébergement pour les serveurs.
+
+### WikiConvention francophone
+
+[Voici un lien vers le programme](https://meta.wikimedia.org/wiki/WikiConvention_francophone/2024/Programme)
+
+Lors de la première journée, j'ai assisté aux sessions suivantes:
+- Cérémonie d'ouverture
+- Conférence d'ouverture
+- Quelle éthique pour la contribution aux projets Wikimédia? par Anja
+- Vers un commun numérique de l'art public par LixiaPF (et toute l'équipe de la maison MONA bien sûr)
+- OpenStreetMap et Wikidata : créer du lien entre les données libres par PyMouss
+- Créer une application mobile pour un musée avec Wikidata, Wikipédia et Kiwix par Kamen 
+
+La deuxième journée était :
+- Savoirs pluriels : wikifier les critères d'admissibilité par Seeris, Bernipède, Pixetoile, FrederiqueDube
+- Lingua Libre : retour sur le projet de documentation de la diversité orale par Yug
+- Les bibliothécaires québécoises et canadiennes et le fossé des genres dans Wikipédia et Wikidata par Marie D Martel
+- Wikipédia pour développer des compétences plurilingues à l'université par JubEDL
+- Les enjeux de la découvrabilité dans le champ des arts et des littératures numériques par Yan St-Onge
+- Valoriser les patrimoines d'un territoire sur les projets Wikimédia par Lyokoï
+- La diversité de genre, du grand écran à Wikipédia : des outils féministes pour contrer les biais de genre dans l'encyclopédie francophone par Synchroniseuse
+- Cérémonie de clôture
+
+</details>
+
+<details open>
+<summary>semaine 8 (4 novembre)</summary>
+
+J'ai participé à la répétition du parcours à Rimouski et j'ai ajouté des oeuvres à ma collection sur l'application.
+Lena, Simon, et moi sommes allées à la bibliothèque du CEGEP de Rimouski pour discuter nos trouvailles sur les données ouvertes de la villes.
+
+On a fait une séance de travail à « La Station » un espace de travail au centre-ville de Rimouski.
 </details>
 
 ## <a name="varia"></a>Varia

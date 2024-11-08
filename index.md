@@ -33,14 +33,14 @@ De plus, j'ai :
 - assisté à la **Matinée numérique #7**
   - au programme de la Matinée :  
     - Présentation du projet ArtIA de Sporobole - par Éric Desmarais
-    - L’intelligence artificielle en culture : défis et opportunités - par Christophe Prévost (MCCQ)
+    - L'intelligence artificielle en culture : défis et opportunités - par Christophe Prévost (MCCQ)
     - Les données descriptives au ministère : historique et vision - par Alexandre Naud (MCCQ)
 - assisté à l'atelier **wiki Ada X** à la Cinémathèque québécoise
   - créer mon compte Wikipédia
   - faire ma première contribution à Wikipédia
 - assisté à l'atelier **Faire la différence: parler et écrire un français inclusif** offert par l'UdeM
   - appris l'existence du site web qui aide à trouver les mots inclusifs [https://eninclusif.fr/](https://eninclusif.fr/)
-- appris l'existence de la _Politique d’intégration des arts à l’architecture et à l’environnement des bâtiments et des sites gouvernementaux et publics_
+- appris l'existence de la _Politique d'intégration des arts à l'architecture et à l'environnement des bâtiments et des sites gouvernementaux et publics_
   - 1% des fonds dédiés à l'art public
 </details>
 <details>
@@ -276,10 +276,13 @@ La deuxième journée était :
 <details open>
 <summary>semaine 8 (4 novembre)</summary>
 
-J'ai participé à la répétition du parcours à Rimouski et j'ai ajouté des oeuvres à ma collection sur l'application.
-Lena, Simon, et moi sommes allées à la bibliothèque du CEGEP de Rimouski pour discuter nos trouvailles sur les données ouvertes de la villes.
+On a visité le musée régional de Rimouski avec son exposition [Récits de la création du monde : Exposition bilan de la Biennale d’art contemporain autochtone 2024](https://museerimouski.qc.ca/2024/09/18/recits-de-la-creation-du-monde-exposition-bilan-de-la-biennale-dart-contemporain-autochtone-2024/).  Julie nous a montré aussi une œuvre d'art public ([Qui fait l'ange fait la bête de Lise Labrie](https://archive.nt2.uqam.ca/plepuc/fr/oeuvre/qui-fait-lange-fait-la-b-te/index.html)) qui se trouvait dans le musée en trois parties, dont une aux toilettes (les périscopes).  On n'a vu que deux des trois parties, car l'autre (un autel) était dans le bureau administratif qui n'était pas ouvert au public.
+J'ai vu les œuvres [Étude des bienfaits d’une hydratation adéquate sur la productivité des gens qui mènent à bien de grands projets](https://www.artpublicrimouski.ca/oeuvre/etude-des-bienfaits-dune-hydratation-adequate-sur-la-productivite-des-gens-qui-menent-bien-de-grands-projets) (qui n'est pas dans l'app MONA) et [Ondulations](https://www.artpublicrimouski.ca/oeuvre/ondulation) (qui est dans l'app MONA) au Complexe sportif Desjardins quand j'ai cherché mon souper au café Entre-Deux.
 
-On a fait une séance de travail à « La Station » un espace de travail au centre-ville de Rimouski.
+Jeudi, je suis arrivée en avance, et j'ai eu la chance de regarder des œuvres de l'Exposition pour souligner les 10 ans de [la Galerie Léonard Parent](https://rimouski.ca/loisirs-culture/culture-patrimoine/galerie-dart-leonard-parent).  Elles étaient créées par l'équipe municipale et étaient composées de plusieurs matériaux différents. Il y avait un carnet à feuilleter et une chambre aux éclairages ultraviolets avec des peintures.
+
+On a fait le parcours avec un plus grand groupe qui incluait des membres de l'équipe municipale et de l'équipe du Caravansérail. Pendant ce parcours, on a eu la chance de voir l'autel de Qui fait l'ange fait la bête de Lise Labrie!
+
 </details>
 
 ## <a name="varia"></a>Varia

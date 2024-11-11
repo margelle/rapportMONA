@@ -271,6 +271,9 @@ La deuxième journée était :
 - La diversité de genre, du grand écran à Wikipédia : des outils féministes pour contrer les biais de genre dans l'encyclopédie francophone par Synchroniseuse
 - Cérémonie de clôture
 
+
+  
+
 </details>
 
 <details open>
@@ -282,6 +285,11 @@ J'ai vu les œuvres [Étude des bienfaits d’une hydratation adéquate sur la p
 Jeudi, je suis arrivée en avance, et j'ai eu la chance de regarder des œuvres de l'Exposition pour souligner les 10 ans de [la Galerie Léonard Parent](https://rimouski.ca/loisirs-culture/culture-patrimoine/galerie-dart-leonard-parent).  Elles étaient créées par l'équipe municipale et étaient composées de plusieurs matériaux différents. Il y avait un carnet à feuilleter et une chambre aux éclairages ultraviolets avec des peintures.
 
 On a fait le parcours avec un plus grand groupe qui incluait des membres de l'équipe municipale et de l'équipe du Caravansérail. Pendant ce parcours, on a eu la chance de voir l'autel de Qui fait l'ange fait la bête de Lise Labrie!
+
+J'ai aussi :
+  - étudié plus les données d'artpublic rimouski
+  - ajouté des sources pour l'atelier dans zotero
+  - regardé le [dashboard pour l'atelier](https://outreachdashboard.wmflabs.org/courses/Institut_WikiGLAMU_x_Maison_MONA/Institut_WikiGLAMU) et merveillé à ce qu'on a accompli
 
 </details>
 
@@ -310,6 +318,7 @@ https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
 
 - 11 novembre
   - 13h30 réunion Tech sur zoom
+
 - 13 novembre 
   - 14h30 à 19h30 assister à la présentation de Camila [Les arts et la culture peuvent-ils (vraiment) être des points de jonction entre Villeray et Parc-Extension ?](https://www.facebook.com/events/579253684456451/)
   - 18h30 [La Grande finale du concours L'impact Millénium Québecor 2024](https://reseau.umontreal.ca/s/1857/bp18/interior.aspx?sid=1857&gid=2&pgid=1512#:~:text=L'Universit%C3%A9%20de%20Montr%C3%A9al%20lance,et%20se%20lancer%20en%20affaires)
@@ -320,12 +329,9 @@ https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
 
 <summary>à faire</summary>
 
+- finaliser le mandat du projet de stage avant le 19 novembre
 - toujours ajouter l'information que j'ai partagée sur Element et les raisonnements derrières ici dans le rapport
 - toujours ajouter aux rapports les choses apprises, inspirées, creusées
-- continuer à travailler sur le wiki pour le parcours à Saint-Roch
-  - ajouter des sources pour l'atelier dans zotero
-  - regarder le [dashboard pour l'atelier](https://outreachdashboard.wmflabs.org/courses/Institut_WikiGLAMU_x_Maison_MONA/Institut_WikiGLAMU)
-- étudier encore plus les données d'artpublic rimouski
 - [liste de lectures](https://hackmd.io/@MONAmtl/dir-tech#Rencontre-Tiffany)
 - lecture: [Message commons artiste](https://hackmd.io/ahLyaWuST5iY3t2pB-GBDw)
 - suivre [le tutoriel sur protegé](https://www.iro.umontreal.ca/~lapalme/ift6281/OWL/EtapesCreationOntologie.html)

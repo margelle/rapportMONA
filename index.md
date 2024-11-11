@@ -276,7 +276,7 @@ La deuxième journée était :
 
 </details>
 
-<details open>
+<details>
 <summary>semaine 8 (4 novembre)</summary>
 
 On a visité le musée régional de Rimouski avec son exposition [Récits de la création du monde : Exposition bilan de la Biennale d’art contemporain autochtone 2024](https://museerimouski.qc.ca/2024/09/18/recits-de-la-creation-du-monde-exposition-bilan-de-la-biennale-dart-contemporain-autochtone-2024/).  Julie nous a montré aussi une œuvre d'art public ([Qui fait l'ange fait la bête de Lise Labrie](https://archive.nt2.uqam.ca/plepuc/fr/oeuvre/qui-fait-lange-fait-la-b-te/index.html)) qui se trouvait dans le musée en trois parties, dont une aux toilettes (les périscopes).  On n'a vu que deux des trois parties, car l'autre (un autel) était dans le bureau administratif qui n'était pas ouvert au public.
@@ -286,13 +286,26 @@ Jeudi, je suis arrivée en avance, et j'ai eu la chance de regarder des œuvres 
 
 On a fait le parcours avec un plus grand groupe qui incluait des membres de l'équipe municipale et de l'équipe du Caravansérail. Pendant ce parcours, on a eu la chance de voir l'autel de Qui fait l'ange fait la bête de Lise Labrie!
 
+À plusieurs moments pendant la semaine, je suis allée chercher les œuvres à Rimouski qui étaient épinglées dans l'application, mais je n'ai rien trouvé.  Ce serait bon d'avoir une façon d'indiquer une œuvre difficile à trouver, soit pour ajouter plus d'indices dans la fiche d'information, soit pour confirmer qu'elle a été retirée et de mettre à jour la base de données.
+
+Voici quelques exemples que je n'ai pas réussi à trouver :
+ - Quand les bateaux s'en vont de Lise Labrie
+ - Non titré de André R. DuBois à 981 rue Marconi 
+ - De profundis de Gilles Girard au pavillon Empress of Ireland
+ - Un jardin en mémoire au Centre d'hébergement de Rimouski
+ - Une berceuse pour Jonas de Lise Labrie au Centre d'hébergement de Rimouski
+
 J'ai aussi :
   - étudié plus les données d'artpublic rimouski
   - ajouté des sources pour l'atelier dans zotero
-  - regardé le [dashboard pour l'atelier](https://outreachdashboard.wmflabs.org/courses/Institut_WikiGLAMU_x_Maison_MONA/Institut_WikiGLAMU) et merveillé à ce qu'on a accompli
+  - regardé le [dashboard pour l'atelier à l'Institut WikiGLAMU](https://outreachdashboard.wmflabs.org/courses/Institut_WikiGLAMU_x_Maison_MONA/Institut_WikiGLAMU) et merveillé à ce qu'on a accompli
 
 </details>
 
+<details open>
+<summary>semaine 9 (11 novembre)</summary>
+J'ai assisté à la réunion Tech sur zoom avec Lena, Sarah, et Corélie.
+</details>
 ## <a name="varia"></a>Varia
 
 <p><a href="carte-saint-roch.html">carte saint roch</a></p>

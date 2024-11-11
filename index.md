@@ -297,7 +297,7 @@ Voici quelques exemples que je n'ai pas réussi à trouver :
 
 J'ai aussi :
   - étudié plus les données d'artpublic rimouski
-  - ajouté des sources pour l'atelier dans zotero
+  - ajouté des sources sur Cyndie Belhumeur et Patrick Bérubé pour l'atelier à [Caravansérail](https://www.caravanserail.org/) dans zotero
   - regardé le [dashboard pour l'atelier à l'Institut WikiGLAMU](https://outreachdashboard.wmflabs.org/courses/Institut_WikiGLAMU_x_Maison_MONA/Institut_WikiGLAMU) et merveillé à ce qu'on a accompli
 
 </details>

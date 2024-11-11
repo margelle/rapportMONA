@@ -306,6 +306,7 @@ J'ai aussi :
 <summary>semaine 9 (11 novembre)</summary>
 J'ai assisté à la réunion Tech sur zoom avec Lena, Sarah, et Corélie.
 </details>
+
 ## <a name="varia"></a>Varia
 
 <p><a href="carte-saint-roch.html">carte saint roch</a></p>

@@ -306,23 +306,32 @@ J'ai aussi :
 <summary>semaine 9 (11 novembre)</summary>
 
 J'ai assisté à la réunion Tech sur zoom avec Lena, Sarah, et Corélie.
+
 J'ai assisté à l'assemblée de culture de la table de concertation culturelle Villeray Parc-Extension à La Cenne où Camila a présenté la Maison MONA.  On a discuté avec les gens du Cinéma Public sur leur expériences d'encourager la participation.
+
 J'ai assisté à la grande finale 2024 du Concours L'impact Millénium Québecor où Lena et Julie a présenté la Maison MONA. Elles ont gagné le 3e prix!
+
 J'ai parlé avec Lena sur l'usage de wikidata comme moyen de faire des changements dans les données utilisées dans l'application MONA.
+Voici [un lien](https://www.figma.com/board/4RSc2qJwLTE9RMxkXIl0FU/ProjetWikidataNov2024?node-id=0-1&t=8GjveEIk50WSV3i8-1) vers l'ébauche en figma de possibilités d'intégration avec une liste de changements.
+On a parlé d'exemples d'autres sites cartographiques comme https://www.queeringthemap.com/ et  https://native-land.ca/ pour avoir des idées de stratégies pour contourner les trolls et le vandalisme quand on permet les changements aux utilisateur·rices. 
+On a aussi discuté le traitement des oeuvres fantômes qui ne sont plus présentes avec l'exemple [Notre existence ne sera plus jamais silencieuse. Cela nécessite ni explications, ni excuses, ni approbation](https://artpublicmontreal.ca/oeuvre/notre-existence-ne-sera-plus-jamais-silencieuse-cela-necessite-ni-explication-ni-excuse-ni-approbation/)
 
 </details>
 
 <details open>
 <summary>semaine 10 (18 novembre)</summary>
 
-J'ai assisté à la réunion Graphisme sur zoom avec Lena, Sarah, et Barbara.  Il y a tellement de subtiles distinctions entre les gestes dans les applications, dont on est inconscientes.
-J'ai ajouté un élément wikidata pour l'oeuvre [Écho de Cyndie Belhumeur](https://www.wikidata.org/wiki/Q131283332)
+J'ai assisté à la réunion Graphisme sur zoom avec Lena, Sarah, et Barbara.  Il y a tellement de subtiles distinctions entre les gestes dans les applications, dont on est inconscient·es.
+
+J'ai ajouté un élément wikidata pour l'oeuvre [Écho de Cyndie Belhumeur](https://www.wikidata.org/wiki/Q131283332).
+
 J'ai ajouté des images à wikimedia pour [Écho](https://commons.wikimedia.org/wiki/File:%C3%89cho_de_Cyndie_Belhumeur.jpg) et pour [Les entrecroisements de Véronique Malo](https://commons.wikimedia.org/wiki/File:Les_entrecroisements_impression_num%C3%A9rique_sur_verre_par_V%C3%A9ronique_Malo.jpg) [cartel](https://commons.wikimedia.org/wiki/File:Les_entrecroisements_impression_num%C3%A9rique_sur_verre_par_V%C3%A9ronique_Malo_cartel.jpg)
+
 </details>
 
 ## <a name="varia"></a>Varia
 
-<p><a href="carte-saint-roch.html">carte saint roch</a></p>
+<p><a href="carte-saint-roch.html">carte saint roch pour la chasse aux oeuvres</a></p>
 
 version wikimedia (Template GeoGroup ne semble pas dispo sur wikimedia)
 https://meta.wikimedia.org/wiki/User:Anthraciter/SaintRoch
@@ -350,13 +359,40 @@ https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
   - 14h30 à 19h30 assister à la présentation de Camila [Les arts et la culture peuvent-ils (vraiment) être des points de jonction entre Villeray et Parc-Extension ?](https://www.facebook.com/events/579253684456451/)
   - 18h30 [La Grande finale du concours L'impact Millénium Québecor 2024](https://reseau.umontreal.ca/s/1857/bp18/interior.aspx?sid=1857&gid=2&pgid=1512#:~:text=L'Universit%C3%A9%20de%20Montr%C3%A9al%20lance,et%20se%20lancer%20en%20affaires)
 
+- 18 novembre
+  - midi réunion graphisme sur zoom
+
+- 19 novembre
+  - 16h réunion Jalon 2 mois de stage avec Benoit et Lena 
+
+- 20 novembre
+  - 10h30 réunion serveur
+  - 14h30 réunion tech
+  - 16h30 réunion Wiki recap
+
 </details>
 
 <details>
 
 <summary>à faire</summary>
 
-- finaliser le mandat du projet de stage avant le 19 novembre
+### Projet de stage 
+
+- travailler sur le mandat du projet de stage avant le 19 novembre
+  - préparer un état des lieux pour moissonage collectif (crowd sourcing) + filtrer de contenu
+  - explorer les façons de permettre les changements, comme :
+    - ajouts 
+    - doublons (MONA)
+    - suppressions (MONA avec drapeau)
+    - corrections
+    - enrichissements
+    - oeuvres censurées/cachées
+    - oeuvres disparues
+  - faire une évaluation des conséquences, avantages/inconvénients des flux de données
+  - [travailler le diagramme](https://www.figma.com/board/4RSc2qJwLTE9RMxkXIl0FU/ProjetWikidataNov2024?node-id=3-268&t=8GjveEIk50WSV3i8-1)
+
+### Autre
+
 - toujours ajouter l'information que j'ai partagée sur Element et les raisonnements derrières ici dans le rapport
 - toujours ajouter aux rapports les choses apprises, inspirées, creusées
 - [liste de lectures](https://hackmd.io/@MONAmtl/dir-tech#Rencontre-Tiffany)
@@ -371,7 +407,7 @@ https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
 - appprendre plus sur cet outil pour faire les importations en lot à wiki https://be.wikimedia.org/wiki/OpenRefine
 - appprendre plus sur cet outil pour reviser des wikis automatiquement https://be.wikimedia.org/wiki/Pywikibot
 - Women In Red https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Women_in_Red/Awards/France
-- utliser cette requete pour l'art public de Rimouski 
+- utiliser cette requete pour l'art public de Rimouski 
   ```
   https://js.histropedia.com/apps/query-timeline/?q=select%20?work%20?workLabel%20?coords%20?date%20%20(9%20as%20?start_precision)%20(SAMPLE(?image)%20AS%20?image)%20?address%20?materialLabel%20?categoryLabel%20(group_concat(distinct%20?creatorLabel;%20separator%3D%22;%20%22)%20as%20?creators)%20where%20%7B?work%20wdt:P31/wdt:P279*%20wd:Q386724;%20wdt:P136%20wd:Q557141;%20wdt:P131%20wd:Q2304457;%20wdt:P31%20?category.%20%20optional%7B?work%20wdt:P625%20?coords.%7D%20%20optional%7B?work%20wdt:P571%20?date.%7D%20%20optional%7B?work%20wdt:P18%20?image.%7D%20%20optional%7B?work%20wdt:P170%20?creator.%7D%20%20optional%7B?work%20wdt:P6375%20?address.%7D%20%20optional%7B?work%20wdt:P186%20?material.%7D%20%20SERVICE%20wikibase:label%20%7B%20bd:serviceParam%20wikibase:language%20%22en%22.%20%20?work%20rdfs:label%20?workLabel.%20?category%20rdfs:label%20?categoryLabel.%20?creator%20rdfs:label%20?creatorLabel.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20?material%20rdfs:label%20?materialLabel%20%7D%20%7D%20group%20by%20?work%20?workLabel%20?coords%20?date%20?image%20?address%20?materialLabel%20?categoryLabel&d=0&md=true&g=work&l=work&t=workLabel&s=date&sp=start_precision&i=image&c=materialLabel,categoryLabel&f=materialLabel,categoryLabel&v=t
   ```

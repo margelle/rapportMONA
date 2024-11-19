@@ -230,16 +230,16 @@ Cette semaine, j'ai aussi :
 
 ### côté WikiProject Maison MONA / Vers un commun numérique de l'art public
 
-J'ai lu les notes de présentation qui étaient préparer pour Québec et ajouté quelques commentaires. 
+J'ai lu les notes de présentation qui étaient préparées pour Québec et ajouté quelques commentaires. 
 
 ### côté chasse à Saint-Roch
 
-J'ai verifié les coordonnées et corrigé quelques-unes. J'ai deplacer les murales et le collage vers la liste d'oeuvres avoisinantes.  J'ai changé la couleur des épingles selon le groupe, et j'ai mis à jour la carte.  J'ai aussi ajouté la géolocalisation. 
-J'ai ajouté la colonne Wikipedia à la table d'oeuvres.
+J'ai vérifié les coordonnées et corrigé quelques-unes. J'ai déplacé les murales et le collage vers la liste d'œuvres avoisinantes.  J'ai changé la couleur des épingles selon le groupe, et j'ai mis à jour la carte.  J'ai aussi ajouté la géolocalisation. 
+J'ai ajouté la colonne Wikipedia à la table d'œuvres.
 
 ### côté app mobile et site web
 
-J'ai regardé la nouvelle release interne et transmis mes commentaires sur le fonctionnment des filtres en combinaison avec barre de recherche à Sarah.  Je lui ai  aussi indiqué quelques changements suggérés pour les boutons superposés dans le tutoriel et le manque du mot «un» dans la description du projet.
+J'ai regardé la nouvelle release interne et transmis mes commentaires sur le fonctionnement des filtres en combinaison avec barre de recherche à Sarah.  Je lui ai aussi indiqué quelques changements suggérés pour les boutons superposés dans le tutoriel et le manque du mot «un» dans la description du projet.
 
 ### Institut WikiGLAMU
 
@@ -247,7 +247,7 @@ J'ai assisté à la session inaugurale de [l'Institut WikiGLAMU](https://fr.wiki
 Le terme wikipédiste (ou wikimédiste, selon la personne) est préféré au wikimédien·ne ou wikipédien·ne.
 On a parlé de la force de l'intelligence collective et qu'en ouvrant sur l'univers wiki, on ouvre pour le bien commun. 
 Je me demandais pendant la session si les établissements québécois qui profitent des outils et services wiki contribuent à la fondation Wikimedia (avec les redevances ?). 
-Dans la même veine, je me suis demandé plus tard si les fameux 4 contrôleurs français qui suppriment le contenu d'ailleurs le font par crainte de dépasser le budget annuel d'hébergement pour les serveurs.  Sinon, j'ai du mal à trouver des motivations intelligibles pour supprimer le contenu qui était ajouté à wiki de bonne foi
+Dans la même veine, je me suis demandé plus tard si les fameux 4 contrôleurs français qui suppriment le contenu d'ailleurs le font par crainte de dépasser le budget annuel d'hébergement pour les serveurs.  Sinon, j'ai du mal à trouver des motivations intelligibles pour supprimer le contenu qui était ajouté à wiki de bonne foi.
 
 ### WikiConvention francophone
 

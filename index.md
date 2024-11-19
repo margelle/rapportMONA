@@ -302,9 +302,22 @@ J'ai aussi :
 
 </details>
 
-<details open>
+<details>
 <summary>semaine 9 (11 novembre)</summary>
+
 J'ai assisté à la réunion Tech sur zoom avec Lena, Sarah, et Corélie.
+J'ai assisté à l'assemblée de culture de la table de concertation culturelle Villeray Parc-Extension à La Cenne où Camila a présenté la Maison MONA.  On a discuté avec les gens du Cinéma Public sur leur expériences d'encourager la participation.
+J'ai assisté à la grande finale 2024 du Concours L'impact Millénium Québecor où Lena et Julie a présenté la Maison MONA. Elles ont gagné le 3e prix!
+J'ai parlé avec Lena sur l'usage de wikidata comme moyen de faire des changements dans les données utilisées dans l'application MONA.
+
+</details>
+
+<details open>
+<summary>semaine 10 (18 novembre)</summary>
+
+J'ai assisté à la réunion Graphisme sur zoom avec Lena, Sarah, et Barbara.  Il y a tellement de subtiles distinctions entre les gestes dans les applications, dont on est inconscientes.
+J'ai ajouté un élément wikidata pour l'oeuvre [Écho de Cyndie Belhumeur](https://www.wikidata.org/wiki/Q131283332)
+J'ai ajouté des images à wikimedia pour [Écho](https://commons.wikimedia.org/wiki/File:%C3%89cho_de_Cyndie_Belhumeur.jpg) et pour [Les entrecroisements de Véronique Malo](https://commons.wikimedia.org/wiki/File:Les_entrecroisements_impression_num%C3%A9rique_sur_verre_par_V%C3%A9ronique_Malo.jpg) [cartel](https://commons.wikimedia.org/wiki/File:Les_entrecroisements_impression_num%C3%A9rique_sur_verre_par_V%C3%A9ronique_Malo_cartel.jpg)
 </details>
 
 ## <a name="varia"></a>Varia

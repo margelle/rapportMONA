@@ -318,7 +318,7 @@ On a aussi discuté le traitement des oeuvres fantômes qui ne sont plus présen
 
 </details>
 
-<details open>
+<details>
 <summary>semaine 10 (18 novembre)</summary>
 
 J'ai assisté à la réunion Graphisme sur zoom avec Lena, Sarah, et Barbara.  Il y a tellement de subtiles distinctions entre les gestes dans les applications, dont on est inconscient·es.
@@ -327,8 +327,23 @@ J'ai ajouté un élément wikidata pour l'oeuvre [Écho de Cyndie Belhumeur](htt
 
 J'ai ajouté des images à wikimedia pour [Écho](https://commons.wikimedia.org/wiki/File:%C3%89cho_de_Cyndie_Belhumeur.jpg) et pour [Les entrecroisements de Véronique Malo](https://commons.wikimedia.org/wiki/File:Les_entrecroisements_impression_num%C3%A9rique_sur_verre_par_V%C3%A9ronique_Malo.jpg) [cartel](https://commons.wikimedia.org/wiki/File:Les_entrecroisements_impression_num%C3%A9rique_sur_verre_par_V%C3%A9ronique_Malo_cartel.jpg)
 
+Pendant le [Colloque international La collection est-elle une ressource ou un fardeau ?](https://cieco.co/fr/actualites/colloque-collection-ressource-2024), « Où sont les limites de l'exposable? »,  quelqu'un a indiqué qu'un client n'a pas voulu mettre les dates sur 
+les cartels parce que les dates font ressembler trop aux pierres tombales, et les oeuvres representées étaient encore vivantes.
+
+enchevêtrer (entangle)
+
+chaque objet arrive avec backstory,
+modification de l'exposition et da la pensée
+
+Performance Specification ≈ grimoire 
+
+Activation Reports ≈ résultat de lancer un sort
 </details>
 
+<details open>
+<summary>semaine 11 (25 novembre)</summary>
+
+</details>
 ## <a name="varia"></a>Varia
 
 <p><a href="carte-saint-roch.html">carte saint roch pour la chasse aux oeuvres</a></p>
@@ -370,6 +385,9 @@ https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
   - 14h30 réunion tech
   - 16h30 réunion Wiki recap
 
+- 23 novembre
+  - 13h30 Collectionner la performance déléguée. Pour une révision de l’espace muséal par Camille
+
 </details>
 
 <details>
@@ -378,7 +396,7 @@ https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
 
 ### Projet de stage 
 
-- travailler sur le mandat du projet de stage avant le 19 novembre
+- travailler sur le projet de stage
   - préparer un état des lieux pour moissonage collectif (crowd sourcing) + filtrer de contenu
   - explorer les façons de permettre les changements, comme :
     - ajouts 
@@ -390,6 +408,8 @@ https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
     - oeuvres disparues
   - faire une évaluation des conséquences, avantages/inconvénients des flux de données
   - [travailler le diagramme](https://www.figma.com/board/4RSc2qJwLTE9RMxkXIl0FU/ProjetWikidataNov2024?node-id=3-268&t=8GjveEIk50WSV3i8-1)
+
+  ![Diagramme en ébauche de Lena pour aide-mémoire](diagramme.png)
 
 ### Autre
 
@@ -476,6 +496,6 @@ https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
 - [@capacitor/share]https://ionicframework.com/docs/native/share
 - [Inclure les avis Open Source](https://developers.google.com/android/guides/opensource?hl=fr)
 - [tldr licenses](https://www.tldrlegal.com/) 
-
+- [SPARQL dans un rayon de x](https://www.mediawiki.org/wiki/Wikidata_Query_Service/User_Manual#Geospatial_search)
 
  

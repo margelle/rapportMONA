@@ -342,8 +342,27 @@ Activation Reports ≈ résultat de lancer un sort
 
 <details open>
 <summary>semaine 11 (25 novembre)</summary>
+J'ai regardé des vidéos sur SPARQL et essayé des requêtes SPARQL
+
+J'ai fait un exercice de remue-méninges sur les requêtes qui pourrait être utiles pour les ajouts
+
+  - liste d'éléments wikidata par distance 
+    - d'emplacement actuel 
+    - d'emplacement selectionné sur la carte
+  - liste d'éléments wikidata par titre
+    - avec fuzzy matching (correspondance approximative)
+  - liste d'éléments wikidata par artiste
+    - avec fuzzy matching (correspondance approximative)
+  - liste d'éléments wikidata par catégorie 
+    - (work of art)
+      - art public
+      - sculpture
+      - murale
+
+J'ai commencé à lire [la documentation sur les composables en Vue](https://vuejs.org/guide/reusability/composables)
 
 </details>
+
 ## <a name="varia"></a>Varia
 
 <p><a href="carte-saint-roch.html">carte saint roch pour la chasse aux oeuvres</a></p>

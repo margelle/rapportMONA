@@ -344,7 +344,7 @@ Activation Reports ≈ résultat de lancer un sort
 <summary>semaine 11 (25 novembre)</summary>
 J'ai regardé des vidéos sur SPARQL et essayé des requêtes SPARQL
 
-J'ai fait un exercice de remue-méninges sur les requêtes qui pourrait être utiles pour les ajouts
+J'ai fait un exercice de remue-méninges sur les requêtes qui pourrait être utile pour les ajouts
 
   - liste d'éléments wikidata par distance 
     - d'emplacement actuel 
@@ -360,6 +360,31 @@ J'ai fait un exercice de remue-méninges sur les requêtes qui pourrait être ut
       - murale
 
 J'ai commencé à lire [la documentation sur les composables en Vue](https://vuejs.org/guide/reusability/composables)
+
+J'ai assisté à la réunion Tech. Lena a suggéré une technique intéressante pour débloquer la résolution d'un problème :
+- rédiger un courriel super formel à une personne qu'il ne faut pas décevoir avec : 
+- une description du problème
+- une explication des idées considérées
+- un récit de démarches essayées
+
+La réunion du 11 décembre est annulée.
+
+TODO (sans ordre particulier)
+- [ ] suggérer un titre avant la date limite de DH 2025 (le 8 décembre)
+- [ ] parler avec Sarah sur le bug undefined et mentionner l'erreur de compilation VSCode
+- [ ] faire un plus grand effort pour les rapports hebdomadaires
+- [ ] créer github projet pour organiser le projet d'ajout
+- [x] mettre list.ods sur pcloud
+- [ ] demander à Julie de me raconter l'histoire de Sainte Bernadette liée aux îles de la Madéleine
+- [ ] lire la présentation DHNB2024 (Islande)
+- [ ] créer/documenter modèle des données minimal, maximal, idéal(s) selon contexte
+  Art Public Montreal sert pour le modèle maximal
+- [ ] créer un document pour donner aux clients pour leur expliquer nos attentes et les définitions des données  
+- [ ] lire soumission DH2020 bisounours de Lena avec commotion https://dh2020.adho.org/wp-content/uploads/2020/07/707_MONAfrompublicarttoourartwithamobileapp.html
+- [ ] (en janvier) rédiger un document collaboratif qui décrit le processus au complet flux/importation des données -> analyse des commentaires notes par les utilisateurs
+
+RE: l'art public sous la loupe vs l'art public lu la soupe
+On pourrait dire « laisse faire » pour "ignore me"/"disregard that"
 
 </details>
 

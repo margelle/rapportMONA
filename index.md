@@ -374,7 +374,7 @@ TODO (sans ordre particulier)
 - [ ] parler avec Sarah sur le bug undefined et mentionner l'erreur de compilation VSCode
 - [ ] faire un plus grand effort pour les rapports hebdomadaires
 - [ ] créer github projet pour organiser le projet d'ajout
-- [x] mettre list.ods sur pcloud
+- [x] mettre list.ods sur pcloud (dans MONA/Tech/Data/list_datamapping_datafiles.ods)
 - [ ] demander à Julie de me raconter l'histoire de Sainte Bernadette liée aux îles de la Madéleine
 - [ ] lire la présentation DHNB2024 (Islande)
 - [ ] créer/documenter modèle des données minimal, maximal, idéal(s) selon contexte

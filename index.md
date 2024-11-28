@@ -373,14 +373,26 @@ TODO (sans ordre particulier)
 - [ ] suggérer un titre avant la date limite de DH 2025 (le 8 décembre)
 - [ ] parler avec Sarah sur le bug undefined et mentionner l'erreur de compilation VSCode
 - [ ] faire un plus grand effort pour les rapports hebdomadaires
-- [ ] créer github projet pour organiser le projet d'ajout
+- [x] créer github projet pour organiser le projet d'ajout https://github.com/orgs/MaisonMONA/projects/2
+- [ ] ajouter les taches au projet github
 - [x] mettre list.ods sur pcloud (dans MONA/Tech/Data/list_datamapping_datafiles.ods)
 - [ ] demander à Julie de me raconter l'histoire de Sainte Bernadette liée aux îles de la Madéleine
 - [ ] lire la présentation DHNB2024 (Islande)
 - [ ] créer/documenter modèle des données minimal, maximal, idéal(s) selon contexte
   Art Public Montreal sert pour le modèle maximal
 - [ ] créer un document pour donner aux clients pour leur expliquer nos attentes et les définitions des données  
-- [ ] lire soumission DH2020 bisounours de Lena avec commotion https://dh2020.adho.org/wp-content/uploads/2020/07/707_MONAfrompublicarttoourartwithamobileapp.html
+- [x] lire soumission DH2020 bisounours de Lena avec commotion https://dh2020.adho.org/wp-content/uploads/2020/07/707_MONAfrompublicarttoourartwithamobileapp.html
+  - j'aime bien la citation “extracting culture from its symbolic and architectural shell” (Ghebaur, 2013: 709), comme si l'art public était une chose nutritive comme un œuf ou une noix et qu'il faut travailler un peu pour en obtenir
+  - questions : 
+  
+      "The app's metadata is provided by Montréal and Québec's open data platforms." 
+      
+      Pourquoi est-ce métadonnées et non juste des données ?  J'aurais pensé que la liste des œuvres et leurs propriétés seraient les données et l'info sur la liste (nombre d'œuvres, où les données sont hébergées, etc.) serait les métadonnées.  Sinon, est-ce que cela implique que l’on considère les œuvres elles-mêmes comme des données ? Cette perspective me ferait reconceptualiser les œuvres en tant que données.
+
+      "encouraging rich and critical exchanges between all citizens" 
+
+      Cette idée est très intéressante, est-ce qu'au début il y avait plus d'interactivité entre utilisateurs prévue pour l'app pour faciliter ces échanges ? 
+
 - [ ] (en janvier) rédiger un document collaboratif qui décrit le processus au complet flux/importation des données -> analyse des commentaires notes par les utilisateurs
 
 RE: l'art public sous la loupe vs l'art public lu la soupe

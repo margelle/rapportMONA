@@ -342,9 +342,32 @@ Activation Reports ≈ résultat de lancer un sort
 
 <details open>
 <summary>semaine 11 (25 novembre)</summary>
-J'ai regardé des vidéos sur SPARQL et essayé des requêtes SPARQL
 
-J'ai fait un exercice de remue-méninges sur les requêtes qui pourrait être utile pour les ajouts
+### touche à tout et bon à rien
+
+Cette semaine j'ai touché à plusieurs outils technologiques, mais en tant que « touche à tout et bon à rien »
+- J'ai regardé des vidéos sur SPARQL et essayé des requêtes SPARQL
+- J'ai commencé à lire [la documentation sur les composables en Vue](https://vuejs.org/guide/reusability/composables)
+- J'ai regardé [quelques videos](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hp28dYyYBy3xoOdoeNw-hD) sur [pinia](https://pinia.vuejs.org/introduction.html), qui est un store (lieu de stockage?) pour Vue.  C'est pertinent car l'info sur les badges dans l'application MONA est stocké dans un store pinia, et il y a actuellement un bogue dans l'onglet Badges de l'app 
+- J'ai essayé Chrome DevTools afin de connecter avec mon téléphone et déboguer, mais sans grand succès 
+- J'ai aussi essayé d'utiliser adb, sans grand succès.  Des commandes à retenir pour plus tard
+
+    ```
+    adb bugreport
+
+    adb shell 'logcat --pid=$(pidof -s <package_name>)'
+
+    adb kill-server
+
+    adb start-server
+
+    adb shell 
+    ```
+
+- J'ai installé une copie de la base de données dans un contentant docker mariadb et y connecté avec DBeaver sur mon ordinateur.
+- J'ai recherché des outils pour bien documenter les bases de données, et j'ai essayé quelques-uns comme [dbdiagram.io](https://dbdiagram.io/d/testMONA-674cf992e9daa85aca4c4a30)
+
+J'ai fait un exercice de remue-méninges sur les requêtes SPARQL qui pourrait être utile pour les ajouts
 
   - liste d'éléments wikidata par distance 
     - d'emplacement actuel 
@@ -359,29 +382,31 @@ J'ai fait un exercice de remue-méninges sur les requêtes qui pourrait être ut
       - sculpture
       - murale
 
-J'ai commencé à lire [la documentation sur les composables en Vue](https://vuejs.org/guide/reusability/composables)
 
-J'ai assisté à la réunion Tech. Lena a suggéré une technique intéressante pour débloquer la résolution d'un problème :
+J'ai assisté à la réunion Tech. Lena a suggéré une technique très intéressante pour débloquer la résolution d'un problème :
 - rédiger un courriel super formel à une personne qu'il ne faut pas décevoir avec : 
-- une description du problème
+- une description détaillée du problème
 - une explication des idées considérées
 - un récit de démarches essayées
 
-La réunion du 11 décembre est annulée.
+
+
+
 
 TODO (sans ordre particulier)
 - [ ] suggérer un titre avant la date limite de DH 2025 (le 8 décembre)
 - [ ] parler avec Sarah sur le bug undefined et mentionner l'erreur de compilation VSCode
+  J'ai vérifié que je n'ai pas d'erreur si j'utilise mon compte depuis l'emulateur
 - [ ] faire un plus grand effort pour les rapports hebdomadaires
 - [x] créer github projet pour organiser le projet d'ajout https://github.com/orgs/MaisonMONA/projects/2
 - [ ] ajouter les taches au projet github
 - [x] mettre list.ods sur pcloud (dans MONA/Tech/Data/list_datamapping_datafiles.ods)
 - [ ] demander à Julie de me raconter l'histoire de Sainte Bernadette liée aux îles de la Madéleine
 - [ ] lire la présentation DHNB2024 (Islande)
-- [ ] créer/documenter modèle des données minimal, maximal, idéal(s) selon contexte
+- [ ] créer/documenter modèle des données minimal, maximal, idéal(s) selon contexte --
   Art Public Montreal sert pour le modèle maximal
 - [ ] créer un document pour donner aux clients pour leur expliquer nos attentes et les définitions des données  
-- [x] lire soumission DH2020 bisounours de Lena avec commotion https://dh2020.adho.org/wp-content/uploads/2020/07/707_MONAfrompublicarttoourartwithamobileapp.html
+- [x] lire soumission DH2020 bisounours[^1] (ainsi dit Lena) avec commotion https://dh2020.adho.org/wp-content/uploads/2020/07/707_MONAfrompublicarttoourartwithamobileapp.html
   - j'aime bien la citation “extracting culture from its symbolic and architectural shell” (Ghebaur, 2013: 709), comme si l'art public était une chose nutritive comme un œuf ou une noix et qu'il faut travailler un peu pour en obtenir
   - questions : 
   
@@ -393,9 +418,13 @@ TODO (sans ordre particulier)
 
       Cette idée est très intéressante, est-ce qu'au début il y avait plus d'interactivité entre utilisateurs prévue pour l'app pour faciliter ces échanges ? 
 
+[^1]: bisounours: enfantine ou naïve
+
 - [ ] (en janvier) rédiger un document collaboratif qui décrit le processus au complet flux/importation des données -> analyse des commentaires notes par les utilisateurs
+- [ ] étudier les critères de notoriété de wikidata https://www.wikidata.org/wiki/Wikidata:Notability/fr
 
 RE: l'art public sous la loupe vs l'art public lu la soupe
+
 On pourrait dire « laisse faire » pour "ignore me"/"disregard that"
 
 </details>
@@ -488,6 +517,8 @@ https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
   https://js.histropedia.com/apps/query-timeline/?q=select%20?work%20?workLabel%20?coords%20?date%20%20(9%20as%20?start_precision)%20(SAMPLE(?image)%20AS%20?image)%20?address%20?materialLabel%20?categoryLabel%20(group_concat(distinct%20?creatorLabel;%20separator%3D%22;%20%22)%20as%20?creators)%20where%20%7B?work%20wdt:P31/wdt:P279*%20wd:Q386724;%20wdt:P136%20wd:Q557141;%20wdt:P131%20wd:Q2304457;%20wdt:P31%20?category.%20%20optional%7B?work%20wdt:P625%20?coords.%7D%20%20optional%7B?work%20wdt:P571%20?date.%7D%20%20optional%7B?work%20wdt:P18%20?image.%7D%20%20optional%7B?work%20wdt:P170%20?creator.%7D%20%20optional%7B?work%20wdt:P6375%20?address.%7D%20%20optional%7B?work%20wdt:P186%20?material.%7D%20%20SERVICE%20wikibase:label%20%7B%20bd:serviceParam%20wikibase:language%20%22en%22.%20%20?work%20rdfs:label%20?workLabel.%20?category%20rdfs:label%20?categoryLabel.%20?creator%20rdfs:label%20?creatorLabel.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20?material%20rdfs:label%20?materialLabel%20%7D%20%7D%20group%20by%20?work%20?workLabel%20?coords%20?date%20?image%20?address%20?materialLabel%20?categoryLabel&d=0&md=true&g=work&l=work&t=workLabel&s=date&sp=start_precision&i=image&c=materialLabel,categoryLabel&f=materialLabel,categoryLabel&v=t
   ```
 
+- [Est-ce que les oeuvres de JUNKO seraient admissible à wikidata et/ou MONA?](https://www.lapresse.ca/arts/arts-visuels/2024-10-01/la-vie-la-ville/le-mystere-junko.php?sharing=true)
+
 </details>
 
 <details>
@@ -553,5 +584,6 @@ https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
 - [Inclure les avis Open Source](https://developers.google.com/android/guides/opensource?hl=fr)
 - [tldr licenses](https://www.tldrlegal.com/) 
 - [SPARQL dans un rayon de x](https://www.mediawiki.org/wiki/Wikidata_Query_Service/User_Manual#Geospatial_search)
+
 
  

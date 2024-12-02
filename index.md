@@ -366,7 +366,7 @@ Cette semaine j'ai touché à plusieurs outils technologiques, mais en tant que 
 
 - J'ai installé une copie de la base de données dans un contentant docker mariadb et y connecté avec DBeaver sur mon ordinateur.
 - J'ai recherché des outils pour bien documenter les bases de données, et j'ai essayé quelques-uns comme [dbdiagram.io](https://dbdiagram.io/d/testMONA-674cf992e9daa85aca4c4a30)
-
+and [chartdb.io](https://app.chartdb.io/diagrams/gibmwp3zggev)
 J'ai fait un exercice de remue-méninges sur les requêtes SPARQL qui pourrait être utile pour les ajouts
 
   - liste d'éléments wikidata par distance 

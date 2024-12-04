@@ -438,6 +438,9 @@ EN "while asking ourselves what we include and what we don't: how do we strike a
 
 FR « en se posant la question de savoir ce qu'on inclut au final ou pas: comment équilibrer entre représenter une richesse artistique et culturelle dans l'espace public qui dépasse le cadre restreint de l'art public institutionnel, tout en s'assurant de la fiabilité de l'information et la durabilité des objets que nous documentons »
 
+J'ai lu la présentation du Forward Linking Conference, May 6th 2024 The challenges of semantisation de Camille et Simon.
+
+in a dynamic workﬂow
 RE: Documentation de données:
 
 question pour Simon : idées de comment facilement faire la corréspondance entre API et base de données ?

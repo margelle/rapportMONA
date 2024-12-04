@@ -395,17 +395,18 @@ J'ai créé un projet github pour organiser le projet d'ajout https://github.com
 
 J'ai téléchargé le fichier datamapping initial sur pcloud (dans MONA/Tech/Data/list_datamapping_datafiles.ods)
 
-J'ai lu [la soumission DH2020 bisounours](https://dh2020.adho.org/wp-content/uploads/2020/07/707_MONAfrompublicarttoourartwithamobileapp.html)[^1] (ainsi dit Lena) 
-  - j'aime bien la citation “extracting culture from its symbolic and architectural shell” (Ghebaur, 2013: 709), comme si l'art public était une chose nutritive comme un œuf ou une noix et qu'il faut travailler un peu pour en obtenir
-  - questions : 
-  
-      "The app's metadata is provided by Montréal and Québec's open data platforms." 
-      
-      Pourquoi est-ce métadonnées et non juste des données ?  J'aurais pensé que la liste des œuvres et leurs propriétés seraient les données et l'info sur la liste (nombre d'œuvres, où les données sont hébergées, etc.) serait les métadonnées.  Sinon, est-ce que cela implique que l’on considère les œuvres elles-mêmes comme des données ? Cette perspective me ferait reconceptualiser les œuvres en tant que données.
+J'ai lu [la soumission DH2020 bisounours](https://dh2020.adho.org/wp-content/uploads/2020/07/707_MONAfrompublicarttoourartwithamobileapp.html)[^1] (ainsi dit Lena), et j'aime bien la citation “extracting culture from its symbolic and architectural shell” (Ghebaur, 2013: 709), comme si l'art public était une chose nutritive comme un œuf ou une noix et qu'il faut travailler un peu pour en obtenir
 
-      "encouraging rich and critical exchanges between all citizens" 
+Questions soulevées :  
+1. "The app's metadata is provided by Montréal and Québec's open data platforms." 
 
-      Cette idée est très intéressante, est-ce qu'au début il y avait plus d'interactivité entre utilisateurs prévue pour l'app pour faciliter ces échanges ? 
+~~Pourquoi est-ce métadonnées et non juste des données ?~~  J'aurais pensé que la liste des œuvres et leurs propriétés seraient les données et l'info sur la liste (nombre d'œuvres, où les données sont hébergées, etc.) serait les métadonnées.  Sinon, est-ce que cela implique que l’on considère les œuvres elles-mêmes comme des données ? Cette perspective me ferait reconceptualiser les œuvres en tant que données. 
+
+Après avoir lu https://en.wikipedia.org/wiki/Metadata#Definition, je comprends mieux l'usage du mot métadonnées ici, j'admets que j'avais une conception trop restreinte.   
+
+2. "encouraging rich and critical exchanges between all citizens" 
+
+Cette idée est très intéressante, est-ce qu'au début il y avait plus d'interactivité entre utilisateurs prévue pour l'app pour faciliter ces échanges ? 
 
 [^1]: bisounours: enfantine ou naïve (dans ce cas, due à une commotion cérébrale)
 
@@ -418,13 +419,24 @@ On pourrait dire « laisse faire » pour "ignore me"/"disregard that"
 <details open>
 <summary>semaine 12 (2 décembre)</summary>
 
-Pourquoi l'API artworks pour une seule oeuvre retourne toute une liste d'oeuvres? e.g. https://picasso.iro.umontreal.ca/~mona/api/v3/artworks/717
+Pourquoi lappel à l'API artworks pour une seule oeuvre retourne toute une liste d'oeuvres? par.ex. https://picasso.iro.umontreal.ca/~mona/api/v3/artworks/717
 retourne aussi d'autre oeuvres en lien avec l'artiste
 
-AdMare est un centre d'artistes en art actuel des Îles-de-la-Madeleine
+Note: AdMare est un centre d'artistes en art actuel des Îles-de-la-Madeleine
 enum 1 dans https://picasso.iro.umontreal.ca/~mona/api/v3/LODExport sources 
 
+Il existe des logiciels du type « data catalog », comme le « data discovery and metadata engines » [Amundsen](https://www.amundsen.io/amundsen/), le plateforme métadonnées [DataHub](https://datahubproject.io/) et d'autres dans cette liste [awesome-data-catalogs](https://github.com/opendatadiscovery/awesome-data-catalogs) sur github, mais ils ont tous l'air excessif (je dirais overkill en anglais) pour notre configuration.
 
+J'ai lu la présentation DHNB2024 (Islande) sui est sur pcloud  MONA -> CommunicationsScientifiques -> DHNB
+
+J'ai trouvé cette toiurnure de phrase très apte:
+"public art is art-out-of-the-museum, cultural workers involved in public art are often workers-out-of-GLAM"
+
+Et cette partie sera pertinente pour mon projet de permettre les ajouts :
+
+EN "while asking ourselves what we include and what we don't: how do we strike a balance between representing the artistic and cultural richness of the public space, in a way that goes beyond the restricted framework of institutional public art, while ensuring the reliability of the information and the durability of the objects we document?"
+
+FR « en se posant la question de savoir ce qu'on inclut au final ou pas: comment équilibrer entre représenter une richesse artistique et culturelle dans l'espace public qui dépasse le cadre restreint de l'art public institutionnel, tout en s'assurant de la fiabilité de l'information et la durabilité des objets que nous documentons »
 </details>
 
 ## <a name="varia"></a>Varia
@@ -502,7 +514,6 @@ https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
 - faire un plus grand effort pour les rapports hebdomadaires
 - ajouter les tâches au projet github
 - demander à Julie de me raconter l'histoire de Sainte Bernadette liée aux îles de la Madéleine
-- lire la présentation DHNB2024 (Islande)
 - créer/documenter modèle des données minimal, maximal, idéal(s) selon contexte --
   Art Public Montreal sert pour le modèle maximal
 - créer un document pour donner aux clients pour leur expliquer nos attentes et les définitions des données  

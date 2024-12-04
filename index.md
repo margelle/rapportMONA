@@ -340,7 +340,7 @@ Performance Specification ≈ grimoire
 Activation Reports ≈ résultat de lancer un sort
 </details>
 
-<details open>
+<details>
 <summary>semaine 11 (25 novembre)</summary>
 
 ### touche à tout et bon à rien
@@ -367,6 +367,7 @@ Cette semaine j'ai touché à plusieurs outils technologiques, mais en tant que 
 - J'ai installé une copie de la base de données dans un contentant docker mariadb et y connecté avec DBeaver sur mon ordinateur.
 - J'ai recherché des outils pour bien documenter les bases de données, et j'ai essayé quelques-uns comme [dbdiagram.io](https://dbdiagram.io/d/testMONA-674cf992e9daa85aca4c4a30)
 and [chartdb.io](https://app.chartdb.io/diagrams/gibmwp3zggev)
+
 J'ai fait un exercice de remue-méninges sur les requêtes SPARQL qui pourrait être utile pour les ajouts
 
   - liste d'éléments wikidata par distance 
@@ -382,31 +383,19 @@ J'ai fait un exercice de remue-méninges sur les requêtes SPARQL qui pourrait �
       - sculpture
       - murale
 
+J'ai parlé avec Simon et on a commencé un SDD (document de définition du logiciel), mais la connection était mauvaise et il était difficile à comprendre.  J'aurais aimé avoir un survol du repo mona-serveur pour faciliter la documentation.
 
-J'ai assisté à la réunion Tech. Lena a suggéré une technique très intéressante pour débloquer la résolution d'un problème :
+Pendant la réunion Tech, Lena a suggéré une technique très intéressante pour débloquer la résolution d'un problème :
 - rédiger un courriel super formel à une personne qu'il ne faut pas décevoir avec : 
 - une description détaillée du problème
 - une explication des idées considérées
 - un récit de démarches essayées
 
+J'ai créé un projet github pour organiser le projet d'ajout https://github.com/orgs/MaisonMONA/projects/2, mais il en reste beaucoup de travail - il faut penser à et bien définir les étapes à venir.
 
+J'ai téléchargé le fichier datamapping initial sur pcloud (dans MONA/Tech/Data/list_datamapping_datafiles.ods)
 
-
-
-TODO (sans ordre particulier)
-- [ ] suggérer un titre avant la date limite de DH 2025 (le 8 décembre)
-- [ ] parler avec Sarah sur le bug undefined et mentionner l'erreur de compilation VSCode
-  J'ai vérifié que je n'ai pas d'erreur si j'utilise mon compte depuis l'emulateur
-- [ ] faire un plus grand effort pour les rapports hebdomadaires
-- [x] créer github projet pour organiser le projet d'ajout https://github.com/orgs/MaisonMONA/projects/2
-- [ ] ajouter les taches au projet github
-- [x] mettre list.ods sur pcloud (dans MONA/Tech/Data/list_datamapping_datafiles.ods)
-- [ ] demander à Julie de me raconter l'histoire de Sainte Bernadette liée aux îles de la Madéleine
-- [ ] lire la présentation DHNB2024 (Islande)
-- [ ] créer/documenter modèle des données minimal, maximal, idéal(s) selon contexte --
-  Art Public Montreal sert pour le modèle maximal
-- [ ] créer un document pour donner aux clients pour leur expliquer nos attentes et les définitions des données  
-- [x] lire soumission DH2020 bisounours[^1] (ainsi dit Lena) avec commotion https://dh2020.adho.org/wp-content/uploads/2020/07/707_MONAfrompublicarttoourartwithamobileapp.html
+J'ai lu [la soumission DH2020 bisounours](https://dh2020.adho.org/wp-content/uploads/2020/07/707_MONAfrompublicarttoourartwithamobileapp.html)[^1] (ainsi dit Lena) 
   - j'aime bien la citation “extracting culture from its symbolic and architectural shell” (Ghebaur, 2013: 709), comme si l'art public était une chose nutritive comme un œuf ou une noix et qu'il faut travailler un peu pour en obtenir
   - questions : 
   
@@ -418,14 +407,23 @@ TODO (sans ordre particulier)
 
       Cette idée est très intéressante, est-ce qu'au début il y avait plus d'interactivité entre utilisateurs prévue pour l'app pour faciliter ces échanges ? 
 
-[^1]: bisounours: enfantine ou naïve
-
-- [ ] (en janvier) rédiger un document collaboratif qui décrit le processus au complet flux/importation des données -> analyse des commentaires notes par les utilisateurs
-- [ ] étudier les critères de notoriété de wikidata https://www.wikidata.org/wiki/Wikidata:Notability/fr
+[^1]: bisounours: enfantine ou naïve (dans ce cas, due à une commotion cérébrale)
 
 RE: l'art public sous la loupe vs l'art public lu la soupe
 
 On pourrait dire « laisse faire » pour "ignore me"/"disregard that"
+
+</details>
+
+<details open>
+<summary>semaine 12 (2 décembre)</summary>
+
+Pourquoi l'API artworks pour une seule oeuvre retourne toute une liste d'artworks? e.g. https://picasso.iro.umontreal.ca/~mona/api/v3/artworks/717
+retourne ausis d'autre oeuvres
+
+AdMare est un centre d'artistes en art actuel des Îles-de-la-Madeleine
+enum 1 dans https://picasso.iro.umontreal.ca/~mona/api/v3/LODExport sources 
+
 
 </details>
 
@@ -498,6 +496,18 @@ https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
 
 ### Autre
 
+- suggérer un titre avant la date limite de DH 2025 (le 8 décembre)
+- parler avec Sarah sur le bug undefined et mentionner l'erreur de compilation VSCode
+  J'ai vérifié que je n'ai pas d'erreur si j'utilise mon compte depuis l'emulateur
+- faire un plus grand effort pour les rapports hebdomadaires
+- ajouter les tâches au projet github
+- demander à Julie de me raconter l'histoire de Sainte Bernadette liée aux îles de la Madéleine
+- lire la présentation DHNB2024 (Islande)
+- créer/documenter modèle des données minimal, maximal, idéal(s) selon contexte --
+  Art Public Montreal sert pour le modèle maximal
+- créer un document pour donner aux clients pour leur expliquer nos attentes et les définitions des données  
+- (en janvier) rédiger un document collaboratif qui décrit le processus au complet flux/importation des données -> analyse des commentaires notes par les utilisateurs
+- étudier les critères de notoriété de wikidata https://www.wikidata.org/wiki/Wikidata:Notability/fr
 - toujours ajouter l'information que j'ai partagée sur Element et les raisonnements derrières ici dans le rapport
 - toujours ajouter aux rapports les choses apprises, inspirées, creusées
 - [liste de lectures](https://hackmd.io/@MONAmtl/dir-tech#Rencontre-Tiffany)

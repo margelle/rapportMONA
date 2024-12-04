@@ -429,7 +429,7 @@ Il existe des logiciels du type « data catalog », comme le « data discovery a
 
 J'ai lu la présentation DHNB2024 (Islande) sui est sur pcloud  MONA -> CommunicationsScientifiques -> DHNB
 
-J'ai trouvé cette toiurnure de phrase très apte:
+J'ai trouvé cette tournure de phrase très apte:
 "public art is art-out-of-the-museum, cultural workers involved in public art are often workers-out-of-GLAM"
 
 Et cette partie sera pertinente pour mon projet de permettre les ajouts :

@@ -437,6 +437,10 @@ Et cette partie sera pertinente pour mon projet de permettre les ajouts :
 EN "while asking ourselves what we include and what we don't: how do we strike a balance between representing the artistic and cultural richness of the public space, in a way that goes beyond the restricted framework of institutional public art, while ensuring the reliability of the information and the durability of the objects we document?"
 
 FR « en se posant la question de savoir ce qu'on inclut au final ou pas: comment équilibrer entre représenter une richesse artistique et culturelle dans l'espace public qui dépasse le cadre restreint de l'art public institutionnel, tout en s'assurant de la fiabilité de l'information et la durabilité des objets que nous documentons »
+
+RE: Documentation de données:
+
+question pour Simon : idées de comment facilement faire la corréspondance entre API et base de données ?
 </details>
 
 ## <a name="varia"></a>Varia

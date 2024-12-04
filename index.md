@@ -418,8 +418,8 @@ On pourrait dire « laisse faire » pour "ignore me"/"disregard that"
 <details open>
 <summary>semaine 12 (2 décembre)</summary>
 
-Pourquoi l'API artworks pour une seule oeuvre retourne toute une liste d'artworks? e.g. https://picasso.iro.umontreal.ca/~mona/api/v3/artworks/717
-retourne ausis d'autre oeuvres
+Pourquoi l'API artworks pour une seule oeuvre retourne toute une liste d'oeuvres? e.g. https://picasso.iro.umontreal.ca/~mona/api/v3/artworks/717
+retourne aussi d'autre oeuvres en lien avec l'artiste
 
 AdMare est un centre d'artistes en art actuel des Îles-de-la-Madeleine
 enum 1 dans https://picasso.iro.umontreal.ca/~mona/api/v3/LODExport sources 

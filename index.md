@@ -440,10 +440,27 @@ FR « en se posant la question de savoir ce qu'on inclut au final ou pas: commen
 
 J'ai lu la présentation du Forward Linking Conference, May 6th 2024 "The challenges of semantisation in a dynamic workﬂow" de Camille et Simon.
 
+J'ai lu [Small data, slow data − a SNAIL approach to Wikidata](https://commonists.wordpress.com/2024/10/09/small-data-slow-data-a-snail-approach-to-wikidata/).  Même si ce blogue encourage une approche plus lente quant aux éléments wikidata, il mentionne l'outil [Quick Statements](https://www.wikidata.org/wiki/Help:QuickStatements) qui facilitent la création d'éléments et qui pourrait aider mon projet d'ajout.  Il y a aussi un outil [inteGraality](https://www.wikidata.org/wiki/Wikidata:Tools/inteGraality) qui a l'air intéressant par rapport à mon projet.
 
 RE: Documentation de données:
 
 question pour Simon : idées de comment facilement faire la corréspondance entre API et base de données ?
+
+À la réunion Tech, Lena a clarifié ses attentes pour la documentation de l'infrastructure serveur :
+- va du superficiel vers le plus profond
+- qui quoi comment ou quand pourquoi
+- schema
+- flux des données
+- description
+- framework  
+- sur quel répo github
+
+Elle m'a suggéré de demander à Benoit pour plus d'information sur une approche qui inclut une chaîne d'approvisionnement du logiciel ("software bill of materials") dans un format plus simple que celui utilisé par les grandes entreprises.  Pendant qu'on parlait des failles dues aux dépendences, j'ai partagé le fameux [xkcd](https://xkcd.com/2347/).  Je dois aussi étudier la façon dont wikimedia documente ses infrastructures pour alimenter mon cerveau avec plus d'idées.
+
+Il faut que j'écrive au moins une fois par semaine à la chaîne Tech en tant que keep-alive ping (=paquets de supervision?).
+
+Il y a aura un rangement du local le 11 décembre.
+
 </details>
 
 ## <a name="varia"></a>Varia

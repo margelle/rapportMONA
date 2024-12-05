@@ -427,7 +427,7 @@ enum 1 dans https://picasso.iro.umontreal.ca/~mona/api/v3/LODExport sources
 
 Il existe des logiciels du type « data catalog », comme le « data discovery and metadata engines » [Amundsen](https://www.amundsen.io/amundsen/), le plateforme métadonnées [DataHub](https://datahubproject.io/) et d'autres dans cette liste [awesome-data-catalogs](https://github.com/opendatadiscovery/awesome-data-catalogs) sur github, mais ils ont tous l'air excessif (je dirais overkill en anglais) pour notre configuration.
 
-J'ai lu la présentation DHNB2024 (Islande) sui est sur pcloud  MONA -> CommunicationsScientifiques -> DHNB
+J'ai lu la présentation DHNB2024 (Islande) qui est sur pcloud  MONA -> CommunicationsScientifiques -> DHNB
 
 J'ai trouvé cette tournure de phrase très apte:
 "public art is art-out-of-the-museum, cultural workers involved in public art are often workers-out-of-GLAM"

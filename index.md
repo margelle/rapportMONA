@@ -469,7 +469,7 @@ Il y aura un rangement du local le 11 décembre.
 J'ai fait une relecture du [rapport Rimouski](https://github.com/MaisonMONA/mona-nodejs/blob/master/rapport-rimouski-2024/rapport-rimouski_2024-12.html) et apporté quelques changements.  En le lisant, de beaux souvenirs de mon temps à Rimouski ont refait surface.  J'ai adoré la présentation des images dans Canva.  Elle est plus marquante pour moi que celle du rapport Concordia, car j’ai pu voir en personne les œuvres de Rimouski.
 
 Je continue de chercher un outil de documentation qui «fit» bien le projet.
-J'ai regardé la vidéo [Drop the docs and embrace the model with Gaphor](https://archive.fosdem.org/2024/schedule/event/fosdem-2024-2542-drop-the-docs-and-embrace-the-model-with-gaphor/)
+J'ai regardé la vidéo [Drop the docs and embrace the model with Gaphor](https://archive.fosdem.org/2024/schedule/event/fosdem-2024-2542-drop-the-docs-and-embrace-the-model-with-gaphor/), mais finalement cela a l'air trop compliqué.
 
 J'ai trouvé ce tutoriel [Wikidata:Pywikibot - Python 3 Tutorial/Iterate over a SPARQL query](https://www.wikidata.org/wiki/Wikidata:Pywikibot_-_Python_3_Tutorial/Iterate_over_a_SPARQL_query) en cherchant de l'information sur quels outils wikimedia utilise pour documenter leur projets. 
 

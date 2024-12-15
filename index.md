@@ -416,7 +416,7 @@ On pourrait dire « laisse faire » pour "ignore me"/"disregard that"
 
 </details>
 
-<details open>
+<details>
 <summary>semaine 12 (2 décembre)</summary>
 
 Pourquoi lappel à l'API artworks pour une seule oeuvre retourne toute une liste d'oeuvres? par.ex. https://picasso.iro.umontreal.ca/~mona/api/v3/artworks/717
@@ -459,7 +459,21 @@ Elle m'a suggéré de demander à Benoit pour plus d'information sur une approch
 
 Il faut que j'écrive au moins une fois par semaine à la chaîne Tech en tant que keep-alive ping (=paquets de supervision?).
 
-Il y a aura un rangement du local le 11 décembre.
+Il y aura un rangement du local le 11 décembre.
+
+</details>
+
+<details open>
+<summary>semaine 13 (9 décembre)</summary>
+
+J'ai fait une relecture du [rapport Rimouski](https://github.com/MaisonMONA/mona-nodejs/blob/master/rapport-rimouski-2024/rapport-rimouski_2024-12.html) et apporté quelques changements.  En le lisant, de beaux souvenirs de mon temps à Rimouski ont refait surface.  J'ai adoré la présentation des images dans Canva.  Elle est plus marquante pour moi que celle du rapport Concordia, car j’ai pu voir en personne les œuvres de Rimouski.
+
+Je continue de chercher un outil de documentation qui «fit» bien le projet.
+J'ai regardé la vidéo [Drop the docs and embrace the model with Gaphor](https://archive.fosdem.org/2024/schedule/event/fosdem-2024-2542-drop-the-docs-and-embrace-the-model-with-gaphor/)
+
+J'ai trouvé ce tutoriel [Wikidata:Pywikibot - Python 3 Tutorial/Iterate over a SPARQL query](https://www.wikidata.org/wiki/Wikidata:Pywikibot_-_Python_3_Tutorial/Iterate_over_a_SPARQL_query) en cherchant de l'information sur quels outils wikimedia utilise pour documenter leur projets. 
+
+J'ai assisté à la réunion sur les offres de services potentielles.  J'ai suggéré qu'on pourrait offrir les ateliers wiki aux apprenant·es FLE des programmes comme le Programme intensif de francisation universitaire (PIFU) de l'UdeM, les séjours linguistiques de l'UQAM et le Programme Explore qui est offert aux multiples campus UQX.
 
 </details>
 

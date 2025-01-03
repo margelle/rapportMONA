@@ -480,7 +480,9 @@ J'ai assisté à la réunion sur les offres de services potentielles.  J'ai sugg
 <details open>
 <summary>semaine 14 (30 décembre)</summary>
 
--
+J'ai commencé à lire l'ébauche de [Sens public 2 : Wikidata](https://hackmd.io/_EVmvHIhS9SFts-NMmINGw?both).
+J'ai imaginé les idées potentielles pour la structure du code du projet.
+J'ai regardé les ressources pour les requêtes SPARQL.
 
 </details>
 
@@ -551,6 +553,19 @@ https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
 
   ![Diagramme en ébauche de Lena pour aide-mémoire](diagramme.png)
 
+#### étapes du processus d'un ajout
+
+- utilisateur faire une requête d'ajouter une oeuvre
+- construire SPARQL query de l'art public ou nom de l'artiste et envoyer vers le [SPARQL endpoint](https://www.mediawiki.org/wiki/Wikidata_Query_Service/User_Manual#SPARQL_endpoint)  
+- selectionner l'oeuvre de liste des resultats ou la marquer absente
+  - si l'oeuvre est absente ajouter l'information necessaire pour un cartel sec
+- ajouter la requête à la queue de moderation 
+- quand approuvé
+-  ajouter à wikidata si c'était absente
+-  ajouter à la base de données de MONA avec le wikidata ID
+
+- ajouter la source (linéage?) des données à l'information pour chaque oeuvre ? e.g. AdMare, Rimouski, Utilisateur (badges pour les ajouts?)
+
 ### Autre
 
 - suggérer un titre avant la date limite de DH 2025 (le 8 décembre)
@@ -558,7 +573,6 @@ https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
   J'ai vérifié que je n'ai pas d'erreur si j'utilise mon compte depuis l'emulateur
 - faire un plus grand effort pour les rapports hebdomadaires
 - ajouter les tâches au projet github
-- demander à Julie de me raconter l'histoire de Sainte Bernadette liée aux îles de la Madéleine
 - créer/documenter modèle des données minimal, maximal, idéal(s) selon contexte --
   Art Public Montreal sert pour le modèle maximal
 - créer un document pour donner aux clients pour leur expliquer nos attentes et les définitions des données  

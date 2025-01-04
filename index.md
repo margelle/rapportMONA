@@ -483,6 +483,7 @@ J'ai assisté à la réunion sur les offres de services potentielles.  J'ai sugg
 J'ai commencé à lire l'ébauche de [Sens public 2 : Wikidata](https://hackmd.io/_EVmvHIhS9SFts-NMmINGw?both).
 J'ai imaginé les idées potentielles pour la structure du code du projet.
 J'ai regardé les ressources pour les requêtes SPARQL.
+idée : SPARQL requete fédérée avec DB MONA et wikidata et utilise la fonction MINUS (ou autre) pour exclure les resultats déjà presents dans l'application de la liste des oeuvres aux alentours
 
 </details>
 

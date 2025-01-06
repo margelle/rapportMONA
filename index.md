@@ -558,7 +558,8 @@ https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
 
 - utilisateur faire une requête d'ajouter une oeuvre
 - construire SPARQL query de l'art public ou nom de l'artiste et envoyer vers le [SPARQL endpoint](https://www.mediawiki.org/wiki/Wikidata_Query_Service/User_Manual#SPARQL_endpoint)  
-- selectionner l'oeuvre de liste des resultats ou la marquer absente
+- montrer la liste retrouvée
+- selectionner l'oeuvre de la liste des resultats ou la marquer absente
   - si l'oeuvre est absente ajouter l'information necessaire pour un cartel sec
 - ajouter la requête à la queue de moderation 
 - quand approuvé

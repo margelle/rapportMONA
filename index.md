@@ -495,6 +495,8 @@ https://nominatim.openstreetmap.org/search?q=135+pilkington+avenue,+birmingham&f
 <summary>semaine 15 (6 janvier)</summary>
 
 J'ai travaillé sur l'API MONAjout avec fastapi en python.  Les docs sont autogénérés si on défine bien les types dans les models des réponses attendues. 
+Le repo se trouve à https://github.com/margelle/MONAjout
+Je vais ajouter (prochainement) [SPARQLWrapper](https://sparqlwrapper.readthedocs.io/en/latest/main.html) pour faciliter le travail avec les resultats des requêtes SPARQL.
 
 </details>
 

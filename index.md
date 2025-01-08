@@ -477,13 +477,24 @@ J'ai assisté à la réunion sur les offres de services potentielles.  J'ai sugg
 
 </details>
 
-<details open>
+<details>
 <summary>semaine 14 (30 décembre)</summary>
 
 J'ai commencé à lire l'ébauche de [Sens public 2 : Wikidata](https://hackmd.io/_EVmvHIhS9SFts-NMmINGw?both).
 J'ai imaginé les idées potentielles pour la structure du code du projet.
 J'ai regardé les ressources pour les requêtes SPARQL.
+
 idée : SPARQL requete fédérée avec DB MONA et wikidata et utilise la fonction MINUS (ou autre) pour exclure les resultats déjà presents dans l'application de la liste des oeuvres aux alentours
+
+J'ai trouvé une API avec reverse geocode lookup
+https://nominatim.openstreetmap.org/search?q=135+pilkington+avenue,+birmingham&format=json&polygon=1&addressdetails=1
+
+</details>
+
+<details open>
+<summary>semaine 15 (6 janvier)</summary>
+
+J'ai travaillé sur l'API MONAjout avec fastapi en python.  Les docs sont autogénérés si on défine bien les types dans les models des réponses attendues. 
 
 </details>
 

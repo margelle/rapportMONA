@@ -498,6 +498,9 @@ J'ai travaillé sur l'API MONAjout avec fastapi en python.  Les docs sont autog�
 Le repo se trouve à https://github.com/margelle/MONAjout
 Je vais ajouter (prochainement) [SPARQLWrapper](https://sparqlwrapper.readthedocs.io/en/latest/main.html) pour faciliter le travail avec les resultats des requêtes SPARQL.
 
+SPARQLWrapper ne contient pas la fonctionnalité pour les requêtes asynchrones, mais quelqu'un a [publié un «hack» ](https://github.com/RDFLib/sparqlwrapper/issues/157#issuecomment-2180240306)sur le repo github et je vais essayer de l'utiliser.
+
+
 </details>
 
 ## <a name="varia"></a>Varia

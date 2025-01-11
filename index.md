@@ -481,13 +481,17 @@ J'ai assisté à la réunion sur les offres de services potentielles.  J'ai sugg
 <summary>semaine 14 (30 décembre)</summary>
 
 J'ai commencé à lire l'ébauche de [Sens public 2 : Wikidata](https://hackmd.io/_EVmvHIhS9SFts-NMmINGw?both).
+
 J'ai imaginé les idées potentielles pour la structure du code du projet.
+
 J'ai regardé les ressources pour les requêtes SPARQL.
 
 idée : SPARQL requete fédérée avec DB MONA et wikidata et utilise la fonction MINUS (ou autre) pour exclure les resultats déjà presents dans l'application de la liste des oeuvres aux alentours
 
 J'ai trouvé une API avec reverse geocode lookup
 https://nominatim.openstreetmap.org/search?q=135+pilkington+avenue,+birmingham&format=json&polygon=1&addressdetails=1
+
+https://nominatim.openstreetmap.org/search.php?q=7440+rue+Rousselot%2C+Montr%C3%A9al&format=jsonv2
 
 </details>
 
@@ -500,6 +504,13 @@ Je vais ajouter (prochainement) [SPARQLWrapper](https://sparqlwrapper.readthedoc
 
 SPARQLWrapper ne contient pas la fonctionnalité pour les requêtes asynchrones, mais quelqu'un a [publié un «hack» ](https://github.com/RDFLib/sparqlwrapper/issues/157#issuecomment-2180240306)sur le repo github et je vais essayer de l'utiliser.
 
+Je veux faire une reconcilaition des oeuvres qui apparaissent dans la liste Wikidata des oeuvres d'art public à Montréal mais qui ne se trouvent pas dans la base de donnéess MONA.
+
+J'ai regardé des tutoriels sur SPARQLWrapper, pywikibot, et OpenRefine:
+- [Query DBpedia with SPARQLWrapper and Python](https://www.youtube.com/watch?v=zdaL6unnv7Y)
+- [Nabanita Roy - Leveraging Linked Data using Python and SPARQL](https://www.youtube.com/watch?v=LgA_RVOAbCI)
+- [Transitioning an Existing Wiki to Incorporate Structured Data](https://www.youtube.com/watch?v=hMY6uFle_Kw)
+- [OpenRefine Beginners Tutorial](https://www.youtube.com/watch?v=wfS1qTKFQoI)
 
 </details>
 

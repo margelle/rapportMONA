@@ -512,6 +512,10 @@ J'ai regardé des tutoriels sur SPARQLWrapper, pywikibot, et OpenRefine:
 - [Transitioning an Existing Wiki to Incorporate Structured Data](https://www.youtube.com/watch?v=hMY6uFle_Kw)
 - [OpenRefine Beginners Tutorial](https://www.youtube.com/watch?v=wfS1qTKFQoI)
 
+J'ai ajouté les étapes plus précises au [github projet tracker](https://github.com/orgs/MaisonMONA/projects/2)
+
+J'ai trouvé [un parcours d'art public à Gatineau](https://www.gatineau.ca/portail/default.aspx?p=activites_evenements_idees_sorties/sentier_culturel&mc=hp) qui ne semble pas être présent ni sur wikidata, ni sur l'application MONA.  Ce serait de l'utiliser comme banc d'essai.
+
 </details>
 
 ## <a name="varia"></a>Varia

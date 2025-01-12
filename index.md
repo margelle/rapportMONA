@@ -514,7 +514,14 @@ J'ai regardé des tutoriels sur SPARQLWrapper, pywikibot, et OpenRefine:
 
 J'ai ajouté les étapes plus précises au [github projet tracker](https://github.com/orgs/MaisonMONA/projects/2)
 
-J'ai trouvé [un parcours d'art public à Gatineau](https://www.gatineau.ca/portail/default.aspx?p=activites_evenements_idees_sorties/sentier_culturel&mc=hp) qui ne semble pas être présent ni sur wikidata, ni sur l'application MONA.  Ce serait de l'utiliser comme banc d'essai.
+J'ai trouvé [un parcours d'art public à Gatineau](https://www.gatineau.ca/portail/default.aspx?p=activites_evenements_idees_sorties/sentier_culturel&mc=hp) qui ne semble pas être présent ni sur wikidata, ni sur l'application MONA.  Ce serait intéressant de l'utiliser comme banc d'essai.
+
+Pour [l'API pour faire des requêtes SPARQL de wikidata](https://github.com/orgs/MaisonMONA/projects/2?pane=issue&itemId=93398002), je veux au moins cette fonctionnalité:
+- Rechercher les éléments wikidata à proximité 
+- Rechercher les éléments wikidata par nom de l'artiste
+- Rechercher les éléments wikidata par nom de l'oeuvre
+
+Et si ce ne serait trop compliqué, je veux aussi ajouter du «fuzzy matching» à la recherche pour prendre en compte des coquilles et fautes d'orthographe , mais cela reste à voir.
 
 </details>
 

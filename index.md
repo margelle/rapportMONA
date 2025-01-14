@@ -495,7 +495,7 @@ https://nominatim.openstreetmap.org/search.php?q=7440+rue+Rousselot%2C+Montr%C3%
 
 </details>
 
-<details open>
+<details>
 <summary>semaine 15 (6 janvier)</summary>
 
 J'ai travaillé sur l'API MONAjout avec fastapi en python.  Les docs sont autogénérés si on défine bien les types dans les models des réponses attendues. 
@@ -522,6 +522,13 @@ Pour [l'API pour faire des requêtes SPARQL de wikidata](https://github.com/orgs
 - Rechercher les éléments wikidata par nom de l'oeuvre
 
 Et si ce ne serait trop compliqué, je veux aussi ajouter du «fuzzy matching» à la recherche pour prendre en compte des coquilles et fautes d'orthographe , mais cela reste à voir.
+
+</details>
+
+<details open>
+<summary>semaine 16 (13 janvier)</summary>
+
+J'ai regardé quelques tutoriels sur l'API Composition en Vue.js pour me preparer à créer une mini-app pour saisir des images et données, créer des requetes SPARQL avec, et retourner les listes pertinentes (pour utiliser avec l'art public à Gatineau).
 
 </details>
 

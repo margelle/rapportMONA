@@ -555,7 +555,7 @@ Pour la semaine prochaine, je vais agrandir ma présentation en ajoutant 3 diapo
 
 Je vais regarder le rapport de [Thomas Bui](https://picasso.iro.umontreal.ca/~mona/ift3150/bui/enonce) pour étudier comment il a géré les doublons.
 
-J'ai discuté avec Lena et elle préfère que je code les APIs en PHP au lieu de Python pour garder la cohérence.
+J'ai discuté avec Lena et elle préfère que je code les APIs en PHP au lieu de Python pour garder la cohérence.  Je vais lire plus sur le logiciel Scramble dont Simon nous a parlé qui va aider à documenter l'API d'une façon automatique. 
 
 </details>
 

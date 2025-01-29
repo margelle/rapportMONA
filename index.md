@@ -551,6 +551,10 @@ J'ai fait <a href="MONAjout.pdf" target="_blank">la présentation de mon projet<
 
 J'ai crée [l'élément Wikidata](https://www.wikidata.org/wiki/Q131934972) distinct pour l'application mobile MONA et retiré les éléments nécessaires de [l'entrée pour l'OBNL Maison MONA](https://www.wikidata.org/wiki/Q122764813).
 
+Pour la semaine prochaine, je vais agrandir ma présentation en ajoutant 3 diapos plus détaillées pour chaque diapo existante.
+
+Je vais regarder le rapport de [Thomas Bui](https://picasso.iro.umontreal.ca/~mona/ift3150/bui/enonce) pour étudier comment il a géré les doublons.
+
 </details>
 
 ## <a name="varia"></a>Varia

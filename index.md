@@ -547,7 +547,7 @@ J'ai assisté à l'événement [Accueil du Doc-Inter](https://docinterhar.ca/fr/
 <summary>semaine 18 (27 janvier)</summary>
 
 J'ai assisté à la réunion Techteam.
-J'ai fait <a href="MONAjout.pdf" target="_blank">la présentation de mon projet</a> pendant la réunion Techteam.
+J'ai fait <a href="MONajout.pdf" target="_blank">la présentation de mon projet</a> pendant la réunion Techteam.
 
 J'ai crée [l'élément Wikidata](https://www.wikidata.org/wiki/Q131934972) distinct pour l'application mobile MONA et retiré les éléments nécessaires de [l'entrée pour l'OBNL Maison MONA](https://www.wikidata.org/wiki/Q122764813).
 

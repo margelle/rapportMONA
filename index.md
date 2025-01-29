@@ -525,10 +525,25 @@ Et si ce ne serait trop compliqué, je veux aussi ajouter du «fuzzy matching» 
 
 </details>
 
-<details open>
+<details>
 <summary>semaine 16 (13 janvier)</summary>
 
 J'ai regardé quelques tutoriels sur l'API Composition en Vue.js pour me preparer à créer une mini-app pour saisir des images et données, créer des requetes SPARQL avec, et retourner les listes pertinentes (pour utiliser avec l'art public à Gatineau).
+
+</details>
+
+<details>
+<summary>semaine 17 (20 janvier)</summary>
+
+J'ai assisté à la réunion Techteam et rencontré les nouveaux membres de l'équipe.
+J'ai commencé la présentation de mon projet pour la réunion Techteam la semaine prochaine.
+
+</details>
+
+<details open>
+<summary>semaine 18 (27 janvier)</summary>
+
+J'ai fini la présentation de mon projet pour la réunion Techteam.
 
 </details>
 

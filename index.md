@@ -551,6 +551,7 @@ J'ai fait <a href="MONAjout.pdf" target="_blank">la présentation de mon projet<
 
 
 </details>
+
 ## <a name="varia"></a>Varia
 
 <p><a href="carte-saint-roch.html">carte saint roch pour la chasse aux oeuvres</a></p>

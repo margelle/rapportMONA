@@ -536,14 +536,19 @@ J'ai regardé quelques tutoriels sur l'API Composition en Vue.js pour me prepare
 <summary>semaine 17 (20 janvier)</summary>
 
 J'ai assisté à la réunion Techteam et rencontré les nouveaux membres de l'équipe.
+
 J'ai commencé la présentation de mon projet pour la réunion Techteam la semaine prochaine.
+
+J'ai assisté à l'événement [Accueil du Doc-Inter](https://docinterhar.ca/fr/2025/01/06/doc-inter-welcome-day/) où Lena et Camille ont présenté le projet Pepinière.
 
 </details>
 
 <details open>
 <summary>semaine 18 (27 janvier)</summary>
 
-J'ai fini la présentation de mon projet pour la réunion Techteam.
+J'ai assisté à la réunion Techteam.
+J'ai fait <a href="MONAjout.pdf" target="_blank">la présentation de mon projet</a> pendant la réunion Techteam.
+
 
 </details>
 

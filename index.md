@@ -553,9 +553,31 @@ J'ai crée [l'élément Wikidata](https://www.wikidata.org/wiki/Q131934972) dist
 
 Pour la semaine prochaine, je vais agrandir ma présentation en ajoutant 3 diapos plus détaillées pour chaque diapo existante.
 
-Je vais regarder le rapport de [Thomas Bui](https://picasso.iro.umontreal.ca/~mona/ift3150/bui/enonce) pour étudier comment il a géré les doublons.
+J'ai lu les [rapports d'avancement](https://picasso.iro.umontreal.ca/~mona/ift3150/bui/rapports-avancement) de [Thomas Bui](https://picasso.iro.umontreal.ca/~mona/ift3150/bui/enonce). Il y a [un lien](https://picasso.iro.umontreal.ca/~mona/notes/doublons) dans ces rapports pour décrire comment il a géré les doublons, et je vais le lire sous peu. 
 
 J'ai discuté avec Lena et elle préfère que je code les APIs en PHP au lieu de Python pour garder la cohérence.  Je vais lire plus sur le logiciel Scramble dont Simon nous a parlé qui va aider à documenter l'API d'une façon automatique. 
+
+J'ai travaillé sur une liste de requêtes SPARQL potentielles:
+
+1. **Requête pour toutes les œuvres d'art public au Québec**
+Toutes les œuvres d'art public au Québec, sans filtrage.
+
+2. **Requête pour l'art public au Québec par distance depuis un point géographique**
+Trouve des œuvres d'art public au Québec dans un certain rayon autour d'un 
+point géographique (latitude et longitude).
+
+3. **Requête pour l'art public au Québec par artiste et distance depuis un point géographique**
+Utilise le nom de l'artiste et la distance géographique depuis un point donné.
+
+4. **Requête pour l'art public au Québec par distance depuis un point et titre**
+Utilise un point géographique et le titre de l'œuvre.
+
+5. **Requête pour l'art public au Québec par titre de l'œuvre**
+Trouve des œuvres d'art en fonction d'un titre ou d'une partie du titre.
+
+6. **Requête pour l'art public au Québec par nom de l'artiste**
+Trouve des œuvres d'art public au Québec créées par un artiste spécifique.
+
 
 </details>
 

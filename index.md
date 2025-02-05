@@ -543,7 +543,7 @@ J'ai assisté à l'événement [Accueil du Doc-Inter](https://docinterhar.ca/fr/
 
 </details>
 
-<details open>
+<details>
 <summary>semaine 18 (27 janvier)</summary>
 
 J'ai assisté à la réunion Techteam.
@@ -578,6 +578,26 @@ Trouve des œuvres d'art en fonction d'un titre ou d'une partie du titre.
 6. **Requête pour l'art public au Québec par nom de l'artiste**
 Trouve des œuvres d'art public au Québec créées par un artiste spécifique.
 
+J'ai regardé [la présention Wikimedia Commons de David et Lena ](https://maisonmona.github.io/wikimedia-commons/), et j'ai suivi les liens dedans pour parcourir cette information plus tard.
+
+J'ai lu [les notes de David](https://commons.wikimedia.org/wiki/User:Clou/Notes_MONA) sur sa page wikimedia.
+
+</details>
+
+<details open>
+<summary>semaine 19 (3 février)</summary>
+
+J'ai assisté à la réunion où Corélie nous a montré les nouveautés dans l'interface admin.
+
+J'ai exploré un peu la version précedante de l'interface admin.
+
+J'ai travaillé à enrichir ma présentation de MONAjout en commencant l'ajout de 3 diapos à chaque section.
+
+Questions pour la réunion mercredi et/ou TODO:
+- trouver un package similaire à python SPARQLWrapper mais codé en php (ou p-e javascript?)
+- comment tester la nouvelle version de l'interface admin? en local où il y a un lien?
+- comparer les possibilités pour ajouter à wikidata : pywikibot, Tabernacle, OpenRefine, autre?
+- le rapport de Thomas implique que les parties CR du CRUD existent déjà, et il y a un lien dans l'interface admin ../admin/discoveries/CreateArtwork est-ce que cette fonctionalité est en place ?
 
 </details>
 

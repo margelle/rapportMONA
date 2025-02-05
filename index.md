@@ -547,7 +547,7 @@ J'ai assisté à l'événement [Accueil du Doc-Inter](https://docinterhar.ca/fr/
 <summary>semaine 18 (27 janvier)</summary>
 
 J'ai assisté à la réunion Techteam.
-J'ai fait <a href="MONajout.pdf" target="_blank">la présentation de mon projet</a> pendant la réunion Techteam.
+J'ai fait <a href="MONAjout.pdf" target="_blank">la présentation de mon projet</a> pendant la réunion Techteam.
 
 J'ai crée [l'élément Wikidata](https://www.wikidata.org/wiki/Q131934972) distinct pour l'application mobile MONA et retiré les éléments nécessaires de [l'entrée pour l'OBNL Maison MONA](https://www.wikidata.org/wiki/Q122764813).
 
@@ -591,13 +591,15 @@ J'ai assisté à la réunion où Corélie nous a montré les nouveautés dans l'
 
 J'ai exploré un peu la version précedante de l'interface admin.
 
-J'ai travaillé à enrichir ma présentation de MONAjout en commencant l'ajout de 3 diapos à chaque section.
+J'ai travaillé à enrichir ma présentation de MONAjout en commençant l'ajout de 3 diapos à chaque section.
 
 Questions pour la réunion mercredi et/ou TODO:
 - trouver un package similaire à python SPARQLWrapper mais codé en php (ou p-e javascript?)
 - comment tester la nouvelle version de l'interface admin? en local où il y a un lien?
 - comparer les possibilités pour ajouter à wikidata : pywikibot, Tabernacle, OpenRefine, autre?
 - le rapport de Thomas implique que les parties CR du CRUD existent déjà, et il y a un lien dans l'interface admin ../admin/discoveries/CreateArtwork est-ce que cette fonctionalité est en place ?
+
+Voici <a href="MONAjout_5fev.pdf" target="_blank"> un lien vers la présentation enrichie de mon projet</a>
 
 </details>
 

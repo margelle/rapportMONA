@@ -594,12 +594,20 @@ J'ai exploré un peu la version précedante de l'interface admin.
 J'ai travaillé à enrichir ma présentation de MONAjout en commençant l'ajout de 3 diapos à chaque section.
 
 Questions pour la réunion mercredi et/ou TODO:
-- trouver un package similaire à python SPARQLWrapper mais codé en php (ou p-e javascript?)
+- trouver un package similaire à python SPARQLWrapper mais codé en php (ou p-e javascript?) 
+  - réponse: à voir, après avoir parcouru des listes d'outils pour le web sémantique comme [awesome-semantic-web](https://github.com/semantalytics/awesome-semantic-web) et [semantic-tool-hub](https://semantic-tool-hub.github.io/)
 - comment tester la nouvelle version de l'interface admin? en local où il y a un lien?
+  - réponse: il y aura un lien quand le pull request est accepté
 - comparer les possibilités pour ajouter à wikidata : pywikibot, Tabernacle, OpenRefine, autre?
+  - réponse: à voir, après avoir parcouru des listes d'outils pour le web sémantique ci-dessus
 - le rapport de Thomas implique que les parties CR du CRUD existent déjà, et il y a un lien dans l'interface admin ../admin/discoveries/CreateArtwork est-ce que cette fonctionalité est en place ?
+  - réponse: il faut tester le formulaire qui apparait, mais c'est peu probable que cela marche
 
-Voici <a href="MONAjout_5fev.pdf" target="_blank"> un lien vers la présentation enrichie de mon projet</a>
+J'ai assisté à la réunion Tech où j'ai présenté ma présentation enrichie de mon projet. Voici <a href="MONAjout_5fev.pdf" target="_blank"> un lien vers cette présentation enrichie </a>
+
+J'ai relu l'ébauche de l'article sur le volet wikidata qu'on prépare pour [sens public](https://www.sens-public.org/) et ajouté des suggestions. Selon cet article, le cartel enrichi inclut des infos sur la carrière de l'artiste (occupation, lieux de travail, scolarité, genre artistique, présence d'une oeuvre dans une collection, prix et distinctions, site officiel).
+
+J'ai aussi lu l'ébauche de l'offre de service et fait des suggestions.
 
 </details>
 

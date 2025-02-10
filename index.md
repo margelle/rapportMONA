@@ -584,7 +584,7 @@ J'ai lu [les notes de David](https://commons.wikimedia.org/wiki/User:Clou/Notes_
 
 </details>
 
-<details open>
+<details>
 <summary>semaine 19 (3 février)</summary>
 
 J'ai assisté à la réunion où Corélie nous a montré les nouveautés dans l'interface admin.
@@ -608,6 +608,19 @@ J'ai assisté à la réunion Tech où j'ai présenté ma présentation enrichie 
 J'ai relu l'ébauche de l'article sur le volet wikidata qu'on prépare pour [sens public](https://www.sens-public.org/) et ajouté des suggestions. Selon cet article, le cartel enrichi inclut des infos sur la carrière de l'artiste (occupation, lieux de travail, scolarité, genre artistique, présence d'une oeuvre dans une collection, prix et distinctions, site officiel).
 
 J'ai aussi lu l'ébauche de l'offre de service et fait des suggestions.
+
+</details>
+
+<details open>
+<summary>semaine 20 (10 février)</summary>
+
+J'ai trouvé [cette présentation](http://www.music.mcgill.ca/~cmckay/papers/musictech/mckay24LinkedMusic.pdf) qui parle du projet « LinkedMusic: Interlinking Music Resources for Enhanced Access » 
+Choses à noter:
+- data lake de 14 BDD
+- ils utilisent wikidata, OpenRefine, SPARQL
+- site web Django (python)
+- page 10 montre un protoype de l'ajout(contribution) d'un Musical Work 
+- permet content-based searches based on features wow!!!!
 
 </details>
 

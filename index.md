@@ -517,7 +517,7 @@ J'ai ajouté les étapes plus précises au [github projet tracker](https://githu
 J'ai trouvé [un parcours d'art public à Gatineau](https://www.gatineau.ca/portail/default.aspx?p=activites_evenements_idees_sorties/sentier_culturel&mc=hp) qui ne semble pas être présent ni sur wikidata, ni sur l'application MONA.  Ce serait intéressant de l'utiliser comme banc d'essai.
 
 Pour [l'API pour faire des requêtes SPARQL de wikidata](https://github.com/orgs/MaisonMONA/projects/2?pane=issue&itemId=93398002), je veux au moins cette fonctionnalité:
-- Rechercher les éléments wikidata à proximité 
+- Rechercher lcapturees éléments wikidata à proximité 
 - Rechercher les éléments wikidata par nom de l'artiste
 - Rechercher les éléments wikidata par nom de l'oeuvre
 
@@ -621,6 +621,12 @@ Choses à noter:
 - site web Django (python)
 - page 10 montre un protoype de l'ajout(contribution) d'un Musical Work 
 - permet content-based searches based on features wow!!!!
+- chains of provenance
+- The Single Interface for Music Score Searching and Analysis site web BDD: https://db.simssa.ca/
+- siteweb projet: https://linkedmusic.ca/about/
+- repo github siteweb projet: https://github.com/DDMAL/linkedmusic-website
+
+Je vais transformer ![cette esquisse de l'infrastructure envisagée](esquisse_infra.jpg) en [diagramme](https://www.figma.com/board/wWzqfdYXpZyRzV3PmlaQ9q/MONAInfra?node-id=0-1&p=f&t=VGrN4TFZ9dwQWE5f-0) avec Simon.
 
 </details>
 

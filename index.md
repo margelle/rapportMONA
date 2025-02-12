@@ -628,6 +628,14 @@ Choses à noter:
 
 Je vais transformer ![cette esquisse de l'infrastructure envisagée](esquisse_infra.jpg) en [diagramme](https://www.figma.com/board/wWzqfdYXpZyRzV3PmlaQ9q/MONAInfra?node-id=0-1&p=f&t=VGrN4TFZ9dwQWE5f-0) avec Simon.
 
+Je travaille sur changer la version Figma [en version Canva](https://www.canva.com/design/DAGe16sZTa8/1dRXWfzCaUeLtfUT6V9zAg/edit?utm_content=DAGe16sZTa8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+J'ai lu [Wikidata:SPARQL query service/Federated queries](https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/Federated_queries)
+
+> To enable federation, the items between the different knowledge graphs must refer to each other. There are standardized properties such as owl:sameAs and wdt:exact match for this purpose.
+
+J'ai decouvert un projet [Mismatch Finder](https://phabricator.wikimedia.org/project/profile/5385/) qui facilite le processus de trouver les non-concordances des données entre Wikidata et une autre source. Si nécessaire je pourrais en apprendre plus plus tard.
+
 </details>
 
 ## <a name="varia"></a>Varia
@@ -771,6 +779,7 @@ https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
 - LINCS LODexport premier API vs csv normalement
 - projet Wikimédia s’intéressant à l'élément (P5008) 
 - maintenu par le wikiprojet (P6104) 
+- Le code couleur pour le jaune MONA est `#fada00`
 
 </details>
 

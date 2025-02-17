@@ -611,7 +611,7 @@ J'ai aussi lu l'ébauche de l'offre de service et fait des suggestions.
 
 </details>
 
-<details open>
+<details>
 <summary>semaine 20 (10 février)</summary>
 
 J'ai trouvé [cette présentation](http://www.music.mcgill.ca/~cmckay/papers/musictech/mckay24LinkedMusic.pdf) qui parle du projet « LinkedMusic: Interlinking Music Resources for Enhanced Access » 
@@ -635,6 +635,26 @@ J'ai lu [Wikidata:SPARQL query service/Federated queries](https://www.wikidata.o
 > To enable federation, the items between the different knowledge graphs must refer to each other. There are standardized properties such as owl:sameAs and wdt:exact match for this purpose.
 
 J'ai decouvert un projet [Mismatch Finder](https://phabricator.wikimedia.org/project/profile/5385/) qui facilite le processus de trouver les non-concordances des données entre Wikidata et une autre source. Si nécessaire je pourrais en apprendre plus plus tard.
+
+J'ai discuté le projet de documentation avec Simon, et on a pris des notes ici.
+
+</details>
+
+<details open>
+<summary>semaine 21 (17 février)</summary>
+
+
+J'ai lu [le SIMSSADB repo Wiki](https://github.com/ELVIS-Project/simssadb/wiki), et j'ai ajouté quelques questions et commentaires pour la réunion avec LinkedMusic [dans ce document](https://hackmd.io/1wwRzlRWQM2L76M-MedDuA) 
+
+Grâce à ce wiki, j'ai appris que les éléments wikidatas sont également offerts en format rdf et json en ajoutant Special:EntityData et le suffixe .rdf ou .json .  
+
+Par exemple, voici des liens vers:
+- l'[élément wikidata de la Maison MONA](https://www.wikidata.org/wiki/Q122764813)
+- en format rdf https://www.wikidata.org/wiki/Special:EntityData/Q122764813.rdf
+- en en format json https://www.wikidata.org/wiki/Special:EntityData/Q122764813.json
+
+J'ai créé [un diagramme de flux du processus d'ajout en Canva](https://www.canva.com/design/DAGfU2eD1do/hH6Oyqwc23wQCHPzeZnlkg/edit).  ![en version png](MONAjout.png)
+
 
 </details>
 

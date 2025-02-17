@@ -651,7 +651,8 @@ Grâce à ce wiki, j'ai appris que les éléments wikidatas sont également offe
 Par exemple, voici des liens vers:
 - l'[élément wikidata de la Maison MONA](https://www.wikidata.org/wiki/Q122764813)
 - en format rdf https://www.wikidata.org/wiki/Special:EntityData/Q122764813.rdf
-- en en format json https://www.wikidata.org/wiki/Special:EntityData/Q122764813.json
+- en format json https://www.wikidata.org/wiki/Special:EntityData/Q122764813.json
+- en format ttl https://www.wikidata.org/wiki/Special:EntityData/Q122764813.ttl (merci à Simon!)
 
 J'ai créé [un diagramme de flux du processus d'ajout en Canva](https://www.canva.com/design/DAGfU2eD1do/hH6Oyqwc23wQCHPzeZnlkg/edit).  ![en version png](MONAjout.png)
 

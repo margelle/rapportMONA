@@ -517,7 +517,7 @@ J'ai ajouté les étapes plus précises au [github projet tracker](https://githu
 J'ai trouvé [un parcours d'art public à Gatineau](https://www.gatineau.ca/portail/default.aspx?p=activites_evenements_idees_sorties/sentier_culturel&mc=hp) qui ne semble pas être présent ni sur wikidata, ni sur l'application MONA.  Ce serait intéressant de l'utiliser comme banc d'essai.
 
 Pour [l'API pour faire des requêtes SPARQL de wikidata](https://github.com/orgs/MaisonMONA/projects/2?pane=issue&itemId=93398002), je veux au moins cette fonctionnalité:
-- Rechercher lcapturees éléments wikidata à proximité 
+- Rechercher les éléments wikidata à proximité 
 - Rechercher les éléments wikidata par nom de l'artiste
 - Rechercher les éléments wikidata par nom de l'oeuvre
 
@@ -605,7 +605,7 @@ Questions pour la réunion mercredi et/ou TODO:
 
 J'ai assisté à la réunion Tech où j'ai présenté ma présentation enrichie de mon projet. Voici <a href="MONAjout_5fev.pdf" target="_blank"> un lien vers cette présentation enrichie </a>
 
-J'ai relu l'ébauche de l'article sur le volet wikidata qu'on prépare pour [sens public](https://www.sens-public.org/) et ajouté des suggestions. Selon cet article, le cartel enrichi inclut des infos sur la carrière de l'artiste (occupation, lieux de travail, scolarité, genre artistique, présence d'une oeuvre dans une collection, prix et distinctions, site officiel).
+J'ai relu [l'ébauche de l'article](https://hackmd.io/_EVmvHIhS9SFts-NMmINGw?edit) sur le volet wikidata qu'on prépare pour [sens public](https://www.sens-public.org/) et ajouté des suggestions. Selon cet article, le cartel enrichi inclut des infos sur la carrière de l'artiste (occupation, lieux de travail, scolarité, genre artistique, présence d'une oeuvre dans une collection, prix et distinctions, site officiel).
 
 J'ai aussi lu l'ébauche de l'offre de service et fait des suggestions.
 
@@ -656,7 +656,76 @@ Par exemple, voici des liens vers:
 
 J'ai créé [un diagramme de flux du processus d'ajout en Canva](https://www.canva.com/design/DAGfU2eD1do/hH6Oyqwc23wQCHPzeZnlkg/edit).  ![en version png](MONAjout.png)
 
+Lundi, j'ai parlé avec Simon sur nos notes de préparation pour la réunion avec Ichiro.
 
+Selon [cette requête SPARQL](https://query.wikidata.org/#SELECT%20%3Fplace%20%3FplaceLabel%20%28COUNT%28%2a%29%20AS%20%3Fcount%29%20WHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP136%20wd%3AQ557141%20.%0A%20%20%3Fitem%20wdt%3AP131%20%3Fplace%20.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22%20.%20%7D%0A%7D%0AGROUP%20BY%20%3Fplace%20%3FplaceLabel%0AORDER%20BY%20DESC%28%3Fcount%29%20%3FplaceLabel):
+```
+SELECT ?place ?placeLabel (COUNT(*) AS ?count) WHERE {
+  ?item wdt:P136 wd:Q557141 .
+  ?item wdt:P131 ?place .
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" . }
+}
+GROUP BY ?place ?placeLabel
+ORDER BY DESC(?count) ?placeLabel
+```
+Montréal n'a que 57 éléments d'art public(wd:Q557141) ![alt text](image.png), et selon [cette autre requête SPARQL](https://query.wikidata.org/#SELECT%0A%20%20%3Fitem%0A%20%20%28SAMPLE%20%28%3FtitleL%29%20AS%20%3Ftitle%29%0A%20%20%28group_concat%28DISTINCT%20%3FcreatorL%20%3B%20separator%20%3D%20%22%2C%20%22%29%20as%20%3Fcreator%29%0A%20%20%28group_concat%28DISTINCT%20%3FgenreL%20%3B%20separator%20%3D%20%22%2C%20%22%29%20as%20%3Fgenre%29%0A%20%20%28group_concat%28DISTINCT%20%3FplaceL%20%3B%20separator%20%3D%20%22%2C%20%22%29%20as%20%3Fplace%29%0A%20%20%28group_concat%28DISTINCT%20%3Farr%20%3B%20separator%20%3D%20%22%2C%20%22%29%20as%20%3Farrondissement%29%0A%20%20%28SAMPLE%20%28%3Fimg%29%20AS%20%3Fimage%29%0A%20%20%28SAMPLE%20%28%3Fcoord%29%20AS%20%3Fcoordinates%29%20%7B%0A%0A%20%20%20%20%7B%0A%20%20%20%20%20%20SELECT%20DISTINCT%20%3Fitem%20%7B%20%7B%0A%20%20%20%20%20%20%20%20%3Fitem%20wdt%3AP136%20wd%3AQ557141%20%3B%20%20%20%20%20%23%20genre%3A%20public%20art%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20wdt%3AP131%20wd%3AQ340%20%20%20%20%20%20%20%20%20%20%20%23%20located%20in%3A%20Montreal%0A%20%20%20%20%20%20%7D%20UNION%20%7B%20%23%20or%0A%20%20%20%20%20%20%20%20%3Fitem%20wdt%3AP136%20wd%3AQ557141%20%3B%20%20%20%20%20%23%20genre%3A%20public%20art%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20wdt%3AP131%2Fwdt%3AP131%2a%20wd%3AQ340%20%23%20located%20in%20an%20arrondissement%20of%20Montreal%0A%20%20%20%20%20%20%7D%20%7D%0A%20%20%20%20%7D%0A%0A%20%20%20%20%23%20title%0A%20%20%20%20OPTIONAL%20%7B%20%3Fitem%20rdfs%3Alabel%20%3FtitleL%20FILTER%20%28lang%28%3FtitleL%29%20%3D%20%22fr%22%29%20%7D%0A%0A%20%20%20%20%23%20creators%0A%20%20%20%20OPTIONAL%20%7B%20%3Fitem%20wdt%3AP170%20%5Brdfs%3Alabel%20%3FcreatorL%5D%20FILTER%20%28lang%28%3FcreatorL%29%20%3D%20%22fr%22%29%20%7D%0A%0A%20%20%20%20%23genre%0A%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%3Fitem%20wdt%3AP136%20%3Fg%20FILTER%20%28STR%28%3Fg%29%20%21%3D%20%27http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ557141%27%29%0A%20%20%20%20%20%20%7D%20UNION%20%7B%0A%20%20%20%20%20%20%20%20%3Fitem%20wdt%3AP31%20%3Fg%20.%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%3Fg%20rdfs%3Alabel%20%3FgenreL%20FILTER%20%28lang%28%3FgenreL%29%20%3D%20%22fr%22%29%20.%0A%20%20%20%20%7D%0A%0A%20%20%20%20%23%20place%0A%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%3Fitem%20wdt%3AP276%20%5Brdfs%3Alabel%20%3FplaceL%5D%20FILTER%20%28lang%28%3FplaceL%29%20%3D%20%22fr%22%29%20.%0A%20%20%20%20%7D%0A%0A%20%20%20%20%23%20arrondissement%0A%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%3Fitem%20wdt%3AP131%20%5Bwdt%3AP131%20wd%3AQ90%20%3B%20rdfs%3Alabel%20%3FarrL%5D%20FILTER%20%28lang%28%3FarrL%29%20%3D%20%22fr%22%29.%0A%20%20%20%20%20%20BIND%28REPLACE%28%3FarrL%2C%20%27%5E%28%5B0-9%5D%2B%29.%2a%24%27%2C%20%22%241%22%2C%20%22si%22%29%20AS%20%3Farr%29%0A%20%20%20%20%7D%0A%0A%20%20%20%20%23%20image%0A%20%20%20%20OPTIONAL%20%7B%20%3Fitem%20wdt%3AP18%20%3Fimg%20%7D%0A%0A%20%20%20%20%23%20coordinates%0A%20%20%20%20OPTIONAL%20%7B%20%3Fitem%20wdt%3AP625%20%3Fcoord%20%7D%0A%0A%7D%20GROUP%20BY%20%3Fitem)
+```
+SELECT
+  ?item
+  (SAMPLE (?titleL) AS ?title)
+  (group_concat(DISTINCT ?creatorL ; separator = ", ") as ?creator)
+  (group_concat(DISTINCT ?genreL ; separator = ", ") as ?genre)
+  (group_concat(DISTINCT ?placeL ; separator = ", ") as ?place)
+  (group_concat(DISTINCT ?arr ; separator = ", ") as ?arrondissement)
+  (SAMPLE (?img) AS ?image)
+  (SAMPLE (?coord) AS ?coordinates) {
+
+    {
+      SELECT DISTINCT ?item { {
+        ?item wdt:P136 wd:Q557141 ;     # genre: public art
+              wdt:P131 wd:Q340           # located in: Montreal
+      } UNION { # or
+        ?item wdt:P136 wd:Q557141 ;     # genre: public art
+              wdt:P131/wdt:P131* wd:Q340 # located in an arrondissement of Montreal
+      } }
+    }
+
+    # title
+    OPTIONAL { ?item rdfs:label ?titleL FILTER (lang(?titleL) = "fr") }
+
+    # creators
+    OPTIONAL { ?item wdt:P170 [rdfs:label ?creatorL] FILTER (lang(?creatorL) = "fr") }
+
+    #genre
+    OPTIONAL {
+      {
+        ?item wdt:P136 ?g FILTER (STR(?g) != 'http://www.wikidata.org/entity/Q557141')
+      } UNION {
+        ?item wdt:P31 ?g .
+      }
+      ?g rdfs:label ?genreL FILTER (lang(?genreL) = "fr") .
+    }
+
+    # place
+    OPTIONAL {
+      ?item wdt:P276 [rdfs:label ?placeL] FILTER (lang(?placeL) = "fr") .
+    }
+
+    # arrondissement
+    OPTIONAL {
+      ?item wdt:P131 [wdt:P131 wd:Q90 ; rdfs:label ?arrL] FILTER (lang(?arrL) = "fr").
+      BIND(REPLACE(?arrL, '^([0-9]+).*$', "$1", "si") AS ?arr)
+    }
+
+    # image
+    OPTIONAL { ?item wdt:P18 ?img }
+
+    # coordinates
+    OPTIONAL { ?item wdt:P625 ?coord }
+
+} GROUP BY ?item
+```
+Montréal en a 66.
 </details>
 
 ## <a name="varia"></a>Varia

@@ -731,6 +731,10 @@ Mercredi, j'ai parlé avec Lena sur le flux d'entrée et on a apporté [ces chan
 
 J'ai aussi créé [un mini-diagramme](https://www.canva.com/design/DAGf9jLPhuw/zuiWREH_2v8LX-A5U1WebA/view?utm_content=DAGf9jLPhuw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9dc54f889c) qui résume mon projet en Canva
 
+### OpenRefine
+
+Il y a des [entités «sandbox»](https://openrefine.org/docs/manual/wikibase/overview) sur Wikidata qu'on peut utliser pour tester les méthodes d'importation en lot.
+
 </details>
 
 ## <a name="varia"></a>Varia
@@ -813,6 +817,16 @@ https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
 -  ajouter à la base de données de MONA avec le wikidata ID
 
 - ajouter la source (linéage?) des données à l'information pour chaque oeuvre ? e.g. AdMare, Rimouski, Utilisateur (badges pour les ajouts?)
+
+### OpenRefine
+
+- utilise sandbox entities pour tester
+
+    https://www.wikidata.org/wiki/Q4115189
+    https://www.wikidata.org/wiki/Q13406268
+    https://www.wikidata.org/wiki/Q15397819
+    https://www.wikidata.org/wiki/Q64768399
+
 
 ### Autre
 

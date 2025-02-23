@@ -726,6 +726,11 @@ SELECT
 } GROUP BY ?item
 ```
 Montréal en a 66.
+
+Mercredi, j'ai parlé avec Lena sur le flux d'entrée et on a apporté [ces changements au diagramme par rapport](https://www.canva.com/design/DAGfU2eD1do/hH6Oyqwc23wQCHPzeZnlkg/edit) à la recherche en premier d'oeuvres en la BD MONA.  J'ai été à la réunion Tech, et Guy LaPalme était présent pour écouter les plans de projet de Christian et Vi, mais malheureusement Christian était malade et doit reporter sa présentation.
+
+J'ai aussi créé [un mini-diagramme](https://www.canva.com/design/DAGf9jLPhuw/zuiWREH_2v8LX-A5U1WebA/view?utm_content=DAGf9jLPhuw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9dc54f889c) qui résume mon projet en Canva
+
 </details>
 
 ## <a name="varia"></a>Varia

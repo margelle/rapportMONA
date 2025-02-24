@@ -731,9 +731,19 @@ Mercredi, j'ai parlé avec Lena sur le flux d'entrée et on a apporté [ces chan
 
 J'ai aussi créé [un mini-diagramme](https://www.canva.com/design/DAGf9jLPhuw/zuiWREH_2v8LX-A5U1WebA/view?utm_content=DAGf9jLPhuw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9dc54f889c) qui résume mon projet en Canva
 
-### OpenRefine
+Si on a besoin de créer beaucoup de requêtes, il y a des instructions en bas de [cette page](https://www.wikidata.org/wiki/Wikidata:Data_access) pour créer notre propre service de requêtes.
+
+### OpenRefine et QuickStatements
+
+OpenRefine est un outil pour travailler avec et nettoyer les données. J'ai installé OpenRefine 3.9.0 sur mon ordinateur et j'ai commencé un projet avec une liset d'art pubic à Gatineau.
 
 Il y a des [entités «sandbox»](https://openrefine.org/docs/manual/wikibase/overview) sur Wikidata qu'on peut utliser pour tester les méthodes d'importation en lot.
+
+QuickStatements est une façon de faire des ajouts et mises-à-jour à Wikidata sans le faire manuellement un par un directement sur le site Web.
+
+J'ai regardé ce tutoriel [QuickStatements](https://www.youtube.com/watch?v=Ql7gC91eWss) . En gros, on trouve un élément Wikidata qui a déjà toutes les propriétés pertinentes définies pour avoir leur P-id.  Avec CREATE suivi par LAST plusieurs fois, on ajout un nouvel élément à Wikidata. «Len» est «Label in English», «Den» est «Description in English».  On peut aussi ajouter les sources avec les S-is.  La page [Help:QuickStatements](https://www.wikidata.org/wiki/Help:QuickStatements) contient beaucoup d'exemples pour aider.
+
+Je pense que pywikibot serait probablement la façon la plus efficace d'ajouter les éléments à Wikidata sans intervntion.
 
 </details>
 

@@ -640,7 +640,7 @@ J'ai discuté le projet de documentation avec Simon, et on a pris des notes ici.
 
 </details>
 
-<details open>
+<details>
 <summary>semaine 21 (17 février)</summary>
 
 
@@ -744,6 +744,17 @@ QuickStatements est une façon de faire des ajouts et mises-à-jour à Wikidata 
 J'ai regardé ce tutoriel [QuickStatements](https://www.youtube.com/watch?v=Ql7gC91eWss) . En gros, on trouve un élément Wikidata qui a déjà toutes les propriétés pertinentes définies pour avoir leur P-id.  Avec CREATE suivi par LAST plusieurs fois, on ajout un nouvel élément à Wikidata. «Len» est «Label in English», «Den» est «Description in English».  On peut aussi ajouter les sources avec les S-is.  La page [Help:QuickStatements](https://www.wikidata.org/wiki/Help:QuickStatements) contient beaucoup d'exemples pour aider.
 
 Je pense que pywikibot serait probablement la façon la plus efficace d'ajouter les éléments à Wikidata sans intervntion.
+
+</details>
+
+<details open>
+<summary>semaine 22 (24 février)</summary>
+
+Lundi, je vais pratiquer la présentation avec Simon à 15h.
+
+La présentation à Ichiro est mardi à 16h.
+
+La réunion TechTeam se tiendra jeudi cette semaine et la semaine prochaine.
 
 </details>
 

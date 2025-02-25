@@ -750,7 +750,9 @@ Je pense que pywikibot serait probablement la façon la plus efficace d'ajouter 
 <details open>
 <summary>semaine 22 (24 février)</summary>
 
-Lundi, je vais pratiquer la présentation avec Simon à 15h.
+Lundi, j'ai pratiqué la présentation avec Simon à 16h.  
+
+J'ai créé un élément Wikidata pour l'œuvre [L’art magnétique (Hommage à Jean Paul Riopelle)](https://www.wikidata.org/wiki/Q132740897)
 
 La présentation à Ichiro est mardi à 16h.
 
@@ -759,6 +761,8 @@ La réunion TechTeam se tiendra jeudi cette semaine et la semaine prochaine.
 </details>
 
 ## <a name="varia"></a>Varia
+
+<p><a href="monajoutdemo.html">MONAjout Demo</a></p>
 
 <p><a href="carte-saint-roch.html">carte saint roch pour la chasse aux oeuvres</a></p>
 

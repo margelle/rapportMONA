@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<base target="_top">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>MONAjout Demo</title>
+	
+	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" /> 
+
+	<style>
+		html, body {
+			height: 100%;
+			margin: 0;
+		}	
+	</style>
+<style>body { padding: 0; margin: 0; } #map { height: 100%; width: 100vw; }</style>
+	
+</head>
+<body>
+    <iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23%20Adapted%20from%20Airports%20within%20100km%20from%20Berlin%0A%23defaultView%3AMap%0ASELECT%20%3Fplace%20%3FplaceLabel%20%3Flocation%20%3Fdist%20WHERE%20%7B%0A%20%20%23%20Berlin%20coordinates%0A%20%20SERVICE%20wikibase%3Aaround%20%7B%20%0A%20%20%20%20%20%20%3Fplace%20wdt%3AP625%20%3Flocation%20.%20%0A%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Acenter%20%22Point(-73.57642%2045.50686)%22%5E%5Egeo%3AwktLiteral%20.%0A%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Aradius%20%220.5%22%20.%20%0A%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Adistance%20%3Fdist.%0A%20%20%7D%20%0A%20%20%23%20Is%20an%20airport%0A%20%20FILTER%20EXISTS%20%7B%20%3Fplace%20wdt%3AP31%2Fwdt%3AP279*%20wd%3AQ838948%20%7D%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22fr%22%20.%20%0A%20%20%7D%0A%7D%20ORDER%20BY%20ASC(%3Fdist)" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+</body>
+</html>

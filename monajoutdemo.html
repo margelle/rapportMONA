@@ -83,6 +83,9 @@
         <label for="longitude">Longitude :</label>
         <input type="text" id="longitude" class="input-field" placeholder="Saisir la longitude">
         
+        <label for="rayon">Rayon (km) :</label>
+        <input type="text" id="rayon" class="input-field" placeholder="Saisir le rayon" value="0.5">
+
         <label for="title">Titre de l'Œuvre :</label>
         <input type="text" id="title" class="input-field" placeholder="Saisir le titre de l'œuvre">
         
@@ -148,16 +151,23 @@
         function searchArt() {
             const latitude = parseFloat(document.getElementById('latitude').value);
             const longitude = parseFloat(document.getElementById('longitude').value);
+            const rayon = parseFloat(document.getElementById('rayon').value);
             const title = document.getElementById('title').value;
             const artist = document.getElementById('artist').value;
             
             console.log("Latitude :", latitude);
             console.log("Longitude :", longitude);
+            console.log("Rayon :", rayon);
             console.log("Titre de l'œuvre :", title);
             console.log("Nom de l'artiste :", artist);
 
             if (isNaN(latitude) || isNaN(longitude)) {
                 alert('Veuillez entrer une latitude et une longitude valides.');
+                return;
+            }
+
+            if (isNaN(rayon)) {
+                alert('Veuillez entrer un rayon valide.');
                 return;
             }
 
@@ -167,7 +177,7 @@
                     ?statement ps:P31 wd:Q838948 .
                     ?item wdt:P625 ?itemCoordinate .
                     FILTER(
-                        geof:distance(?itemCoordinate, "Point(${longitude} ${latitude})") < 0.5
+                        geof:distance(?itemCoordinate, "Point(${longitude} ${latitude})") < ${rayon}
                     )
                     SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],fr". }
                 }
@@ -228,7 +238,7 @@
                             document.getElementById('table-view').style.display = 'block'; // Afficher la vue tableau
                         }
                     } else {
-                        alert("Aucun élément trouvé dans un rayon de 0,5 km.");
+                        alert("Aucun élément trouvé dans le rayon donné km.");
                     }
                 })
                 .catch(error => {

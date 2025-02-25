@@ -566,7 +566,7 @@ Toutes les œuvres d'art public au Québec, sans filtrage.
 Trouve des œuvres d'art public au Québec dans un certain rayon autour d'un 
 point géographique (latitude et longitude).
 ```
-# œuvre d’art (Q838948) dans un rayon X d'un point
+# œuvre d’art (Q838948) dans un rayon 0.5 d'un point
 #defaultView:Map
 SELECT ?item ?itemLabel ?location ?dist WHERE {  
   SERVICE wikibase:around { 
@@ -769,6 +769,8 @@ Je pense que pywikibot serait probablement la façon la plus efficace d'ajouter 
 Lundi, j'ai pratiqué la présentation avec Simon à 16h.  
 
 J'ai créé un élément Wikidata pour l'œuvre [L’art magnétique (Hommage à Jean Paul Riopelle)](https://www.wikidata.org/wiki/Q132740897)
+
+J'ai créé une demo rough de la recherche sur wikidata à partir d'un point <p><a href="monajoutdemo.html">MONAjout Demo</a></p>
 
 La présentation à Ichiro est mardi à 16h.
 

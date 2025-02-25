@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MONajot Demo</title>
+    <title>MONAjout Demo</title>
     <style>
-        body {            
+        body {
+            font-family: "Lucida Console", monospace;
             margin: 20px;
         }
         .container {
@@ -40,6 +41,31 @@
             width: 100%;
             margin-top: 20px;
         }
+        #table-view {
+            display: none;
+            margin-top: 20px;
+        }
+        #table-view table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        #table-view th, #table-view td {
+            padding: 8px;
+            text-align: left;
+            border: 1px solid #ccc;
+        }
+        #toggle-view-btn {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        #toggle-view-btn:hover {
+            background-color: #0056b3;
+        }
     </style>
 
     <!-- Leaflet.js -->
@@ -49,50 +75,67 @@
 <body>
 
     <div class="container">
-        <h2>Chercher l'œuvre</h2>
+        <h2>Rechercher dans Wikidata</h2>
         
-        <label for="latitude">Latitude:</label>
-        <input type="text" id="latitude" class="input-field" placeholder="Saisir la latitude" value="45.50327">
+        <label for="latitude">Latitude :</label>
+        <input type="text" id="latitude" class="input-field" placeholder="Saisir la latitude">
         
-        <label for="longitude">Longitude:</label>
-        <input type="text" id="longitude" class="input-field" placeholder="Saisir la longitude" value="-73.5945">
-        (ou cliquer sur la carte pour choisir un endroit)
+        <label for="longitude">Longitude :</label>
+        <input type="text" id="longitude" class="input-field" placeholder="Saisir la longitude">
         
-        <label for="rayon">Longitude:</label>
-        <input type="text" id="rayon" class="input-field" placeholder="Saisir le rayon" value="0.5">km
+        <label for="title">Titre de l'Œuvre :</label>
+        <input type="text" id="title" class="input-field" placeholder="Saisir le titre de l'œuvre">
         
-        <label for="titre">Titre:</label>
-        <input type="text" id="titre" class="input-field" placeholder="Saisir le titre">
+        <label for="artist">Nom de l'Artiste :</label>
+        <input type="text" id="artist" class="input-field" placeholder="Saisir le nom de l'artiste">
         
-        <label for="artiste">Nom de l'artiste:</label>
-        <input type="text" id="artiste" class="input-field" placeholder="Saisir le nom">
-        
-        <button class="search-btn" onclick="rechercheSPARQL()">Rechercher dans wikidata</button>
+        <button class="search-btn" onclick="searchArt()">Rechercher dans Wikidata</button>
     </div>
 
-    <!-- Map Container -->
+    <!-- Bouton pour basculer la vue -->
+    <button id="toggle-view-btn" onclick="toggleView()">Passer à la vue Tableau</button>
+
+    <!-- Conteneur de la Carte -->
     <div id="map"></div>
+
+    <!-- Vue Tableau des Résultats -->
+    <div id="table-view">
+        <h3>Résultats de la Recherche</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Titre</th>
+                    <th>Coordonnées</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                <!-- Les résultats apparaîtront ici -->
+            </tbody>
+        </table>
+    </div>
 
     <script>
         let map;
-        let marker; // To hold the clicked marker
+        let marker;
+        let currentView = 'map'; // Pour suivre la vue active : carte ou tableau
+        let items = []; // Pour stocker les résultats de la requête
 
         function initializeMap() {
-            map = L.map('map').setView([45.502, -73.605], 13); // Default location (Mont Royal)
+            map = L.map('map').setView([45.50327, -73.59450], 13); // Localisation par défaut (Londres)
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributeurs'
             }).addTo(map);
 
-            // Event listener to capture map click and update input fields
+            // Écouteur d'événements pour capturer le clic sur la carte et mettre à jour les champs de saisie
             map.on('click', function(e) {
                 const lat = e.latlng.lat;
                 const lon = e.latlng.lng;
                 
-                // Set input fields to clicked location
+                // Mettre à jour les champs de saisie avec la position cliquée
                 document.getElementById('latitude').value = lat;
                 document.getElementById('longitude').value = lon;
 
-                // Add or update marker at clicked position
+                // Ajouter ou mettre à jour un marqueur à la position cliquée
                 if (marker) {
                     marker.setLatLng(e.latlng);
                 } else {
@@ -101,20 +144,20 @@
             });
         }
 
-        // Function to run the SPARQL query based on input latitude and longitude
-        function rechercheSPARQL() {
+        // Fonction pour exécuter la requête SPARQL en fonction de la latitude et de la longitude saisies
+        function searchArt() {
             const latitude = parseFloat(document.getElementById('latitude').value);
             const longitude = parseFloat(document.getElementById('longitude').value);
-            const titre = document.getElementById('titre').value;
-            const artiste = document.getElementById('artiste').value;
+            const title = document.getElementById('title').value;
+            const artist = document.getElementById('artist').value;
             
-            console.log("Latitude:", latitude);
-            console.log("Longitude:", longitude);
-            console.log("Titre:", titre);
-            console.log("Nom de l'artiste:", artiste);
+            console.log("Latitude :", latitude);
+            console.log("Longitude :", longitude);
+            console.log("Titre de l'œuvre :", title);
+            console.log("Nom de l'artiste :", artist);
 
             if (isNaN(latitude) || isNaN(longitude)) {
-                alert('Veuillez saisir des entrées de latitude et de longitude.');
+                alert('Veuillez entrer une latitude et une longitude valides.');
                 return;
             }
 
@@ -136,41 +179,77 @@
             fetch(`${endpoint}?query=${encodedQuery}&format=json`)
                 .then(response => response.json())
                 .then(data => {
-                    const items = data.results.bindings;
+                    items = data.results.bindings;
 
                     if (items.length > 0) {
-                        // Clear existing markers
-                        map.eachLayer(function(layer) {
-                            if (layer instanceof L.Marker) {
-                                map.removeLayer(layer);
-                            }
-                        });
+                        // Supprimer les marqueurs existants
+                        if (currentView === 'map') {
+                            map.eachLayer(function(layer) {
+                                if (layer instanceof L.Marker) {
+                                    map.removeLayer(layer);
+                                }
+                            });
+                        }
 
-                        // Place markers on the map for each item found
-                        items.forEach(item => {
-                            const coordinates = item.itemCoordinate.value.split('(')[1].split(')')[0].split(' ');
-                            const lat = parseFloat(coordinates[1]);
-                            const lon = parseFloat(coordinates[0]);
-                            const titre = item.itemLabel.value;
+                        // Mettre à jour la vue carte ou tableau en fonction de currentView
+                        if (currentView === 'map') {
+                            // Placer des marqueurs sur la carte pour chaque élément trouvé
+                            items.forEach(item => {
+                                const coordinates = item.itemCoordinate.value.split('(')[1].split(')')[0].split(' ');
+                                const lat = parseFloat(coordinates[1]);
+                                const lon = parseFloat(coordinates[0]);
+                                const title = item.itemLabel.value;
 
-                            L.marker([lat, lon])
-                                .addTo(map)
-                                .bindPopup(`<b>${titre}</b>`)
-                                .openPopup();
-                        });
+                                L.marker([lat, lon])
+                                    .addTo(map)
+                                    .bindPopup(`<b>${title}</b>`)
+                                    .openPopup();
+                            });
 
-                        map.setView([latitude, longitude], 13); // Center map on given location
+                            map.setView([latitude, longitude], 13); // Centrer la carte sur la position de l'utilisateur
+                        } else {
+                            // Afficher les résultats dans un tableau
+                            const tableBody = document.getElementById('table-body');
+                            tableBody.innerHTML = ''; // Effacer les lignes existantes
+
+                            items.forEach(item => {
+                                const coordinates = item.itemCoordinate.value.split('(')[1].split(')')[0].split(' ');
+                                const lat = parseFloat(coordinates[1]);
+                                const lon = parseFloat(coordinates[0]);
+                                const title = item.itemLabel.value;
+
+                                const row = document.createElement('tr');
+                                row.innerHTML = `<td>${title}</td><td>${lat}, ${lon}</td>`;
+                                tableBody.appendChild(row);
+                            });
+
+                            document.getElementById('table-view').style.display = 'block'; // Afficher la vue tableau
+                        }
                     } else {
-                        alert(`Pas d'items dans un rayon de ${rayon} km.`);
+                        alert("Aucun élément trouvé dans un rayon de 0,5 km.");
                     }
                 })
                 .catch(error => {
-                    console.error('Error executing SPARQL query:', error);
-                    alert("Une erreur s'est produite lors de l'extraction des données.");
+                    console.error('Erreur lors de l\'exécution de la requête SPARQL:', error);
+                    alert("Une erreur est survenue lors de la récupération des données.");
                 });
         }
 
-        // Initialize the map when the page loads
+        // Basculer entre la vue carte et la vue tableau
+        function toggleView() {
+            if (currentView === 'map') {
+                currentView = 'table';
+                document.getElementById('map').style.display = 'none'; // Cacher la vue carte
+                document.getElementById('toggle-view-btn').innerText = 'Passer à la vue Carte'; // Changer le texte du bouton
+            } else {
+                currentView = 'map';
+                document.getElementById('map').style.display = 'block'; // Afficher la vue carte
+                document.getElementById('toggle-view-btn').innerText = 'Passer à la vue Tableau'; // Changer le texte du bouton
+                document.getElementById('table-view').style.display = 'none'; // Cacher la vue tableau
+            }
+        }
+
+        // Initialiser la carte lorsque la page est chargée
         window.onload = initializeMap;
 
     </script>

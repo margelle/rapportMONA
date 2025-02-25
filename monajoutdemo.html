@@ -255,12 +255,14 @@
                 document.getElementById('toggle-view-btn').innerText = 'Passer à la vue Carte'; // Changer le texte du bouton
                 document.getElementById('table-view').style.display = 'block';
                 console.log("map toggle to table");
+                console.log(items);
             } else {
                 currentView = 'map';
                 document.getElementById('map').style.display = 'block'; // Afficher la vue carte
                 document.getElementById('toggle-view-btn').innerText = 'Passer à la vue Tableau'; // Changer le texte du bouton
                 document.getElementById('table-view').style.display = 'none'; // Cacher la vue tableau
                 console.log("table toggle to map");
+                console.log(items);
             }
         }
 

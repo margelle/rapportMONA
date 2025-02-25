@@ -117,7 +117,7 @@
     <script>
         let map;
         let marker;
-        let currentView = 'table-view'; // Pour suivre la vue active : carte ou tableau
+        let currentView = 'map'; // Pour suivre la vue active : carte ou tableau
         let items = []; // Pour stocker les résultats de la requête
 
         function initializeMap() {
@@ -180,7 +180,7 @@
                 .then(response => response.json())
                 .then(data => {
                     items = data.results.bindings;
-
+                    console.log(items)
                     if (items.length > 0) {
                         // Supprimer les marqueurs existants
                         if (currentView === 'map') {
@@ -239,14 +239,16 @@
         // Basculer entre la vue carte et la vue tableau
         function toggleView() {
             if (currentView === 'map') {
-                currentView = 'table';
+                currentView = 'table-view';
                 document.getElementById('map').style.display = 'none'; // Cacher la vue carte
                 document.getElementById('toggle-view-btn').innerText = 'Passer à la vue Carte'; // Changer le texte du bouton
+                console.log("map toggle to table");
             } else {
                 currentView = 'map';
                 document.getElementById('map').style.display = 'block'; // Afficher la vue carte
                 document.getElementById('toggle-view-btn').innerText = 'Passer à la vue Tableau'; // Changer le texte du bouton
                 document.getElementById('table-view').style.display = 'none'; // Cacher la vue tableau
+                console.log("table toggle to map");
             }
         }
 

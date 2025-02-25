@@ -565,7 +565,23 @@ Toutes les œuvres d'art public au Québec, sans filtrage.
 2. **Requête pour l'art public au Québec par distance depuis un point géographique**
 Trouve des œuvres d'art public au Québec dans un certain rayon autour d'un 
 point géographique (latitude et longitude).
-
+```
+# œuvre d’art (Q838948) dans un rayon X d'un point
+#defaultView:Map
+SELECT ?item ?itemLabel ?location ?dist WHERE {  
+  SERVICE wikibase:around { 
+      ?item wdt:P625 ?location . 
+      bd:serviceParam wikibase:center "Point(-73.57642 45.50686)"^^geo:wktLiteral .
+      bd:serviceParam wikibase:radius "0.5" . 
+      bd:serviceParam wikibase:distance ?dist.
+  } 
+  # est une œuvre d’art
+  FILTER EXISTS { ?item wdt:P31/wdt:P279* wd:Q838948 }
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "fr" . 
+  }
+} ORDER BY ASC(?dist)
+```
 3. **Requête pour l'art public au Québec par artiste et distance depuis un point géographique**
 Utilise le nom de l'artiste et la distance géographique depuis un point donné.
 

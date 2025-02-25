@@ -71,12 +71,30 @@
 
     <script>
         let map;
-        
+        let marker; // To hold the clicked marker
+
         function initializeMap() {
             map = L.map('map').setView([45.502, -73.605], 13); // Default location (Mont Royal)
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             }).addTo(map);
+
+            // Event listener to capture map click and update input fields
+            map.on('click', function(e) {
+                const lat = e.latlng.lat;
+                const lon = e.latlng.lng;
+                
+                // Set input fields to clicked location
+                document.getElementById('latitude').value = lat;
+                document.getElementById('longitude').value = lon;
+
+                // Add or update marker at clicked position
+                if (marker) {
+                    marker.setLatLng(e.latlng);
+                } else {
+                    marker = L.marker(e.latlng).addTo(map);
+                }
+            });
         }
 
         // Function to run the SPARQL query based on input latitude and longitude
@@ -88,8 +106,8 @@
             
             console.log("Latitude:", latitude);
             console.log("Longitude:", longitude);
-            console.log("Art Title:", title);
-            console.log("Artist Name:", artist);
+            console.log("Titre:", title);
+            console.log("Nom de l'artiste:", artist);
 
             if (isNaN(latitude) || isNaN(longitude)) {
                 alert('Veuillez saisir des entrées de latitude et de longitude.');

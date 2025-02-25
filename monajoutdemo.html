@@ -26,8 +26,8 @@
         .search-btn {
             width: 100%;
             padding: 10px;
-            background-color: #4CAF50;
-            color: white;
+            background-color: #FADA00;
+            color: black;
             border: none;
             border-radius: 5px;
             font-size: 16px;
@@ -52,18 +52,22 @@
         <h2>Chercher l'œuvre</h2>
         
         <label for="latitude">Latitude:</label>
-        <input type="text" id="latitude" class="input-field" placeholder="Saisir la latitude">
+        <input type="text" id="latitude" class="input-field" placeholder="Saisir la latitude" value="45.50327">
         
         <label for="longitude">Longitude:</label>
-        <input type="text" id="longitude" class="input-field" placeholder="Saisir la longitude">
+        <input type="text" id="longitude" class="input-field" placeholder="Saisir la longitude" value="-73.5945">
+        (ou cliquer sur la carte pour choisir un endroit)
         
-        <label for="title">Titre:</label>
-        <input type="text" id="title" class="input-field" placeholder="Saisir le titre">
+        <label for="rayon">Longitude:</label>
+        <input type="text" id="rayon" class="input-field" placeholder="Saisir le rayon" value="0.5">km
         
-        <label for="artist">Nom de l'artist:</label>
-        <input type="text" id="artist" class="input-field" placeholder="Saisir le nom">
+        <label for="titre">Titre:</label>
+        <input type="text" id="titre" class="input-field" placeholder="Saisir le titre">
         
-        <button class="search-btn" onclick="searchArt()">Rechercher</button>
+        <label for="artiste">Nom de l'artiste:</label>
+        <input type="text" id="artiste" class="input-field" placeholder="Saisir le nom">
+        
+        <button class="search-btn" onclick="rechercheSPARQL()">Rechercher dans wikidata</button>
     </div>
 
     <!-- Map Container -->
@@ -98,16 +102,16 @@
         }
 
         // Function to run the SPARQL query based on input latitude and longitude
-        function searchArt() {
+        function rechercheSPARQL() {
             const latitude = parseFloat(document.getElementById('latitude').value);
             const longitude = parseFloat(document.getElementById('longitude').value);
-            const title = document.getElementById('title').value;
-            const artist = document.getElementById('artist').value;
+            const titre = document.getElementById('titre').value;
+            const artiste = document.getElementById('artiste').value;
             
             console.log("Latitude:", latitude);
             console.log("Longitude:", longitude);
-            console.log("Titre:", title);
-            console.log("Nom de l'artiste:", artist);
+            console.log("Titre:", titre);
+            console.log("Nom de l'artiste:", artiste);
 
             if (isNaN(latitude) || isNaN(longitude)) {
                 alert('Veuillez saisir des entrées de latitude et de longitude.');
@@ -147,17 +151,17 @@
                             const coordinates = item.itemCoordinate.value.split('(')[1].split(')')[0].split(' ');
                             const lat = parseFloat(coordinates[1]);
                             const lon = parseFloat(coordinates[0]);
-                            const title = item.itemLabel.value;
+                            const titre = item.itemLabel.value;
 
                             L.marker([lat, lon])
                                 .addTo(map)
-                                .bindPopup(`<b>${title}</b>`)
+                                .bindPopup(`<b>${titre}</b>`)
                                 .openPopup();
                         });
 
                         map.setView([latitude, longitude], 13); // Center map on given location
                     } else {
-                        alert("Pas d'items dans un rayon de 0.5 km.");
+                        alert(`Pas d'items dans un rayon de ${rayon} km.`);
                     }
                 })
                 .catch(error => {

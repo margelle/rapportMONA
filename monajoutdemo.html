@@ -76,7 +76,7 @@
 
     <div class="container">
         <h2>Rechercher dans Wikidata</h2>
-        
+        Cliquer sur la carte pour choisir un endroit, ou saisir les coordonnées
         <label for="latitude">Latitude :</label>
         <input type="text" id="latitude" class="input-field" placeholder="Saisir la latitude">
         
@@ -221,6 +221,7 @@
                                 const row = document.createElement('tr');
                                 row.innerHTML = `<td>${title}</td><td>${lat}, ${lon}</td>`;
                                 tableBody.appendChild(row);
+                                console.log(row);
                             });
 
                             document.getElementById('table-view').style.display = 'block'; // Afficher la vue tableau

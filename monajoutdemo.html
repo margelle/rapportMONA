@@ -191,6 +191,7 @@
                             });
                         }
 
+                        
                         // Mettre à jour la vue carte ou tableau en fonction de currentView
                         if (currentView === 'map') {
                             // Placer des marqueurs sur la carte pour chaque élément trouvé
@@ -242,6 +243,7 @@
                 currentView = 'table-view';
                 document.getElementById('map').style.display = 'none'; // Cacher la vue carte
                 document.getElementById('toggle-view-btn').innerText = 'Passer à la vue Carte'; // Changer le texte du bouton
+                document.getElementById('table-view').style.display = 'block';
                 console.log("map toggle to table");
             } else {
                 currentView = 'map';

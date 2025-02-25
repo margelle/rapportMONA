@@ -1,24 +1,157 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<base target="_top">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>MONAjout Demo</title>
-	
-	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" /> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONajot Demo</title>
+    <style>
+        body {            
+            margin: 20px;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .search-btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .search-btn:hover {
+            background-color: #45a049;
+        }
+        #map {
+            height: 400px;
+            width: 100%;
+            margin-top: 20px;
+        }
+    </style>
 
-	<style>
-		html, body {
-			height: 100%;
-			margin: 0;
-		}	
-	</style>
-<style>body { padding: 0; margin: 0; } #map { height: 100%; width: 100vw; }</style>
-	
+    <!-- Leaflet.js -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
 </head>
 <body>
-    <iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23%20Adapted%20from%20Airports%20within%20100km%20from%20Berlin%0A%23defaultView%3AMap%0ASELECT%20%3Fplace%20%3FplaceLabel%20%3Flocation%20%3Fdist%20WHERE%20%7B%0A%20%20%23%20Berlin%20coordinates%0A%20%20SERVICE%20wikibase%3Aaround%20%7B%20%0A%20%20%20%20%20%20%3Fplace%20wdt%3AP625%20%3Flocation%20.%20%0A%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Acenter%20%22Point(-73.57642%2045.50686)%22%5E%5Egeo%3AwktLiteral%20.%0A%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Aradius%20%220.5%22%20.%20%0A%20%20%20%20%20%20bd%3AserviceParam%20wikibase%3Adistance%20%3Fdist.%0A%20%20%7D%20%0A%20%20%23%20Is%20an%20airport%0A%20%20FILTER%20EXISTS%20%7B%20%3Fplace%20wdt%3AP31%2Fwdt%3AP279*%20wd%3AQ838948%20%7D%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22fr%22%20.%20%0A%20%20%7D%0A%7D%20ORDER%20BY%20ASC(%3Fdist)" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
+
+    <div class="container">
+        <h2>Chercher l'œuvre</h2>
+        
+        <label for="latitude">Latitude:</label>
+        <input type="text" id="latitude" class="input-field" placeholder="Saisir la latitude">
+        
+        <label for="longitude">Longitude:</label>
+        <input type="text" id="longitude" class="input-field" placeholder="Saisir la longitude">
+        
+        <label for="title">Titre:</label>
+        <input type="text" id="title" class="input-field" placeholder="Saisir le titre">
+        
+        <label for="artist">Nom de l'artist:</label>
+        <input type="text" id="artist" class="input-field" placeholder="Saisir le nom">
+        
+        <button class="search-btn" onclick="searchArt()">Rechercher</button>
+    </div>
+
+    <!-- Map Container -->
+    <div id="map"></div>
+
+    <script>
+        let map;
+        
+        function initializeMap() {
+            map = L.map('map').setView([45.502, -73.605], 13); // Default location (Mont Royal)
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(map);
+        }
+
+        // Function to run the SPARQL query based on input latitude and longitude
+        function searchArt() {
+            const latitude = parseFloat(document.getElementById('latitude').value);
+            const longitude = parseFloat(document.getElementById('longitude').value);
+            const title = document.getElementById('title').value;
+            const artist = document.getElementById('artist').value;
+            
+            console.log("Latitude:", latitude);
+            console.log("Longitude:", longitude);
+            console.log("Art Title:", title);
+            console.log("Artist Name:", artist);
+
+            if (isNaN(latitude) || isNaN(longitude)) {
+                alert('Veuillez saisir des entrées de latitude et de longitude.');
+                return;
+            }
+
+            const sparqlQuery = `
+                SELECT ?item ?itemLabel ?itemCoordinate WHERE {
+                    ?item p:P31 ?statement .
+                    ?statement ps:P31 wd:Q838948 .
+                    ?item wdt:P625 ?itemCoordinate .
+                    FILTER(
+                        geof:distance(?itemCoordinate, "Point(${longitude} ${latitude})") < 0.5
+                    )
+                    SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],fr". }
+                }
+            `;
+            
+            const endpoint = "https://query.wikidata.org/sparql";
+            const encodedQuery = encodeURIComponent(sparqlQuery);
+
+            fetch(`${endpoint}?query=${encodedQuery}&format=json`)
+                .then(response => response.json())
+                .then(data => {
+                    const items = data.results.bindings;
+
+                    if (items.length > 0) {
+                        // Clear existing markers
+                        map.eachLayer(function(layer) {
+                            if (layer instanceof L.Marker) {
+                                map.removeLayer(layer);
+                            }
+                        });
+
+                        // Place markers on the map for each item found
+                        items.forEach(item => {
+                            const coordinates = item.itemCoordinate.value.split('(')[1].split(')')[0].split(' ');
+                            const lat = parseFloat(coordinates[1]);
+                            const lon = parseFloat(coordinates[0]);
+                            const title = item.itemLabel.value;
+
+                            L.marker([lat, lon])
+                                .addTo(map)
+                                .bindPopup(`<b>${title}</b>`)
+                                .openPopup();
+                        });
+
+                        map.setView([latitude, longitude], 13); // Center map on given location
+                    } else {
+                        alert("Pas d'items dans un rayon de 0.5 km.");
+                    }
+                })
+                .catch(error => {
+                    console.error('Error executing SPARQL query:', error);
+                    alert("Une erreur s'est produite lors de l'extraction des données.");
+                });
+        }
+
+        // Initialize the map when the page loads
+        window.onload = initializeMap;
+
+    </script>
+
 </body>
 </html>

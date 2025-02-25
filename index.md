@@ -95,7 +95,7 @@ Cette semaine, j'ai :
 - lu [Vers un commun numérique de l’art public](https://sens-public.org/dossiers/1759/)
 - créé [ma page d'utilisateur meta-wiki](https://meta.wikimedia.org/wiki/User:Anthraciter)
 - ajouté ces images sur wikimedia pour l'artiste [Zema](https://www.wikidata.org/wiki/Q124846279)
-  de [cette oeuvre](https://www.wikidata.org/wiki/Q130369646)
+  de [cette œuvre](https://www.wikidata.org/wiki/Q130369646)
   - [image 1](https://commons.wikimedia.org/wiki/File:Sans_titre_murale_par_Zema1.jpg)
   - [image 2](https://commons.wikimedia.org/wiki/File:Sans_titre_murale_par_Zema2.jpg)
 - assisté à la réunion sur LOD Export le 9 octobre avec Guy Lapalme, Camille, Lena, Simon, et David
@@ -121,7 +121,7 @@ Cette semaine, j'ai également :
 - investigué le fonctionnement du markdown des pages github.io
   - le markdown github (GLM) diffère d'autres [« saveurs » de markdown](https://github.com/commonmark/commonmark-spec/wiki/Markdown-Flavors)
 - lu de l'info sur les formats possibles des coordonnées géographiques et les projections
-- cherché la référence spatiale utilisée par [la liste des oeuvres en Saint-Roch](https://www.ville.quebec.qc.ca/citoyens/art-culture/art-public/repertoire/secteur-06.aspx) dans les fichiers sources de [la carte interactive d'une oeuvre](https://carte.ville.quebec.qc.ca/mobile?z=9&x=249739.878&y=5186556.635) sur cette liste
+- cherché la référence spatiale utilisée par [la liste des œuvres en Saint-Roch](https://www.ville.quebec.qc.ca/citoyens/art-culture/art-public/repertoire/secteur-06.aspx) dans les fichiers sources de [la carte interactive d'une œuvre](https://carte.ville.quebec.qc.ca/mobile?z=9&x=249739.878&y=5186556.635) sur cette liste
 - ajouté 4 images au [WikiProject Maison MONA / Vers un commun numérique de l'art public](https://commons.wikimedia.org/wiki/Category:WikiProject_Maison_MONA_/_Vers_un_commun_num%C3%A9rique_de_l%27art_public) : 
     - [Duo-Denum de Danaé Brissonet](https://commons.wikimedia.org/wiki/File:Duo-Denum_murale_de_Dana%C3%A9_Brissonnet_01.jpg) et [2](https://commons.wikimedia.org/wiki/File:Duo-Denum_murale_de_Dana%C3%A9_Brissonnet_02.jpg)  
     - [Flourishing farm de Borrris](https://commons.wikimedia.org/wiki/File:Flourishing_farm_murale_de_Borrris.jpg)
@@ -129,7 +129,7 @@ Cette semaine, j'ai également :
     - [Bgirls de Miss Wuna](https://commons.wikimedia.org/wiki/File:Bgirls_murale_de_Miss_Wuna.jpg)
     - [L'ange de Bordeaux d'Awie](https://commons.wikimedia.org/wiki/File:L%27ange_de_Bordeaux_murale_d%27Awie.jpg)
     - [Un vent de liberté de Mélany Fay](https://commons.wikimedia.org/wiki/File:Un_vent_de_libert%C3%A9_murale_de_M%C3%A9lany_Fay.jpg) et [2](https://commons.wikimedia.org/wiki/File:Un_vent_de_libert%C3%A9_murale_de_M%C3%A9lany_Fay-2.jpg)
-- appris que les templates {{Art Photo}} du wikimédia commons exigent que la nature de l'objet est oeuvre d'art afin d'afficher le cadre de l'objet avec les liens vers les fiches wikidata
+- appris que les templates {{Art Photo}} du wikimédia commons exigent que la nature de l'objet est œuvre d'art afin d'afficher le cadre de l'objet avec les liens vers les fiches wikidata
 - défini les types dans les données d'artpublic Rimouski
 - examiné les données d'artpublic Rimouski
 - appris que les pivot tables [tableaux croisés dynamiques](https://www.btb.termiumplus.gc.ca/tpv2alpha/alpha-eng.html?lang=eng&i=1&srchtxt=pivot+table&codom2nd_wet=1#resultrecs) ne sont pas sensible à la casse [comme décrit ici](https://bugs.documentfoundation.org/show_bug.cgi?id=140510)
@@ -151,8 +151,8 @@ J'ai ajouté les onglets à [la page pour le WikiProject Maison MONA / Vers un c
 
 - **Accueil**
 - **Modèles de données** (j'ai fait les traductions de mon mieux)
-- **Requêtes** (adapté pour utiliser P6104 au lieu de P5008; je suggère d'aller voir les listes créées par l'outil externe TABernacle, c'est étonnant à mon avis, voici [un lien](https://tabernacle.toolforge.org/?#/tab/sparql/select%20%3Fitem%20where%20%7B%20hint%3AQuery%20hint%3Aoptimizer%20%22None%22.%20%3Fitem%20wdt%3AP6104%20wd%3AQ122764837%3B%20wdt%3AP31%20wd%3AQ838948.%20%7D/Len%3BDen%3BP31%3BP571%3BP170%3BP131%3BP276%3BP6375%3BP625%3BP186%3BP180%3BP576%3BP18) pour la liste des oeuvres)
-- **Liste des oeuvres** (Wikilist générée automatiquement, j'ai ajouté P6104 pour le projet où cela manquait aux oeuvres afin d'avoir un critère de recherche dans la requête SPARQL)
+- **Requêtes** (adapté pour utiliser P6104 au lieu de P5008; je suggère d'aller voir les listes créées par l'outil externe TABernacle, c'est étonnant à mon avis, voici [un lien](https://tabernacle.toolforge.org/?#/tab/sparql/select%20%3Fitem%20where%20%7B%20hint%3AQuery%20hint%3Aoptimizer%20%22None%22.%20%3Fitem%20wdt%3AP6104%20wd%3AQ122764837%3B%20wdt%3AP31%20wd%3AQ838948.%20%7D/Len%3BDen%3BP31%3BP571%3BP170%3BP131%3BP276%3BP6375%3BP625%3BP186%3BP180%3BP576%3BP18) pour la liste des œuvres)
+- **Liste des œuvres** (Wikilist générée automatiquement, j'ai ajouté P6104 pour le projet où cela manquait aux œuvres afin d'avoir un critère de recherche dans la requête SPARQL)
 - **Liste des artistes** (Wikilist générée automatiquement, j'ai ajouté P6104 pour le projet où cela manquait aux artistes afin d'avoir un critère de recherche dans la requête SPARQL)
 - **Bibliographie** (ça vient du zotero [1. Wikidata et la création de données biographiques](https://www.zotero.org/groups/5110127/communs-numeriques/collections/GTM97UFJ) )
 
@@ -162,7 +162,7 @@ J'ai fait quelques changements à [la description du projet en anglais](https://
 - equity-seeking group (noun phrase)
 
 Il y avait un problème avec la fiche wikidata de Sophie Wilkins.
-J'ai enlevé, puis publié à nouveau le template {{Art photo}} pour forcer un rafraîchissement et Sophie Wilkins de 1976 apparaît maintenant dans la fiche de l'oeuvre 1.
+J'ai enlevé, puis publié à nouveau le template {{Art photo}} pour forcer un rafraîchissement et Sophie Wilkins de 1976 apparaît maintenant dans la fiche de l'œuvre 1.
 
 La prochaine fois qu'on remarque que l'info liée au template n'a pas changé comme prévu, on peut essayer une Modification nulle (null edit) décrite sur la page [Purge du cache](https://fr.wikipedia.org/wiki/Aide:Purge_du_cache)
 j'ai appris que cette option existait grâce à [MediaWiki: How do I force MediaWiki to update a certain Category:XXX page?](https://webmasters.stackexchange.com/a/78448)
@@ -184,22 +184,22 @@ J'ai commencé la page wiki pour la chasse aux photos de Saint-Roch pour l'Insti
 
 J'ai créé [cette carte](https://margelle.github.io/rapportMONA/carte-saint-roch.html) et aussi commencé [cette page d'utilisateur wiki pour Saint-Roch](https://meta.wikimedia.org/wiki/User:Anthraciter/SaintRoch).  Pendant que je faisais mes premiers essais, j'ai eu le sentiment de marcher dans la boue avec le format wiki et le surplus d'information nécessaire pour faire la moindre chose.
 
-Je voudrais intégrer la carte pour les oeuvres de Saint-Roch directement sur la page wikimedia, alors j'ai commencé à apprendre les templates avec [ce tutoriel](https://meta.wikimedia.org/wiki/Learning_patterns/Doing_more,_with_templates:_A_tutorial_for_Wikimedia_project_creators).
+Je voudrais intégrer la carte pour les œuvres de Saint-Roch directement sur la page wikimedia, alors j'ai commencé à apprendre les templates avec [ce tutoriel](https://meta.wikimedia.org/wiki/Learning_patterns/Doing_more,_with_templates:_A_tutorial_for_Wikimedia_project_creators).
 J'ai appris que les noms de templates sont sensibles à la case, sauf pour la première lettre.  J'étais curieuse par rapport à cela, parce que j'avais vu le format pour les coordonnées géographiques exprimer dans deux manières {{coord||}} et {{Coord}} alors, mystère résolu.
 
 Cette semaine, j'ai également :
 
 - cherché un·e par un·e les artistes du Saint-Roch sur wikidata, et j'ai heureusement retrouvé plusieurs IDs
-- cherché un·e par un·e les oeuvres du Saint-Roch sur wikidata, et je n'ai rien trouvé 
-- travaillé sur la liste des oeuvres du Saint-Roch avec des recherches sur Internet
+- cherché un·e par un·e les œuvres du Saint-Roch sur wikidata, et je n'ai rien trouvé 
+- travaillé sur la liste des œuvres du Saint-Roch avec des recherches sur Internet
 - appris comment changer la couleur des épingles dans le logiciel de carte Leaflet
 - appris comment faire un lien dans un wiki vers une fiche wikidata, voici un exemple de la syntaxe '[[wikidata:Q2031780|Rasputina]]' qui apparaîtra comme [Rasputina](https://www.wikidata.org/wiki/Q2031780)
 - utilisé [cet outil](https://tableconvert.com/csv-to-markdown) qui transforme les fichiers csv aux tables en format markdown ou format media wiki (parmi plusieurs formats disponibles)
-- regardé [cette vidéo](https://www.youtube.com/watch?v=bksdUi6bidg) sur l'oeuvre «Les petits oiseaux d’argile»
+- regardé [cette vidéo](https://www.youtube.com/watch?v=bksdUi6bidg) sur l'œuvre «Les petits oiseaux d’argile»
 - assisté à [la réunion planning](https://hackmd.io/@MONAmtl/institut-GLAMu/edit) pour la session Institut GLAMU
-- cherché les galeries wikimedia pour toutes les oeuvres et les ajouté à la liste
-- divisé la liste d'oeuvres pour la chasse Saint-Roch en deux, et ajouté une colonne de distances de la bibliothèque Gabrielle-Roy
-- cherché des pages wikipedia pour toutes les oeuvres sur la liste, mais je n'en ai rien trouvé
+- cherché les galeries wikimedia pour toutes les œuvres et les ajouté à la liste
+- divisé la liste d'œuvres pour la chasse Saint-Roch en deux, et ajouté une colonne de distances de la bibliothèque Gabrielle-Roy
+- cherché des pages wikipedia pour toutes les œuvres sur la liste, mais je n'en ai rien trouvé
 
 ### côté app mobile et site web
 
@@ -279,8 +279,8 @@ La deuxième journée était :
 <details>
 <summary>semaine 8 (4 novembre)</summary>
 
-On a visité le musée régional de Rimouski avec son exposition [Récits de la création du monde : Exposition bilan de la Biennale d’art contemporain autochtone 2024](https://museerimouski.qc.ca/2024/09/18/recits-de-la-creation-du-monde-exposition-bilan-de-la-biennale-dart-contemporain-autochtone-2024/).  Julie nous a montré aussi une œuvre d'art public ([Qui fait l'ange fait la bête de Lise Labrie](https://archive.nt2.uqam.ca/plepuc/fr/oeuvre/qui-fait-lange-fait-la-b-te/index.html)) qui se trouvait dans le musée en trois parties, dont une aux toilettes (les périscopes).  On n'a vu que deux des trois parties, car l'autre (un autel) était dans le bureau administratif qui n'était pas ouvert au public.
-J'ai vu les œuvres [Étude des bienfaits d’une hydratation adéquate sur la productivité des gens qui mènent à bien de grands projets](https://www.artpublicrimouski.ca/oeuvre/etude-des-bienfaits-dune-hydratation-adequate-sur-la-productivite-des-gens-qui-menent-bien-de-grands-projets) (qui n'est pas dans l'app MONA) et [Ondulations](https://www.artpublicrimouski.ca/oeuvre/ondulation) (qui est dans l'app MONA) au Complexe sportif Desjardins quand j'ai cherché mon souper au café Entre-Deux.
+On a visité le musée régional de Rimouski avec son exposition [Récits de la création du monde : Exposition bilan de la Biennale d’art contemporain autochtone 2024](https://museerimouski.qc.ca/2024/09/18/recits-de-la-creation-du-monde-exposition-bilan-de-la-biennale-dart-contemporain-autochtone-2024/).  Julie nous a montré aussi une œuvre d'art public ([Qui fait l'ange fait la bête de Lise Labrie](https://archive.nt2.uqam.ca/plepuc/fr/œuvre/qui-fait-lange-fait-la-b-te/index.html)) qui se trouvait dans le musée en trois parties, dont une aux toilettes (les périscopes).  On n'a vu que deux des trois parties, car l'autre (un autel) était dans le bureau administratif qui n'était pas ouvert au public.
+J'ai vu les œuvres [Étude des bienfaits d’une hydratation adéquate sur la productivité des gens qui mènent à bien de grands projets](https://www.artpublicrimouski.ca/œuvre/etude-des-bienfaits-dune-hydratation-adequate-sur-la-productivite-des-gens-qui-menent-bien-de-grands-projets) (qui n'est pas dans l'app MONA) et [Ondulations](https://www.artpublicrimouski.ca/œuvre/ondulation) (qui est dans l'app MONA) au Complexe sportif Desjardins quand j'ai cherché mon souper au café Entre-Deux.
 
 Jeudi, je suis arrivée en avance, et j'ai eu la chance de regarder des œuvres de l'Exposition pour souligner les 10 ans de [la Galerie Léonard Parent](https://rimouski.ca/loisirs-culture/culture-patrimoine/galerie-dart-leonard-parent).  Elles étaient créées par l'équipe municipale et étaient composées de plusieurs matériaux différents. Il y avait un carnet à feuilleter et une chambre aux éclairages ultraviolets avec des peintures.
 
@@ -314,7 +314,7 @@ J'ai assisté à la grande finale 2024 du Concours L'impact Millénium Québecor
 J'ai parlé avec Lena sur l'usage de wikidata comme moyen de faire des changements dans les données utilisées dans l'application MONA.
 Voici [un lien](https://www.figma.com/board/4RSc2qJwLTE9RMxkXIl0FU/ProjetWikidataNov2024?node-id=0-1&t=8GjveEIk50WSV3i8-1) vers l'ébauche en figma de possibilités d'intégration avec une liste de changements.
 On a parlé d'exemples d'autres sites cartographiques comme https://www.queeringthemap.com/ et  https://native-land.ca/ pour avoir des idées de stratégies pour contourner les trolls et le vandalisme quand on permet les changements aux utilisateur·rices. 
-On a aussi discuté le traitement des oeuvres fantômes qui ne sont plus présentes avec l'exemple [Notre existence ne sera plus jamais silencieuse. Cela nécessite ni explications, ni excuses, ni approbation](https://artpublicmontreal.ca/oeuvre/notre-existence-ne-sera-plus-jamais-silencieuse-cela-necessite-ni-explication-ni-excuse-ni-approbation/)
+On a aussi discuté le traitement des œuvres fantômes qui ne sont plus présentes avec l'exemple [Notre existence ne sera plus jamais silencieuse. Cela nécessite ni explications, ni excuses, ni approbation](https://artpublicmontreal.ca/œuvre/notre-existence-ne-sera-plus-jamais-silencieuse-cela-necessite-ni-explication-ni-excuse-ni-approbation/)
 
 </details>
 
@@ -323,12 +323,12 @@ On a aussi discuté le traitement des oeuvres fantômes qui ne sont plus présen
 
 J'ai assisté à la réunion Graphisme sur zoom avec Lena, Sarah, et Barbara.  Il y a tellement de subtiles distinctions entre les gestes dans les applications, dont on est inconscient·es.
 
-J'ai ajouté un élément wikidata pour l'oeuvre [Écho de Cyndie Belhumeur](https://www.wikidata.org/wiki/Q131283332).
+J'ai ajouté un élément wikidata pour l'œuvre [Écho de Cyndie Belhumeur](https://www.wikidata.org/wiki/Q131283332).
 
 J'ai ajouté des images à wikimedia pour [Écho](https://commons.wikimedia.org/wiki/File:%C3%89cho_de_Cyndie_Belhumeur.jpg) et pour [Les entrecroisements de Véronique Malo](https://commons.wikimedia.org/wiki/File:Les_entrecroisements_impression_num%C3%A9rique_sur_verre_par_V%C3%A9ronique_Malo.jpg) [cartel](https://commons.wikimedia.org/wiki/File:Les_entrecroisements_impression_num%C3%A9rique_sur_verre_par_V%C3%A9ronique_Malo_cartel.jpg)
 
 Pendant le [Colloque international La collection est-elle une ressource ou un fardeau ?](https://cieco.co/fr/actualites/colloque-collection-ressource-2024), « Où sont les limites de l'exposable? »,  quelqu'un a indiqué qu'un client n'a pas voulu mettre les dates sur 
-les cartels parce que les dates font ressembler trop aux pierres tombales, et les oeuvres representées étaient encore vivantes.
+les cartels parce que les dates font ressembler trop aux pierres tombales, et les œuvres representées étaient encore vivantes.
 
 enchevêtrer (entangle)
 
@@ -419,8 +419,8 @@ On pourrait dire « laisse faire » pour "ignore me"/"disregard that"
 <details>
 <summary>semaine 12 (2 décembre)</summary>
 
-Pourquoi lappel à l'API artworks pour une seule oeuvre retourne toute une liste d'oeuvres? par.ex. https://picasso.iro.umontreal.ca/~mona/api/v3/artworks/717
-retourne aussi d'autre oeuvres en lien avec l'artiste
+Pourquoi lappel à l'API artworks pour une seule œuvre retourne toute une liste d'œuvres? par.ex. https://picasso.iro.umontreal.ca/~mona/api/v3/artworks/717
+retourne aussi d'autre œuvres en lien avec l'artiste
 
 Note: AdMare est un centre d'artistes en art actuel des Îles-de-la-Madeleine
 enum 1 dans https://picasso.iro.umontreal.ca/~mona/api/v3/LODExport sources 
@@ -486,7 +486,7 @@ J'ai imaginé les idées potentielles pour la structure du code du projet.
 
 J'ai regardé les ressources pour les requêtes SPARQL.
 
-idée : SPARQL requete fédérée avec DB MONA et wikidata et utilise la fonction MINUS (ou autre) pour exclure les resultats déjà presents dans l'application de la liste des oeuvres aux alentours
+idée : SPARQL requete fédérée avec DB MONA et wikidata et utilise la fonction MINUS (ou autre) pour exclure les resultats déjà presents dans l'application de la liste des œuvres aux alentours
 
 J'ai trouvé une API avec reverse geocode lookup
 https://nominatim.openstreetmap.org/search?q=135+pilkington+avenue,+birmingham&format=json&polygon=1&addressdetails=1
@@ -504,7 +504,7 @@ Je vais ajouter (prochainement) [SPARQLWrapper](https://sparqlwrapper.readthedoc
 
 SPARQLWrapper ne contient pas la fonctionnalité pour les requêtes asynchrones, mais quelqu'un a [publié un «hack» ](https://github.com/RDFLib/sparqlwrapper/issues/157#issuecomment-2180240306)sur le repo github et je vais essayer de l'utiliser.
 
-Je veux faire une reconcilaition des oeuvres qui apparaissent dans la liste Wikidata des oeuvres d'art public à Montréal mais qui ne se trouvent pas dans la base de donnéess MONA.
+Je veux faire une reconcilaition des œuvres qui apparaissent dans la liste Wikidata des œuvres d'art public à Montréal mais qui ne se trouvent pas dans la base de donnéess MONA.
 
 J'ai regardé des tutoriels sur SPARQLWrapper, pywikibot, et OpenRefine:
 - [Query DBpedia with SPARQLWrapper and Python](https://www.youtube.com/watch?v=zdaL6unnv7Y)
@@ -519,7 +519,7 @@ J'ai trouvé [un parcours d'art public à Gatineau](https://www.gatineau.ca/port
 Pour [l'API pour faire des requêtes SPARQL de wikidata](https://github.com/orgs/MaisonMONA/projects/2?pane=issue&itemId=93398002), je veux au moins cette fonctionnalité:
 - Rechercher les éléments wikidata à proximité 
 - Rechercher les éléments wikidata par nom de l'artiste
-- Rechercher les éléments wikidata par nom de l'oeuvre
+- Rechercher les éléments wikidata par nom de l'œuvre
 
 Et si ce ne serait trop compliqué, je veux aussi ajouter du «fuzzy matching» à la recherche pour prendre en compte des coquilles et fautes d'orthographe , mais cela reste à voir.
 
@@ -605,7 +605,7 @@ Questions pour la réunion mercredi et/ou TODO:
 
 J'ai assisté à la réunion Tech où j'ai présenté ma présentation enrichie de mon projet. Voici <a href="MONAjout_5fev.pdf" target="_blank"> un lien vers cette présentation enrichie </a>
 
-J'ai relu [l'ébauche de l'article](https://hackmd.io/_EVmvHIhS9SFts-NMmINGw?edit) sur le volet wikidata qu'on prépare pour [sens public](https://www.sens-public.org/) et ajouté des suggestions. Selon cet article, le cartel enrichi inclut des infos sur la carrière de l'artiste (occupation, lieux de travail, scolarité, genre artistique, présence d'une oeuvre dans une collection, prix et distinctions, site officiel).
+J'ai relu [l'ébauche de l'article](https://hackmd.io/_EVmvHIhS9SFts-NMmINGw?edit) sur le volet wikidata qu'on prépare pour [sens public](https://www.sens-public.org/) et ajouté des suggestions. Selon cet article, le cartel enrichi inclut des infos sur la carrière de l'artiste (occupation, lieux de travail, scolarité, genre artistique, présence d'une œuvre dans une collection, prix et distinctions, site officiel).
 
 J'ai aussi lu l'ébauche de l'offre de service et fait des suggestions.
 
@@ -727,7 +727,7 @@ SELECT
 ```
 Montréal en a 66.
 
-Mercredi, j'ai parlé avec Lena sur le flux d'entrée et on a apporté [ces changements au diagramme par rapport](https://www.canva.com/design/DAGfU2eD1do/hH6Oyqwc23wQCHPzeZnlkg/edit) à la recherche en premier d'oeuvres en la BD MONA.  J'ai été à la réunion Tech, et Guy LaPalme était présent pour écouter les plans de projet de Christian et Vi, mais malheureusement Christian était malade et doit reporter sa présentation.
+Mercredi, j'ai parlé avec Lena sur le flux d'entrée et on a apporté [ces changements au diagramme par rapport](https://www.canva.com/design/DAGfU2eD1do/hH6Oyqwc23wQCHPzeZnlkg/edit) à la recherche en premier d'œuvres en la BD MONA.  J'ai été à la réunion Tech, et Guy LaPalme était présent pour écouter les plans de projet de Christian et Vi, mais malheureusement Christian était malade et doit reporter sa présentation.
 
 J'ai aussi créé [un mini-diagramme](https://www.canva.com/design/DAGf9jLPhuw/zuiWREH_2v8LX-A5U1WebA/view?utm_content=DAGf9jLPhuw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9dc54f889c) qui résume mon projet en Canva
 
@@ -764,7 +764,7 @@ La réunion TechTeam se tiendra jeudi cette semaine et la semaine prochaine.
 
 <p><a href="monajoutdemo.html">MONAjout Demo</a></p>
 
-<p><a href="carte-saint-roch.html">carte saint roch pour la chasse aux oeuvres</a></p>
+<p><a href="carte-saint-roch.html">carte saint roch pour la chasse aux œuvres</a></p>
 
 version wikimedia (Template GeoGroup ne semble pas dispo sur wikimedia)
 https://meta.wikimedia.org/wiki/User:Anthraciter/SaintRoch
@@ -822,8 +822,8 @@ https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
     - suppressions (MONA avec drapeau)
     - corrections
     - enrichissements
-    - oeuvres censurées/cachées
-    - oeuvres disparues
+    - œuvres censurées/cachées
+    - œuvres disparues
   - faire une évaluation des conséquences, avantages/inconvénients des flux de données
   - [travailler le diagramme](https://www.figma.com/board/4RSc2qJwLTE9RMxkXIl0FU/ProjetWikidataNov2024?node-id=3-268&t=8GjveEIk50WSV3i8-1)
 
@@ -831,17 +831,17 @@ https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
 
 #### étapes du processus d'un ajout
 
-- utilisateur faire une requête d'ajouter une oeuvre
+- utilisateur faire une requête d'ajouter une œuvre
 - construire SPARQL query de l'art public ou nom de l'artiste et envoyer vers le [SPARQL endpoint](https://www.mediawiki.org/wiki/Wikidata_Query_Service/User_Manual#SPARQL_endpoint)  
 - montrer la liste retrouvée
-- selectionner l'oeuvre de la liste des resultats ou la marquer absente
-  - si l'oeuvre est absente ajouter l'information necessaire pour un cartel sec
+- selectionner l'œuvre de la liste des resultats ou la marquer absente
+  - si l'œuvre est absente ajouter l'information necessaire pour un cartel sec
 - ajouter la requête à la queue de moderation 
 - quand approuvé
 -  ajouter à wikidata si c'était absente
 -  ajouter à la base de données de MONA avec le wikidata ID
 
-- ajouter la source (linéage?) des données à l'information pour chaque oeuvre ? e.g. AdMare, Rimouski, Utilisateur (badges pour les ajouts?)
+- ajouter la source (linéage?) des données à l'information pour chaque œuvre ? e.g. AdMare, Rimouski, Utilisateur (badges pour les ajouts?)
 
 ### OpenRefine
 
@@ -884,7 +884,7 @@ https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
   https://js.histropedia.com/apps/query-timeline/?q=select%20?work%20?workLabel%20?coords%20?date%20%20(9%20as%20?start_precision)%20(SAMPLE(?image)%20AS%20?image)%20?address%20?materialLabel%20?categoryLabel%20(group_concat(distinct%20?creatorLabel;%20separator%3D%22;%20%22)%20as%20?creators)%20where%20%7B?work%20wdt:P31/wdt:P279*%20wd:Q386724;%20wdt:P136%20wd:Q557141;%20wdt:P131%20wd:Q2304457;%20wdt:P31%20?category.%20%20optional%7B?work%20wdt:P625%20?coords.%7D%20%20optional%7B?work%20wdt:P571%20?date.%7D%20%20optional%7B?work%20wdt:P18%20?image.%7D%20%20optional%7B?work%20wdt:P170%20?creator.%7D%20%20optional%7B?work%20wdt:P6375%20?address.%7D%20%20optional%7B?work%20wdt:P186%20?material.%7D%20%20SERVICE%20wikibase:label%20%7B%20bd:serviceParam%20wikibase:language%20%22en%22.%20%20?work%20rdfs:label%20?workLabel.%20?category%20rdfs:label%20?categoryLabel.%20?creator%20rdfs:label%20?creatorLabel.%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20?material%20rdfs:label%20?materialLabel%20%7D%20%7D%20group%20by%20?work%20?workLabel%20?coords%20?date%20?image%20?address%20?materialLabel%20?categoryLabel&d=0&md=true&g=work&l=work&t=workLabel&s=date&sp=start_precision&i=image&c=materialLabel,categoryLabel&f=materialLabel,categoryLabel&v=t
   ```
 
-- [Est-ce que les oeuvres de JUNKO seraient admissible à wikidata et/ou MONA?](https://www.lapresse.ca/arts/arts-visuels/2024-10-01/la-vie-la-ville/le-mystere-junko.php?sharing=true)
+- [Est-ce que les œuvres de JUNKO seraient admissible à wikidata et/ou MONA?](https://www.lapresse.ca/arts/arts-visuels/2024-10-01/la-vie-la-ville/le-mystere-junko.php?sharing=true)
 
 </details>
 

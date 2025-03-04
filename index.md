@@ -763,7 +763,7 @@ Je pense que pywikibot serait probablement la façon la plus efficace d'ajouter 
 
 </details>
 
-<details open>
+<details>
 <summary>semaine 22 (24 février)</summary>
 
 Lundi, j'ai pratiqué la présentation avec Simon à 16h.  
@@ -772,9 +772,16 @@ J'ai créé un élément Wikidata pour l'œuvre [L’art magnétique (Hommage à
 
 J'ai créé une demo rough de la recherche sur wikidata à partir d'un point <p><a href="monajoutdemo.html">MONAjout Demo</a></p>
 
-La présentation à Ichiro est mardi à 16h.
+La présentation à Ichiro est mardi à 16h.  On a visité son labo et il y avait beaucoup plein d'outils et d'équipments spécialisés pour faire de la recherche sue les instruments musicaux. On a aussi rencontré Dr Anna de Bakker et Kyrie Bouressa des membres de son équipe.  Elles nous parlaient de répresentations anciennes de musique et chants.  Pendant la visite Ichiro a expliqué que l'étude de la «HCI» (Human Computer Interaction) est très pertinente à ses recherches, car les êtres humaines ont interagi avec les instruments musicaux d'une façon similaire pendant des millénaires.
 
 La réunion TechTeam se tiendra jeudi cette semaine et la semaine prochaine.
+
+</details>
+
+<details open>
+<summary>semaine 23 (3 mars)</summary>
+
+J'ai écrit [la première ébauche de mon abstract en français en et en anglais](https://hackmd.io/@tiffanym/MONAjoutAbstract/edit) pour la [1ère journée scientifique du DIRO](https://event.fourwaves.com/fr/diro2025/pages).
 
 </details>
 
@@ -945,7 +952,47 @@ https://fr.wikipedia.org/wiki/Utilisateur:Anthraciter/SaintRoch
 - cultivatrice ?
 </details>
 
+<details>
+<summary>Abstract</summary>
 
+(ébauche)
+- résumé de l'app mobile
+- souligner la valeur de données ouvertes
+- résumé de wikidata
+«Wikidata est une base de connaissances libre et
+ouverte qui peut être lue et éditée tant par les
+humains que les machines.»
+- résumé de SPARQL?
+- l'approvisionnement par la foule (crowd-source)
+- ajout à la base de données
+- ajout à wikidata
+- UX/UI pour faciliter l'ajout
+
+
+permettre (certain·e·s) utilisateur·rice·s
+d’ajouter les œuvres d’art manquantes
+par moyen de l’application MONA
+avec un volet Wikidata
+
+On commence par signaler une œuvre manquante, la rechercher dans Wikidata, et puis on 
+ajouter l’œuvre
+
+La base de données actuelle de l’application MONA ne
+contient pas toutes les oeuvres d’art à Montréal
+Mettre à jour cette base de données serait une lourde tâche
+pour une seule personne
+Permettre aux utilisateurs de l’application MONA d’ajouter
+les oeuvres manquantes à la base de données
+
+Il faut garder contre des mauvaises saisies et coquilles, des entrées malveillantes, et des entrées doublons.
+
+My project creates a connection between 3 different elements :
+- ionic app
+- php database server
+- wikidata
+
+
+</details>
 
 ## <a name="liens-utiles"></a>Liens utiles
 

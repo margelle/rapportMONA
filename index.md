@@ -778,10 +778,21 @@ La réunion TechTeam se tiendra jeudi cette semaine et la semaine prochaine.
 
 </details>
 
-<details open>
+<details>
 <summary>semaine 23 (3 mars)</summary>
 
 J'ai écrit [la première ébauche de mon abstract en français en et en anglais](https://hackmd.io/@tiffanym/MONAjoutAbstract/edit) pour la [1ère journée scientifique du DIRO](https://event.fourwaves.com/fr/diro2025/pages).
+
+Jeudi, on avait une réunion grad avant la réunion Techteam, et Lena et Simon ont donné des suggestions pour améliorer l'ébauche pour la rendre moins «histoire de l'art» et plus «informatique».  Après, J'ai rédigé une deuxième ébauche qui réflète les commentaires de Lena et Simon.  J'ai demandé à Benoit ses commentaires aussi et je me suis inscrite pour l'événement. 
+
+</details>
+
+<details open>
+<summary>semaine 24 (10 mars)</summary>
+
+J'ai assisté à l'AGA de MONA au pavillon Lionel-Groulx.  
+
+J'ai travaillé sur la préparation d'[une description de l'API](https://hackmd.io/@tiffanym/MONAjoutAbstract) pour la réunion mercredi.
 
 </details>
 

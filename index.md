@@ -794,6 +794,8 @@ J'ai assisté à l'AGA de MONA au pavillon Lionel-Groulx.
 
 J'ai travaillé sur la préparation d'[une description de l'API](https://hackmd.io/@tiffanym/MONAjoutAbstract) pour la réunion mercredi.
 
+À faire: regarder [cette vidéo Laravel + Service Pattern + DTOs](https://www.youtube.com/watch?v=5qOwF-J5xxM) pour voir si ce sera utile de minimiser les données pour les utilisateur·rice·s  [data transfer object (DTO) ]
+
 </details>
 
 ## <a name="varia"></a>Varia

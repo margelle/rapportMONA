@@ -787,7 +787,7 @@ Jeudi, on avait une réunion grad avant la réunion Techteam, et Lena et Simon o
 
 </details>
 
-<details open>
+<details>
 <summary>semaine 24 (10 mars)</summary>
 
 J'ai assisté à l'AGA de MONA au pavillon Lionel-Groulx.  
@@ -795,6 +795,20 @@ J'ai assisté à l'AGA de MONA au pavillon Lionel-Groulx.
 J'ai travaillé sur la préparation d'[une description de l'API](https://hackmd.io/@tiffanym/MONAjoutAbstract) pour la réunion mercredi.
 
 À faire: regarder [cette vidéo Laravel + Service Pattern + DTOs](https://www.youtube.com/watch?v=5qOwF-J5xxM) pour voir si ce sera utile de minimiser les données pour les utilisateur·rice·s  [data transfer object (DTO) ]
+
+</details>
+
+<details>
+<summary>semaine 25 (17 mars)</summary>
+
+J'ai assisté à la réunion grad et Techteam.  Pas beaucoup d'avancement car je déménage.
+
+</details>
+
+<details open>
+<summary>semaine 26 (24 mars)</summary>
+
+J'ai commencé le branch margelle-monajout pour mes travaux.
 
 </details>
 

@@ -805,12 +805,38 @@ J'ai assisté à la réunion grad et Techteam.  Pas beaucoup d'avancement car je
 
 </details>
 
-<details open>
+<details >
 <summary>semaine 26 (24 mars)</summary>
 
-J'ai commencé le branch margelle-monajout pour mes travaux.
+J'ai commencé le branch margelle-monajout pour mes travaux.  J'ai essayé plusieurs choses pour rouler la version locale après des problèmes de configuration. 
+
+Avec l'aide de Simon, j'ai réussi à faire rouler la version locale, voici les changements:
+- dans le fichier docker-compose.yml
+    j'ai changé mysql ports de 33066 à 3306
+
+  '${FORWARD_DB_PORT:-3306}:3306'
+- dans le fichier .env, j'ai changé
+  DB_HOST=mysql (a été mariadb selon les instructions de Corelie)
+
+j'ai aussi fait
+In app/Providers/AppServiceProvider.php, comment out the line to do the forcescheme('https')
+Then in config/app.php change the url variable to localhost
+
+J'ai suivi les instructions de Corélie pour alimenter la base de données en version locale, et avec [le wiki](https://github.com/MaisonMONA/mona-server/wiki/Cr%C3%A9ation-d'un-nouveau-compte-(admin)-pour-tester-l'API), j'ai réussi à créer un compte pour avoir accès à l'interface admin.
 
 </details>
+
+<details open>
+<summary>semaine 27 (31 mars)</summary>
+
+J'ai ajouté les notes pour la réunion avec Corélie [au document qui décrit mon projet](https://hackmd.io/@tiffanym/MONAjoutAbstract) 
+
+J'ai parlé avec Corélie sur les écrans à ajouter à l'interface admin.  
+
+J'ai regardé la vidéo ["Cruddy by Design" - Adam Wathan - Laracon US 2017](https://www.youtube.com/watch?v=MF0jFKvS4SI) recommandé par Simon pour me familiariser avec les bonnes pratiques CRUD en Laravel.
+
+</details>
+
 
 ## <a name="varia"></a>Varia
 

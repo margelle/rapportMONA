@@ -842,10 +842,11 @@ J'ai regardé la vidéo ["Cruddy by Design" - Adam Wathan - Laracon US 2017](htt
 J'ai appris que mon projet était accepté pour la 1ère journée scientifique du DIRO, et la date limite pour l'affiche est le 25 avril.
 
 J'ai regardé la vidéo [How to Build a REST API With Laravel: PHP Full Course](https://www.youtube.com/watch?v=YGqCZjdgJJk) pour me familiariser avec les REST API en Laravel.
- - app/Controllers pour traiter les requetes d'API
- - routes/api.php pour definir les routes
+ - app\Controllers pour traiter les requetes d'API
+ - routes\api.php pour definir les routes
  - Route::apiResource omits the create and edit endpoints
  - camelCase is convention for JSON format
+ - resource transform an Eloquent model into a JSON response ```php artisan make:resource V1\WikiDataResource```
 
 </details>
 

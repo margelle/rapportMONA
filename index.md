@@ -826,7 +826,7 @@ J'ai suivi les instructions de Corélie pour alimenter la base de données en ve
 
 </details>
 
-<details open>
+<details >
 <summary>semaine 27 (31 mars)</summary>
 
 J'ai ajouté les notes pour la réunion avec Corélie [au document qui décrit mon projet](https://hackmd.io/@tiffanym/MONAjoutAbstract) 
@@ -837,6 +837,15 @@ J'ai regardé la vidéo ["Cruddy by Design" - Adam Wathan - Laracon US 2017](htt
 
 </details>
 
+<details open>
+<summary>semaine 28 (7 avril)</summary>
+J'ai appris que mon projet était accepté pour la 1ère journée scientifique du DIRO, et la date limite pour l'affiche est le 25 avril.
+
+J'ai regardé la vidéo [How to Build a REST API With Laravel: PHP Full Course](https://www.youtube.com/watch?v=YGqCZjdgJJk) pour me familiariser avec les REST API en Laravel.
+ - app/Controllers pour traiter les requetes d'API
+ - routes/api.php pour definir les routes
+
+</details>
 
 ## <a name="varia"></a>Varia
 

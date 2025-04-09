@@ -845,6 +845,7 @@ J'ai regardé la vidéo [How to Build a REST API With Laravel: PHP Full Course](
  - app/Controllers pour traiter les requetes d'API
  - routes/api.php pour definir les routes
  - Route::apiResource omits the create and edit endpoints
+ - camelCase is convention for JSON format
 
 </details>
 

@@ -844,6 +844,7 @@ J'ai appris que mon projet était accepté pour la 1ère journée scientifique d
 J'ai regardé la vidéo [How to Build a REST API With Laravel: PHP Full Course](https://www.youtube.com/watch?v=YGqCZjdgJJk) pour me familiariser avec les REST API en Laravel.
  - app/Controllers pour traiter les requetes d'API
  - routes/api.php pour definir les routes
+ - Route::apiResource omits the create and edit endpoints
 
 </details>
 

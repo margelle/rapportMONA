@@ -846,7 +846,11 @@ J'ai regardé la vidéo [How to Build a REST API With Laravel: PHP Full Course](
  - routes\api.php pour definir les routes
  - Route::apiResource omits the create and edit endpoints
  - camelCase is convention for JSON format
- - resource transform an Eloquent model into a JSON response ```php artisan make:resource V1\WikiDataResource```
+ - resource transform an Eloquent model into a JSON response ```php artisan make:resource V1\WikiDataResource```  (e.g. format DB entries into JSON output)
+
+J'ai trouvé (j'espère) un moyen d'[utiliser HTTPS en local](https://owenconti.com/posts/local-laravel-development-with-https) avec [caddy](https://caddyserver.com/docs/running#using-the-service) 
+
+J'ai installé [Postman](https://www.postman.com/) pour tester les requetes API
 
 </details>
 

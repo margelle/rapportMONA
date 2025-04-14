@@ -852,6 +852,8 @@ J'ai trouvé (j'espère) un moyen d'[utiliser HTTPS en local](https://owenconti.
 
 J'ai installé [Postman](https://www.postman.com/) pour tester les requetes API
 
+J'ai changé mon Dockerfile pour régler un problème avec Docker et Sail sur Ubuntu en utilisant [cette astuce](https://github.com/laravel/sail/pull/536#issuecomment-2651702028)
+
 </details>
 
 ## <a name="varia"></a>Varia

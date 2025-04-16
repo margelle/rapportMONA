@@ -837,7 +837,7 @@ J'ai regardé la vidéo ["Cruddy by Design" - Adam Wathan - Laracon US 2017](htt
 
 </details>
 
-<details open>
+<details>
 <summary>semaine 28 (7 avril)</summary>
 J'ai appris que mon projet était accepté pour la 1ère journée scientifique du DIRO, et la date limite pour l'affiche est le 25 avril.
 
@@ -852,7 +852,21 @@ J'ai trouvé (j'espère) un moyen d'[utiliser HTTPS en local](https://owenconti.
 
 J'ai installé [Postman](https://www.postman.com/) pour tester les requetes API
 
-J'ai changé mon Dockerfile pour régler un problème avec Docker et Sail sur Ubuntu en utilisant [cette astuce](https://github.com/laravel/sail/pull/536#issuecomment-2651702028)
+J'ai changé mon Dockerfile pour (essayer de) régler un problème avec Docker et Sail sur Ubuntu en utilisant [cette astuce](https://github.com/laravel/sail/pull/536#issuecomment-2651702028)
+
+</details>
+
+<details open>
+<summary>semaine 29 (14 avril)</summary>
+J'ai preparé pour la réunion avec Lena et Camille. On va discuter les infos minimales pour l'ajout d'une oeuvre. 
+
+[notes](https://hackmd.io/3dcne2owTnOvmoy0Th2duQ)
+
+À noter: ces deux listes sont différentes
+
+[Liste d'œuvres d'art public à Montréal](https://fr.wikipedia.org/wiki/Liste_d%27%C5%93uvres_d%27art_public_%C3%A0_Montr%C3%A9al)
+
+[List of public art in Montreal](https://en.wikipedia.org/wiki/List_of_public_art_in_Montreal#Artworks)
 
 </details>
 

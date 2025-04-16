@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formulaire d'Oeuvre</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2rem;
+      background: #f9f9f9;
+    }
+    form {
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .form-group {
+      margin-bottom: 1.2rem;
+    }
+    label {
+      display: block;
+      margin-bottom: 0.3rem;
+      font-weight: bold;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.6rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .accordion {
+      margin-top: 1.5rem;
+    }
+    .accordion-header {
+      background-color: #eee;
+      cursor: pointer;
+      padding: 1rem;
+      font-weight: bold;
+      border-radius: 5px;
+      margin-bottom: 0.5rem;
+    }
+    .accordion-content {
+      display: none;
+      padding: 1rem;
+      background-color: #f1f1f1;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #007BFF;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <form id="artworkForm">
+    <h2>Informations obligatoires</h2>
+
+    <div class="form-group">
+      <label for="nom_oeuvre">Nom de l'oeuvre *</label>
+      <input type="text" id="nom_oeuvre" name="NOM_DE_L_OEUVRE" required>
+    </div>
+
+    <div class="form-group">
+      <label for="annee">Année d’installation *</label>
+      <input type="number" id="annee" name="ANNEE" required>
+    </div>
+
+    <div class="form-group">
+      <label for="emplacement">Emplacement (adresse ou nom du lieu) *</label>
+      <input type="text" id="emplacement" name="EMPLACEMENT" required>
+    </div>
+
+    <div class="form-group">
+      <label for="titre">Titre de l'oeuvre *</label>
+      <input type="text" id="titre" name="TITRE" required>
+    </div>
+
+    <div class="form-group">
+      <label for="artiste">Nom de l'artiste *</label>
+      <input type="text" id="artiste" name="ARTISTE" required>
+    </div>
+
+    <div class="accordion">
+      <div class="accordion-header" onclick="toggleAccordion()">+ Informations optionnelles</div>
+      <div class="accordion-content" id="accordionContent">
+
+        <div class="form-group">
+          <label for="description_fr">Description de l'oeuvre</label>
+          <textarea id="description_fr" name="description_fr" rows="3"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="produced_at">Année d'installation</label>
+          <input type="number" id="produced_at" name="produced_at">
+        </div>
+
+        <div class="form-group">
+          <label for="producer">Producteur institutionnel</label>
+          <input type="text" id="producer" name="producer">
+        </div>
+
+        <div class="form-group">
+          <label for="objectid">Identifiant unique (OBJECTID)</label>
+          <input type="text" id="objectid" name="OBJECTID">
+        </div>
+
+        <div class="form-group">
+          <label for="municipalite">Code de la municipalité</label>
+          <input type="text" id="municipalite" name="MUNICIPALITE">
+        </div>
+
+        <div class="form-group">
+          <label for="promoteur">Promoteur (organisme subventionnaire)</label>
+          <input type="text" id="promoteur" name="PROMOTEUR">
+        </div>
+
+        <div class="form-group">
+          <label for="propriete">Propriétaire de l'oeuvre</label>
+          <input type="text" id="propriete" name="PROPRIETE">
+        </div>
+
+        <div class="form-group">
+          <label for="categorie">Catégorie (type d'oeuvre)</label>
+          <input type="text" id="categorie" name="CATEGORIE">
+        </div>
+
+        <div class="form-group">
+          <label for="dimensions">Dimensions</label>
+          <input type="text" id="dimensions" name="DIMENSIONS">
+        </div>
+      </div>
+    </div>
+
+    <button type="submit">Soumettre</button>
+  </form>
+
+  <script>
+    function toggleAccordion() {
+      const content = document.getElementById("accordionContent");
+      content.style.display = content.style.display === "block" ? "none" : "block";
+    }
+
+    document.getElementById("artworkForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+      // You can handle the form submission logic here (AJAX, fetch, etc.)
+      alert("Formulaire soumis avec succès !");
+    });
+  </script>
+
+</body>
+</html>

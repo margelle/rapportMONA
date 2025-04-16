@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Formulaire d'Oeuvre</title>
+  <title>MONAjout formulaire d'ajout</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -49,7 +49,7 @@
       border-radius: 5px;
     }
     button {
-      background-color: #007BFF;
+      background-color: #FADA00;
       color: white;
       padding: 0.8rem 1.5rem;
       border: none;
@@ -63,13 +63,14 @@
   </style>
 </head>
 <body>
-
+  <h2>MONAjout</h2> 
   <form id="artworkForm">
-    <h2>Informations obligatoires</h2>
+   
+      <h3>Informations obligatoires</h3>
 
     <div class="form-group">
-      <label for="nom_oeuvre">Nom de l'oeuvre *</label>
-      <input type="text" id="nom_oeuvre" name="NOM_DE_L_OEUVRE" required>
+      <label for="titre_oeuvre">Titre de l'œuvre *</label>
+      <input type="text" id="titre_oeuvre" name="TTIRE_DE_L_OEUVRE" required>
     </div>
 
     <div class="form-group">
@@ -83,27 +84,17 @@
     </div>
 
     <div class="form-group">
-      <label for="titre">Titre de l'oeuvre *</label>
-      <input type="text" id="titre" name="TITRE" required>
-    </div>
-
-    <div class="form-group">
       <label for="artiste">Nom de l'artiste *</label>
       <input type="text" id="artiste" name="ARTISTE" required>
     </div>
 
     <div class="accordion">
-      <div class="accordion-header" onclick="toggleAccordion()">+ Informations optionnelles</div>
+      <div class="accordion-header" onclick="toggleAccordion()">+ Informations facultatives</div>
       <div class="accordion-content" id="accordionContent">
 
         <div class="form-group">
-          <label for="description_fr">Description de l'oeuvre</label>
+          <label for="description_fr">Description de l'œuvre</label>
           <textarea id="description_fr" name="description_fr" rows="3"></textarea>
-        </div>
-
-        <div class="form-group">
-          <label for="produced_at">Année d'installation</label>
-          <input type="number" id="produced_at" name="produced_at">
         </div>
 
         <div class="form-group">
@@ -127,12 +118,12 @@
         </div>
 
         <div class="form-group">
-          <label for="propriete">Propriétaire de l'oeuvre</label>
+          <label for="propriete">Propriétaire de l'œuvre</label>
           <input type="text" id="propriete" name="PROPRIETE">
         </div>
 
         <div class="form-group">
-          <label for="categorie">Catégorie (type d'oeuvre)</label>
+          <label for="categorie">Catégorie (type d'œuvre)</label>
           <input type="text" id="categorie" name="CATEGORIE">
         </div>
 
@@ -145,7 +136,7 @@
 
     <button type="submit">Soumettre</button>
   </form>
-
+  <p><a href="monajoutdemo.html">MONAjout Demo</a></p>
   <script>
     function toggleAccordion() {
       const content = document.getElementById("accordionContent");
@@ -154,7 +145,7 @@
 
     document.getElementById("artworkForm").addEventListener("submit", function(e) {
       e.preventDefault();
-      // You can handle the form submission logic here (AJAX, fetch, etc.)
+      // handle the form submission logic here (AJAX, fetch, etc.)
       alert("Formulaire soumis avec succès !");
     });
   </script>

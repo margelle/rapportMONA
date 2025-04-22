@@ -881,7 +881,7 @@ J'ai lu plus de consignes pours les affiches academiques et j'ai trouvé [simula
 
 Pour les chaines de caractères super longues (comme dans la requête SPARQL), j'ai appris que cela existe en php:[```heredoc``` et ```nowdoc```](https://stackoverflow.com/questions/1848945/best-practices-working-with-long-multiline-strings-in-php#1848974)
 
-J'ai appris que les logs se trouve à storage/logs/laravel-2025-mm-dd.log et qu'on pourrait écrire dedans avec ```info()```, ```warning()```, ```error()```
+J'ai appris que les logs se trouve à storage/logs/laravel-2025-mm-dd.log et qu'on pourrait écrire dedans avec ```Log::info($message);```, ```Log::debug($message);```, etc. en utilisant Illuminate\Support\Facades\Log;
 
 J'ai travaillé sue une classe Helper pour faire construire les requêtes SPARQL.
 

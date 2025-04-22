@@ -856,7 +856,7 @@ J'ai changé mon Dockerfile pour (essayer de) régler un problème avec Docker e
 
 </details>
 
-<details open>
+<details>
 <summary>semaine 29 (14 avril)</summary>
 J'ai preparé pour la réunion avec Lena et Camille. On va discuter les infos minimales pour l'ajout d'une oeuvre. 
 
@@ -867,6 +867,23 @@ J'ai preparé pour la réunion avec Lena et Camille. On va discuter les infos mi
 [Liste d'œuvres d'art public à Montréal](https://fr.wikipedia.org/wiki/Liste_d%27%C5%93uvres_d%27art_public_%C3%A0_Montr%C3%A9al)
 
 [List of public art in Montreal](https://en.wikipedia.org/wiki/List_of_public_art_in_Montreal#Artworks)
+
+J'ai regardé la moitié de [cette liste de lecture](https://www.youtube.com/playlist?list=PLr3d3QYzkw2xTKNyWpm7XZ63j-HntTyvC) «Learn Laravel The Right Way» sur YouTube.
+
+J'ai ajouté les routes et controllers au codebase et j'ai appris qu'il faut utilser la commande  ```npm run dev``` afin d'enregistrer les composantes Vue, et puis d'utiliser la commande ```npm run watch ``` afin que les changements sont mis à jour en continu.
+
+</details>
+
+<details open>
+<summary>semaine 30 (21 avril)</summary>
+
+J'ai lu plus de consignes pours les affiches academiques et j'ai trouvé [simulation daltonienne](https://www.color-blindness.com/coblis-color-blindness-simulator/)
+
+Pour les chaines de caractères super longues (comme dans la requête SPARQL), j'ai appris que cela existe en php:[```heredoc``` et ```nowdoc```](https://stackoverflow.com/questions/1848945/best-practices-working-with-long-multiline-strings-in-php#1848974)
+
+J'ai appris que les logs se trouve à storage/logs/laravel-2025-mm-dd.log et qu'on pourrait écrire dedans avec ```info()```, ```warning()```, ```error()```
+
+J'ai travaillé sue une classe Helper pour faire construire les requêtes SPARQL.
 
 </details>
 

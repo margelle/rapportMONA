@@ -868,6 +868,8 @@ J'ai preparé pour la réunion avec Lena et Camille. On va discuter les infos mi
 
 [List of public art in Montreal](https://en.wikipedia.org/wiki/List_of_public_art_in_Montreal#Artworks)
 
+La Politique d'intégration des arts à l'architecture a [un élément wikidata](https://www.wikidata.org/wiki/Q3394603)
+
 J'ai regardé la moitié de [cette liste de lecture](https://www.youtube.com/playlist?list=PLr3d3QYzkw2xTKNyWpm7XZ63j-HntTyvC) «Learn Laravel The Right Way» sur YouTube.
 
 J'ai ajouté les routes et controllers au codebase et j'ai appris qu'il faut utilser la commande  ```npm run dev``` afin d'enregistrer les composantes Vue, et puis d'utiliser la commande ```npm run watch ``` afin que les changements sont mis à jour en continu.

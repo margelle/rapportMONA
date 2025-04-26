@@ -887,6 +887,14 @@ J'ai appris que les logs se trouve à storage/logs/laravel-2025-mm-dd.log et qu'
 
 J'ai travaillé sue une classe Helper pour faire construire les requêtes SPARQL.
 
+Lien vers des articles sur le projet pépinière:
+- [senspublic](https://www.sens-public.org/dossiers/1759/) Vers un commun numérique de l’art public (publié le 2024/05/21)
+  > Ces besoins en accessibilité et en employabilité dirigent en outre les modalités de diffusion de nos résultats
+- [volet Wikidata](https://stylo.huma-num.fr/article/67ddb29fe82241002888980c/preview) (en progès)
+> Cependant, nous ne disposons malheureusement pas des ressources nécessaires pour mener ce processus dans son intégralité. Nous reviendrons plus en détail sur ces défis dans notre prochain article dédié au volet Wikimedia commons.
+- [volet Wikimedia commons](https://hackmd.io/@MONAmtl/article-wikimedia-commons) (en progrès : je vais contribuer aux sections pratique et GLAMU ou conclusion avec Lena)
+
+
 </details>
 
 ## <a name="varia"></a>Varia

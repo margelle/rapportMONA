@@ -876,7 +876,7 @@ J'ai ajouté les routes et controllers au codebase et j'ai appris qu'il faut uti
 
 </details>
 
-<details open>
+<details>
 <summary>semaine 30 (21 avril)</summary>
 
 J'ai lu plus de consignes pours les affiches academiques et j'ai trouvé [simulation daltonienne](https://www.color-blindness.com/coblis-color-blindness-simulator/)
@@ -887,12 +887,24 @@ J'ai appris que les logs se trouve à storage/logs/laravel-2025-mm-dd.log et qu'
 
 J'ai travaillé sue une classe Helper pour faire construire les requêtes SPARQL.
 
-Lien vers des articles sur le projet pépinière:
+J'ai lu (ou relu) ces articles sur le projet pépinière:
 - [senspublic](https://www.sens-public.org/dossiers/1759/) Vers un commun numérique de l’art public (publié le 2024/05/21)
   > Ces besoins en accessibilité et en employabilité dirigent en outre les modalités de diffusion de nos résultats
 - [volet Wikidata](https://stylo.huma-num.fr/article/67ddb29fe82241002888980c/preview) (en progès)
 > Cependant, nous ne disposons malheureusement pas des ressources nécessaires pour mener ce processus dans son intégralité. Nous reviendrons plus en détail sur ces défis dans notre prochain article dédié au volet Wikimedia commons.
 - [volet Wikimedia commons](https://hackmd.io/@MONAmtl/article-wikimedia-commons) (en progrès : je vais contribuer aux sections pratique et GLAMU ou conclusion avec Lena)
+
+
+J'ai retravaillé [la requête SPARQL d'art public par distance](https://query.wikidata.org/#SELECT%20DISTINCT%0A%20%20%3Fitem%0A%20%20%3Fcoord%0A%28SAMPLE%28%3FtitleL%29%20AS%20%3Ftitle%29%20%0A%28GROUP_CONCAT%28DISTINCT%20%3FcreatorL%3B%20SEPARATOR%20%3D%20%22%2C%20%22%29%20AS%20%3Fcreator%29%20%0A%28GROUP_CONCAT%28DISTINCT%20%3FgenreL%3B%20SEPARATOR%20%3D%20%22%2C%20%22%29%20AS%20%3Fgenre%29%20%0A%28GROUP_CONCAT%28DISTINCT%20%3FplaceL%3B%20SEPARATOR%20%3D%20%22%2C%20%22%29%20AS%20%3Fplace%29%20%0A%28GROUP_CONCAT%28DISTINCT%20%3Farr%3B%20SEPARATOR%20%3D%20%22%2C%20%22%29%20AS%20%3Farrondissement%29%20%0A%28SAMPLE%28%3Fimg%29%20AS%20%3Fimage%29%20%0A%20%20WHERE%20%7B%0A%20%20%20%20%20%7B%0A%20%20%20%20%20%20SELECT%20DISTINCT%20%3Fitem%20%3Fcoord%20%7B%20%7B%0A%20%20%20%20%20%20%20%20%3Fitem%20wdt%3AP136%20wd%3AQ557141%20.%20%20%20%20%20%23%20genre%3A%20public%20art%0A%20%20%20%20%20%20%20%20%3Fitem%20wdt%3AP625%20%3Fcoord%20.%20%20%20%20%20%0A%20%20%20%20%20%20%7D%20%0A%20%20%20%20%20%20FILTER%28%0A%20%20%20%20%20%20%20%20geof%3Adistance%28%3Fcoord%2C%20%22Point%28-73.57470988703427%2045.5040269561323%29%22%29%20%3C%200.5%0A%20%20%20%20%20%20%29%7D%0A%20%20%20%20%7D%0A%0A%20%20%20%20%23%20title%0A%20%20%20%20OPTIONAL%20%7B%20%3Fitem%20rdfs%3Alabel%20%3FtitleL%20FILTER%20%28lang%28%3FtitleL%29%20%3D%20%22fr%22%29%20%7D%0A%0A%20%20%20%20%23%20creators%0A%20%20%20%20OPTIONAL%20%7B%20%3Fitem%20wdt%3AP170%20%5Brdfs%3Alabel%20%3FcreatorL%5D%20FILTER%20%28lang%28%3FcreatorL%29%20%3D%20%22fr%22%29%20%7D%0A%0A%20%20%20%20%23genre%0A%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%3Fitem%20wdt%3AP136%20%3Fg%20FILTER%20%28STR%28%3Fg%29%20%21%3D%20%27http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ557141%27%29%0A%20%20%20%20%20%20%7D%20UNION%20%7B%0A%20%20%20%20%20%20%20%20%3Fitem%20wdt%3AP31%20%3Fg%20.%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%3Fg%20rdfs%3Alabel%20%3FgenreL%20FILTER%20%28lang%28%3FgenreL%29%20%3D%20%22fr%22%29%20.%0A%20%20%20%20%7D%0A%0A%20%20%20%20%23%20place%0A%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%3Fitem%20wdt%3AP276%20%5Brdfs%3Alabel%20%3FplaceL%5D%20FILTER%20%28lang%28%3FplaceL%29%20%3D%20%22fr%22%29%20.%0A%20%20%20%20%7D%0A%0A%20%20%20%20%23%20arrondissement%0A%20%20%20%20OPTIONAL%20%7B%0A%20%20%20%20%20%20%3Fitem%20wdt%3AP131%20%5Bwdt%3AP131%20wd%3AQ340%20%3B%20rdfs%3Alabel%20%3FarrL%5D%20FILTER%20%28lang%28%3FarrL%29%20%3D%20%22fr%22%29.%0A%20%20%20%20%20%20BIND%28REPLACE%28%3FarrL%2C%20%27%5E%28%5B0-9%5D%2B%29.%2a%24%27%2C%20%22%241%22%2C%20%22si%22%29%20AS%20%3Farr%29%0A%20%20%20%20%7D%0A%0A%20%20%20%20%23%20image%0A%20%20%20%20OPTIONAL%20%7B%20%3Fitem%20wdt%3AP18%20%3Fimg%20%7D%0A%0A%7D%20GROUP%20BY%20%3Fitem%20%3Fcoord) (dans un rayon d'un point donné) pour que les coordonnées s'affichen et pour enlever les critères spécifiques à Montréal.
+
+
+ 
+
+</details>
+
+<details open>
+<summary>semaine 31 (28 avril)</summary>
+
 
 
 </details>
@@ -1129,6 +1141,7 @@ My project creates a connection between 3 different elements :
 - [Inclure les avis Open Source](https://developers.google.com/android/guides/opensource?hl=fr)
 - [tldr licenses](https://www.tldrlegal.com/) 
 - [SPARQL dans un rayon de x](https://www.mediawiki.org/wiki/Wikidata_Query_Service/User_Manual#Geospatial_search)
-
-
+- [Survol des données patrimoine de Simon](https://hackmd.io/La9OsjQIS1eHU6Oe0BlaLQ)
+- [Scramble](https://scramble.dedoc.co/)
+- [Pepinière](https://hackmd.io/@MONAmtl/pep#Wiki-tech)
  

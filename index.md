@@ -909,6 +909,7 @@ J'ai travaillé sur coder MONAjout.  J'ai mergé avec la branche de Corélie pou
 
 Je me suis inscrite pour le concours Wikidata «Coordinate Me».  Pendant le mois de mai, on suit les modifications d'entités Wikidata qui a des coordonnées et les 30 personnes à la fin du mois qui ont fait le plus grande nombre de modifications pourrait gagner le concours!  Le tableau de bord se trouve [ici.](https://outreachdashboard.wmflabs.org/courses/Wikidata/Coordinate_Me_2025_CA_(2025)/students/overview)
 
+[Quelques murales](https://tedvanrossum.com/street-art-in-shaughnessy-village/st-catherine-and-st-mathieu/) à revoir pour essayer MONAjout.  À noter que l'œuvre avec MONA id 1362 doit être marqué avec le titre “L’avenir prévisible” (The Foreseeable Future), mais en ce moment l'appli dit que c'est «non-titré»
 </details>
 
 ## <a name="varia"></a>Varia

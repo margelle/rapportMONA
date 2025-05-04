@@ -905,7 +905,7 @@ J'ai retravaillé [la requête SPARQL d'art public par distance](https://query.w
 <details open>
 <summary>semaine 31 (28 avril)</summary>
 
-J'ai travaillé sur coder MONAjout.  J'ai mergé avec la branche de Corélie pour utiliser les formulaires qu'elle a crées. 
+J'ai travaillé sur coder MONAjout.  J'ai mergé avec la branche de Corélie pour utiliser les formulaires qu'elle a créés pour ajouter les artistes et les œuvres. 
 
 Je me suis inscrite pour le concours Wikidata «Coordinate Me».  Pendant le mois de mai, on suit les modifications d'entités Wikidata qui a des coordonnées et les 30 personnes à la fin du mois qui ont fait le plus grande nombre de modifications pourrait gagner le concours!  Le tableau de bord se trouve [ici.](https://outreachdashboard.wmflabs.org/courses/Wikidata/Coordinate_Me_2025_CA_(2025)/students/overview)
 

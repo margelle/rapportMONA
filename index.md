@@ -902,7 +902,7 @@ J'ai retravaillé [la requête SPARQL d'art public par distance](https://query.w
 
 </details>
 
-<details open>
+<details>
 <summary>semaine 31 (28 avril)</summary>
 
 J'ai travaillé sur coder MONAjout.  J'ai mergé avec la branche de Corélie pour utiliser les formulaires qu'elle a créés pour ajouter les artistes et les œuvres. 
@@ -910,6 +910,18 @@ J'ai travaillé sur coder MONAjout.  J'ai mergé avec la branche de Corélie pou
 Je me suis inscrite pour le concours Wikidata «Coordinate Me».  Pendant le mois de mai, on suit les modifications d'entités Wikidata qui a des coordonnées et les 30 personnes à la fin du mois qui ont fait le plus grande nombre de modifications pourrait gagner le concours!  Le tableau de bord se trouve [ici.](https://outreachdashboard.wmflabs.org/courses/Wikidata/Coordinate_Me_2025_CA_(2025)/students/overview)
 
 [Quelques murales](https://tedvanrossum.com/street-art-in-shaughnessy-village/st-catherine-and-st-mathieu/) à revoir pour essayer MONAjout.  À noter que l'œuvre avec MONA id 1362 doit être marqué avec le titre “L’avenir prévisible” (The Foreseeable Future), mais en ce moment l'appli dit que c'est «non-titré»
+
+J'ai appris plus sur Vue, et [cette video](https://vueschool.io/lessons/communication-between-components) expliquait comment les components Vue communiquent entre eux en Vue 2.
+
+</details>
+
+<details open>
+<summary>semaine 32 (5 mai)</summary>
+
+J'ai ajouté des références à wikidata avec l'aide de cette [liste d'art public à Québec.](https://artpublic.ville.quebec.qc.ca/oeuvres)
+
+Je continue de travailler sur MONAjout en ajoutant les routes api et travailler les formulaires pour ajouter les œuvres.
+
 </details>
 
 ## <a name="varia"></a>Varia

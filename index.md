@@ -922,6 +922,19 @@ J'ai ajouté des références à wikidata avec l'aide de cette [liste d'art publ
 
 Je continue de travailler sur MONAjout en ajoutant les routes api et travailler les formulaires pour ajouter les œuvres.
 
+?work wdt:P31/wdt:P279* wd:Q838948. # instance of any subclass of work of art
+
+pour supprimer avec tinker
+DB::table('artworks')->latest()->first();
+DB::table('artworks')->where('id',2013)->delete();
+
+[stm liste des oeuvres](https://www.stm.info/fr/artdanslemetro/liste-des-oeuvres)
+
+[Wikidata Visual arts/Item structure](https://www.wikidata.org/wiki/Wikidata:WikiProject_Visual_arts/Item_structure#Use_of_cr%C3%A9%C3%A9_par_(P170)_in_uncertain_cases)
+
+J'ai trouvé cette info [poster imprimerie A1 $40-50](https://copyca.ca/large-format-print/student-poster-printing), et j'ai travaillé sur [mon affiche](https://www.canva.com/design/DAGlUbuBRKQ/Ra8zRLNXlNj0r1Ns2iO6hA/edit)
+
+
 </details>
 
 ## <a name="varia"></a>Varia

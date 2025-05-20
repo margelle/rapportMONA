@@ -915,7 +915,7 @@ J'ai appris plus sur Vue, et [cette video](https://vueschool.io/lessons/communic
 
 </details>
 
-<details open>
+<details>
 <summary>semaine 32 (5 mai)</summary>
 
 J'ai ajouté des références à wikidata avec l'aide de cette [liste d'art public à Québec.](https://artpublic.ville.quebec.qc.ca/oeuvres)
@@ -934,6 +934,23 @@ DB::table('artworks')->where('id',2013)->delete();
 
 J'ai trouvé cette info [poster imprimerie A1 $40-50](https://copyca.ca/large-format-print/student-poster-printing), et j'ai travaillé sur [mon affiche](https://www.canva.com/design/DAGlUbuBRKQ/Ra8zRLNXlNj0r1Ns2iO6hA/edit)
 
+
+</details>
+
+<details open>
+<summary>semaine 33 (12 mai)</summary>
+
+[Wikidata:WikiProject Visual arts/Item structure/Installations](https://www.wikidata.org/wiki/Wikidata:WikiProject_Visual_arts/Item_structure/Installations)
+
+[Wikidata:WikiProject Public art/Data model](https://www.wikidata.org/wiki/Wikidata%3AWikiProject_Public_art/Data_model)
+
+![Most used properties public art Canada](image-1.png)  de cette [requête SPARQL adaptée](https://query.wikidata.org/#%23title%3A%20Most%20Used%20Properties%20for%20Public%20Art%20in%20Canada%20in%20Wikidata%0A%23defaultView%3ABubbleChart%0A%23%20This%20query%20retrieves%20the%20most%20frequently%20used%20properties%20for%20items%20that%20are%20public%20art%20%28Q557141%29%20in%20Canada.%0A%23%20It%20counts%20how%20many%20times%20each%20property%20is%20used%20and%20displays%20the%20results%20in%20descending%20order.%0A%23%20The%20visualization%20is%20set%20to%20a%20Bubble%20Chart%20to%20provide%20a%20visual%20representation%20of%20property%20usage.%0A%0ASELECT%20%3Fproperty%20%3FpropertyLabel%20%3Fcount%0AWHERE%20%7B%0A%20%20%23%20Subquery%20to%20calculate%20the%20count%20of%20each%20property%20used%20by%20hospital%20items%0A%20%20%7B%0A%20%20%20%20SELECT%20%0A%20%20%20%20%20%20%28IRI%28REPLACE%28STR%28%3Fprop%29%2C%20%22http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2F%22%2C%20%22http%3A%2F%2Fwww.wikidata.org%2Fentity%2F%22%29%29%20AS%20%3Fproperty%29%20%20%23%20Convert%20direct%20property%20to%20property%20entity%0A%20%20%20%20%20%20%28COUNT%28%2a%29%20AS%20%3Fcount%29%20%20%23%20Count%20the%20number%20of%20occurrences%20for%20each%20property%0A%20%20%20%20WHERE%20%7B%0A%20%20%20%20%20%20%3Fitem%20wdt%3AP136%20wd%3AQ557141%20.%20%20%23%20Select%20items%20that%20are%20instances%20of%20a%20hospital%0A%20%20%20%20%20%20%3Fitem%20wdt%3AP17%20wd%3AQ16%20.%0A%20%20%20%20%20%20%3Fitem%20%3Fprop%20%3Fvalue%20.%20%20%20%20%20%20%20%20%23%20Retrieve%20all%20properties%20and%20their%20values%20for%20these%20items%0A%20%20%20%20%20%20FILTER%28STRSTARTS%28STR%28%3Fprop%29%2C%20STR%28wdt%3A%29%29%29%20.%20%20%23%20Ensure%20only%20direct%20properties%20%28wdt%3A%29%20are%20considered%0A%20%20%20%20%7D%0A%20%20%20%20GROUP%20BY%20%3Fprop%20%20%23%20Group%20results%20by%20property%20to%20aggregate%20counts%0A%20%20%20%20ORDER%20BY%20DESC%28%3Fcount%29%20%20%23%20Order%20properties%20by%20count%20in%20descending%20order%0A%20%20%7D%0A%20%20%0A%20%20%23%20Retrieve%20human-readable%20labels%20for%20the%20properties%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20%0A%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%20%23%20Fetch%20labels%20in%20the%20user%27s%20language%20or%20English%0A%20%20%7D%0A%7D%0AORDER%20BY%20DESC%28%3Fcount%29%20%20%23%20Final%20ordering%20of%20the%20results%20by%20count%0ALIMIT%201000)
+
+ajouter accent-aware locale comparison?
+
+[pour trouver la région avec les coordonnées lat lng](https://global.mapit.mysociety.org/point/4326/-73.664351,45.553606.html)
+
+[affiche](https://www.canva.com/design/DAGlUbuBRKQ/Ra8zRLNXlNj0r1Ns2iO6hA)
 
 </details>
 

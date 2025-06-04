@@ -937,7 +937,7 @@ J'ai trouvé cette info [poster imprimerie A1 $40-50](https://copyca.ca/large-fo
 
 </details>
 
-<details open>
+<details>
 <summary>semaine 33 (12 mai)</summary>
 
 [Wikidata:WikiProject Visual arts/Item structure/Installations](https://www.wikidata.org/wiki/Wikidata:WikiProject_Visual_arts/Item_structure/Installations)
@@ -952,7 +952,27 @@ ajouter accent-aware locale comparison?
 
 [affiche](https://www.canva.com/design/DAGlUbuBRKQ/Ra8zRLNXlNj0r1Ns2iO6hA)
 
+[mona library ](https://www.figma.com/design/s0ardw6yLEeG2Ca7HfbWYT/mona.library?node-id=3333-18684&p=f&t=NBe8WHUNm2HxAjFT-0)
+[mona mockups](https://www.figma.com/design/2qEV87zB5TTG85e111u2a4/Mona-Mockups?node-id=6-42&t=Ictm9aJzLnibDgLa-0)
+
 </details>
+
+<details>
+<summary>semaine 36 (2 juin)</summary>
+
+J'ai crée [un compte](https://www.wikidata.org/wiki/User:MONAjoutArtPublicBot) pour le Wikidata bot MONAjoutArtPublicBot selon [ces règles](https://www.wikidata.org/wiki/Wikidata:Bots#Approval_process) 
+
+[Voici le bot de Simon](https://www.wikidata.org/wiki/User:MONA.artpublic.bot)
+
+J'ai aussi crée un compte sur [Wikibase cloud](https://www.wikibase.cloud/) pour tester sans spammer le vrai Wikidata.
+
+[un outil pour créer des dumps wikidata](https://wdumps.toolforge.org/)
+
+
+[Art public – Vivez au rythme de la capitale du Canada](https://www.canada.ca/fr/patrimoine-canadien/services/art-monuments/art-public.html)
+
+</details>
+
 
 ## <a name="varia"></a>Varia
 

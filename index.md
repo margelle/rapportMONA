@@ -987,6 +987,10 @@ Ressources pour les [wikidata wikiprojets](https://www.wikidata.org/wiki/Wikidat
 
 J'ai créé [un WikiProjet](https://www.wikidata.org/wiki/Wikidata:WikiProject_MONAjout) pour MONAjout
 
+J'ai lu [Wikidata:Personnes vivantes](https://www.wikidata.org/wiki/Wikidata:Living_people/fr), et il faut que je note la section sur Interactions des robots avec les éléments sur les personnes vivantes quand le bot ajout les personnes vivantes.
+
+J'ai aussi commencé la redaction de mon rapport de stage [en version hackmd](https://hackmd.io/@tiffanym/rapportdestage) qui sera transformé en [version Word](https://udemontreal-my.sharepoint.com/:w:/r/personal/tiffany_maynard_umontreal_ca/Documents/rapport_de_stage_MONAjout.docx?d=w0f4754ba6d4d4bcd92638bc293d0c658&csf=1&web=1&e=V9yrBG) plus tard.
+
 </details>
 
 ## <a name="varia"></a>Varia

@@ -975,7 +975,7 @@ Après 50 changements avec le bot, je vais demander les «bot rights» [ici](htt
 
 </details>
 
-<details open>
+<details>
 <summary>semaine 37 (9 juin)</summary>
 
 Le bot a fait [son premier ajout à wikidata](https://www.wikidata.org/w/index.php?title=Q134734515&action=history) 
@@ -990,6 +990,21 @@ J'ai créé [un WikiProjet](https://www.wikidata.org/wiki/Wikidata:WikiProject_M
 J'ai lu [Wikidata:Personnes vivantes](https://www.wikidata.org/wiki/Wikidata:Living_people/fr), et il faut que je note la section sur Interactions des robots avec les éléments sur les personnes vivantes quand le bot ajout les personnes vivantes.
 
 J'ai aussi commencé la redaction de mon rapport de stage [en version hackmd](https://hackmd.io/@tiffanym/rapportdestage) qui sera transformé en [version Word](https://udemontreal-my.sharepoint.com/:w:/r/personal/tiffany_maynard_umontreal_ca/Documents/rapport_de_stage_MONAjout.docx?d=w0f4754ba6d4d4bcd92638bc293d0c658&csf=1&web=1&e=V9yrBG) plus tard.
+
+J'ai créé [un élément wikidata pour MONAjout](https://www.wikidata.org/wiki/Q134930271)
+
+</details>
+
+<details open>
+<summary>semaine 38 (16 juin)</summary>
+
+J'ai trouvé le format avec le Wikidata [API Sandbox](https://www.wikidata.org/wiki/Special:ApiSandbox#action=wbeditentity&id=Q4115189&data={%22claims%22:[{%22mainsnak%22:{%22snaktype%22:%22value%22,%22property%22:%22P56%22,%22datavalue%22:{%22value%22:%22ExampleString%22,%22type%22:%22string%22}},%22type%22:%22statement%22,%22rank%22:%22normal%22}]})
+
+J'ai lu [What happens in Wikibase when you make a new Item?](https://addshore.com/2021/07/what-happens-in-wikibase-when-you-make-a-new-item/)
+
+Il existe [test wikidata](https://test.wikidata.org/wiki/Wikidata:Main_Page)
+
+Il existe [un outil](https://www.wikidata.org/wiki/Wikidata:Cradle) pour créer des formulaires qui exigent des propriétés spécficiques au sujet, mais il semble hors service en ce moment.
 
 </details>
 

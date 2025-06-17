@@ -998,13 +998,13 @@ J'ai créé [un élément wikidata pour MONAjout](https://www.wikidata.org/wiki/
 <details open>
 <summary>semaine 38 (16 juin)</summary>
 
-J'ai trouvé le format avec le Wikidata [API Sandbox](https://www.wikidata.org/wiki/Special:ApiSandbox#action=wbeditentity&id=Q4115189&data={%22claims%22:[{%22mainsnak%22:{%22snaktype%22:%22value%22,%22property%22:%22P56%22,%22datavalue%22:{%22value%22:%22ExampleString%22,%22type%22:%22string%22}},%22type%22:%22statement%22,%22rank%22:%22normal%22}]})
+Il existe un [Wikidata API Sandbox](https://www.wikidata.org/wiki/Special:ApiSandbox)
 
 J'ai lu [What happens in Wikibase when you make a new Item?](https://addshore.com/2021/07/what-happens-in-wikibase-when-you-make-a-new-item/)
 
 Il existe [test wikidata](https://test.wikidata.org/wiki/Wikidata:Main_Page)
 
-Il existe [un outil](https://www.wikidata.org/wiki/Wikidata:Cradle) pour créer des formulaires qui exigent des propriétés spécficiques au sujet, mais il semble hors service en ce moment.
+Il existe [un outil](https://www.wikidata.org/wiki/Wikidata:Cradle) pour créer des formulaires qui exigent des propriétés spécifiques au sujet, mais il semble hors service en ce moment.
 
 </details>
 

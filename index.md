@@ -1004,7 +1004,11 @@ J'ai lu [What happens in Wikibase when you make a new Item?](https://addshore.co
 
 Il existe [test wikidata](https://test.wikidata.org/wiki/Wikidata:Main_Page)
 
-Il existe [un outil](https://www.wikidata.org/wiki/Wikidata:Cradle) pour créer des formulaires qui exigent des propriétés spécifiques au sujet, mais il semble hors service en ce moment.
+Il existe [un outil](https://www.wikidata.org/wiki/Wikidata:Cradle) pour créer des formulaires qui exigent des propriétés spécifiques au sujet, mais il semble hors service en ce moment à cause de OAuth.
+
+J'ai redigé les sections Environnment de Travail et Remerciements de mon rapport de stage.
+
+J'ai écrit [la requête de permission pour le bot](https://www.wikidata.org/wiki/Wikidata:Requests_for_permissions/Bot/MONAjoutArtPublicBot) et je l'ai ajoutée à [la liste d'approbation pour bots.](https://www.wikidata.org/wiki/Wikidata:Requests_for_permissions/Bot)
 
 </details>
 

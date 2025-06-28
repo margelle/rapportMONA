@@ -995,7 +995,7 @@ J'ai créé [un élément wikidata pour MONAjout](https://www.wikidata.org/wiki/
 
 </details>
 
-<details open>
+<details>
 <summary>semaine 38 (16 juin)</summary>
 
 Il existe un [Wikidata API Sandbox](https://www.wikidata.org/wiki/Special:ApiSandbox)
@@ -1009,6 +1009,25 @@ Il existe [un outil](https://www.wikidata.org/wiki/Wikidata:Cradle) pour créer 
 J'ai redigé les sections Environnment de Travail et Remerciements de mon rapport de stage.
 
 J'ai écrit [la requête de permission pour le bot](https://www.wikidata.org/wiki/Wikidata:Requests_for_permissions/Bot/MONAjoutArtPublicBot) et je l'ai ajoutée à [la liste d'approbation pour bots.](https://www.wikidata.org/wiki/Wikidata:Requests_for_permissions/Bot)
+
+[When should works and objects have a Wikidata item?](https://commons.wikimedia.org/wiki/Commons:Structured_data/Modeling/Visual_artworks#When_should_works_and_objects_have_a_Wikidata_item?)
+
+Il existe une propriété Wikidata [contesté par (P1310)](https://sqid.toolforge.org/#/view?id=P1310&lang=fr)
+
+Une liste de [Wikidata properties likely to be challenged](https://www.wikidata.org/wiki/Wikidata:WikiProject_Properties/Wikidata_properties_likely_to_be_challenged)
+
+Le gabarit pour le rapport de stage est [sur cette page](https://bib.umontreal.ca/gerer-diffuser/communication-savante/rediger-these-memoire/)
+
+J'ai trouvé cette [base de données avec 1264 oeuvres](https://e-artexte.ca/id/eprint/25265/5/Art_public-archives_bd_Artexte_1963-2005.pdf) 
+
+
+<details open>
+<summary>semaine 39 (23 juin)</summary>
+J'ai ajouté l'oeuvre [WHERE FLOWERS COME TO BLOOM](https://www.wikidata.org/wiki/Q135085158) à wikidata avec le bot.
+
+J'ai trouvé [une oeuvre](https://artpublic.ville.montreal.qc.ca/oeuvre/site-interlude/) qui existe sur DB MONA (ID 715 Site/interlude de [David Moore](https://www.wikidata.org/wiki/Q64959164) (45.427777, -73.676973) ) mais pas sur Wikidata et je vais l'utiliser pour tester
+Elle a déjà [des images et une catégorie](https://commons.wikimedia.org/wiki/Category:Site/interlude) sur Wikimedia Commons.
+
 
 </details>
 

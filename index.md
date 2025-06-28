@@ -1019,7 +1019,7 @@ Une liste de [Wikidata properties likely to be challenged](https://www.wikidata.
 Le gabarit pour le rapport de stage est [sur cette page](https://bib.umontreal.ca/gerer-diffuser/communication-savante/rediger-these-memoire/)
 
 J'ai trouvé cette [base de données avec 1264 oeuvres](https://e-artexte.ca/id/eprint/25265/5/Art_public-archives_bd_Artexte_1963-2005.pdf) 
-
+</details>
 
 <details open>
 <summary>semaine 39 (23 juin)</summary>

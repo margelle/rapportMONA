@@ -1023,6 +1023,7 @@ J'ai trouvé cette [base de données avec 1264 oeuvres](https://e-artexte.ca/id/
 
 <details open>
 <summary>semaine 39 (23 juin)</summary>
+
 J'ai ajouté l'oeuvre [WHERE FLOWERS COME TO BLOOM](https://www.wikidata.org/wiki/Q135085158) à wikidata avec le bot.
 
 J'ai trouvé [une oeuvre](https://artpublic.ville.montreal.qc.ca/oeuvre/site-interlude/) qui existe sur DB MONA (ID 715 Site/interlude de [David Moore](https://www.wikidata.org/wiki/Q64959164) (45.427777, -73.676973) ) mais pas sur Wikidata et je vais l'utiliser pour tester

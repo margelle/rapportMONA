@@ -1021,7 +1021,7 @@ Le gabarit pour le rapport de stage est [sur cette page](https://bib.umontreal.c
 J'ai trouvé cette [base de données avec 1264 oeuvres](https://e-artexte.ca/id/eprint/25265/5/Art_public-archives_bd_Artexte_1963-2005.pdf) 
 </details>
 
-<details open>
+<details>
 <summary>semaine 39 (23 juin)</summary>
 
 J'ai ajouté l'oeuvre [WHERE FLOWERS COME TO BLOOM](https://www.wikidata.org/wiki/Q135085158) à wikidata avec le bot.
@@ -1029,6 +1029,17 @@ J'ai ajouté l'oeuvre [WHERE FLOWERS COME TO BLOOM](https://www.wikidata.org/wik
 J'ai trouvé [une oeuvre](https://artpublic.ville.montreal.qc.ca/oeuvre/site-interlude/) qui existe sur DB MONA (ID 715 Site/interlude de [David Moore](https://www.wikidata.org/wiki/Q64959164) (45.427777, -73.676973) ) mais pas sur Wikidata et je vais l'utiliser pour tester
 Elle a déjà [des images et une catégorie](https://commons.wikimedia.org/wiki/Category:Site/interlude) sur Wikimedia Commons.
 
+
+</details>
+
+<details open>
+<summary>semaine 40 (30 juin)</summary>
+
+J'ai travaillé sur la section échéancier de mon rapport de stage.
+
+J'ai discuté avec Simon comment stocker les ajouts afin de pouvoir les repeter quand on refait la DB de zéro avec son projet.
+
+J'ai debuggé l'ajout d'artist avec l'ajout d'une oeuvre à la DB MONA.
 
 </details>
 

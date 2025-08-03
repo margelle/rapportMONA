@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikidata Pecha Kucha</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            background: white;
+            color: #333333;
+            overflow: hidden;
+        }
+
+        .presentation-container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .slide {
+            display: none;
+            text-align: center;
+            max-width: 1200px;
+            width: 90%;
+            height: 80%;
+            padding: 40px;
+            animation: slideIn 0.5s ease-in-out;
+            position: relative;
+        }
+
+        .slide.active {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Slide 0 - Countdown slide styling */
+        .countdown-slide {
+            background: black;
+            color: white;
+            width: 100vw;
+            height: 100vh;
+            max-width: none;
+            padding: 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+
+        .countdown-slide.active {
+            display: flex;
+        }
+
+        .countdown-number {
+            font-size: 15em;
+            font-weight: bold;
+            text-shadow: 0 0 50px rgba(255,255,255,0.5);
+            animation: pulse 1s ease-in-out;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(0.8); opacity: 0.5; }
+            50% { transform: scale(1.1); opacity: 1; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+
+        .countdown-text {
+            position: absolute;
+            bottom: 100px;
+            font-size: 2em;
+            opacity: 0.8;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Image containers */
+        .slide-image {
+            max-width: 100%;
+            max-height: 70%;
+            object-fit: contain;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            margin-bottom: 20px;
+        }
+
+        .slide-title {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-shadow: none;
+            color: #006699;
+        }
+
+        .slide-subtitle {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            text-shadow: none;
+            opacity: 0.7;
+            color: #666666;
+        }
+
+        /* Progress bar container */
+        .progress-container {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 8px;
+            background: rgba(255,255,255,0.2);
+            z-index: 100;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background: #006699;
+            width: 0%;
+            transition: width 0.1s linear;
+            position: relative;
+        }
+
+        .progress-bar::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 4px;
+            height: 100%;
+            background: rgba(0, 102, 153, 0.8);
+            box-shadow: 0 0 10px rgba(0, 102, 153, 0.5);
+        }
+
+        /* Controls */
+        .controls {
+            position: fixed;
+            bottom: 15px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 8px;
+            z-index: 100;
+        }
+
+        button {
+            padding: 6px 12px;
+            font-size: 12px;
+            background: #006699;
+            color: white;
+            border: 1px solid #006699;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            background: #004d73;
+            border-color: #004d73;
+            transform: translateY(-1px);
+        }
+
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+
+        /* Timer display - hidden */
+        .timer-display {
+            display: none;
+        }
+
+        .timer-circle {
+            width: 20px;
+            height: 20px;
+            border: 3px solid rgba(255,255,255,0.3);
+            border-radius: 50%;
+            border-top-color: white;
+            animation: spin 1s linear infinite;
+        }
+
+        .timer-circle.paused {
+            animation-play-state: paused;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Image placeholder styles */
+        .image-placeholder {
+            width: 100%;
+            max-width: 800px;
+            height: 500px;
+            background: rgba(0, 102, 153, 0.05);
+            border: 3px dashed rgba(0, 102, 153, 0.3);
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .placeholder-icon {
+            font-size: 4em;
+            margin-bottom: 20px;
+            opacity: 0.7;
+        }
+
+        .placeholder-text {
+            font-size: 1.2em;
+            opacity: 0.8;
+            text-align: center;
+            line-height: 1.4;
+        }
+
+        /* File upload area */
+        .upload-area {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            border: 2px solid #006699;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 102, 153, 0.2);
+            display: none;
+            z-index: 200;
+            color: #333333;
+        }
+
+        .upload-area.show {
+            display: block;
+        }
+
+        .upload-input {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #006699;
+            border-radius: 5px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="presentation-container">
+        <!-- Slide 0 - Countdown -->
+        <div class="slide countdown-slide active">
+            <div class="countdown-number" id="countdown-number">5</div>     
+            <script type="text/javascript">
+                var timeleft = 5;
+                var downloadTimer = setInterval(function(){
+                timeleft--;
+                document.getElementById("countdown-number").textContent = timeleft;
+                if(timeleft <= 1)
+                    clearInterval(downloadTimer);
+                },1000);
+            </script>       
+        </div>
+
+        <!-- Slide 1 -->
+        <div class="slide">
+            <!-- <h1 class="slide-title">Introduction à Wikidata</h1> -->
+            <img src="assets/Wikidata-logo-en.svg" class="slide-image" alt="Wikidata Logo" />
+            <div class="slide-subtitle">La base de données libre et collaborative qui révolutionne le partage de connaissances</div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="slide">
+            <h2 class="slide-title">C'est quoi, Wikidata?</h2>
+            <img src="assets/Wikidata_nodes_in_white.svg.png" class="slide-image" alt="Wikidata Network Nodes" />
+            <div class="slide-subtitle">Base de données libre et collaborative lancée en 2012 par la Fondation Wikimédia</div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="slide">
+            <h2 class="slide-title">Libre, ouverte, et multilingue</h2>
+            <img src="assets/olm.png" class="slide-image" alt="Wikidata Network Nodes" />
+            <div class="slide-subtitle">Domaine public, API ouverte, 300 langues</div>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="slide">
+            <h2 class="slide-title">Collaboratif, relié, et structuré</h2>
+            <img src="assets/crs.png" class="slide-image" alt="Structure" />
+            <div class="slide-subtitle">Architecture simple : éléments, propriétés et valeurs pour des connexions infinies</div>
+        </div>
+
+        <!-- Slide 5 -->
+        <div class="slide">
+            <h2 class="slide-title">Exemple local </h2>
+            <img src="assets/wd1.png" class="slide-image" alt="Exemple" />
+            <div class="slide-subtitle">à côté du pavillon DKN</div>
+        </div>
+
+ <!-- Slide 6 -->
+        <div class="slide">
+            <h2 class="slide-title">Structure des données</h2>
+            <img src="assets/Datamodel_in_Wikidata_fr.svg" class="slide-image" alt="Structure" />
+            <div class="slide-subtitle">Architecture simple : éléments, propriétés et valeurs</div>
+        </div>
+
+             <!-- Slide 7 -->
+        <div class="slide">
+            <h2 class="slide-title">Critères de notoriété</h2>
+            <img src="assets/concret.jpeg" class="slide-image" alt="Exemple" />
+            <div class="slide-subtitle">chose concrète ou abstraite qu'on peut identifier clairement</div>
+        </div>
+
+    <!-- Slide 8 -->
+        <div class="slide">
+            <h2 class="slide-title">Projets frères</h2>
+            <img src="assets/wikiprojects.png" class="slide-image" alt="Exemple" />
+            <div class="slide-subtitle">
+                MediaWiki Méta-Wiki Wikilivres Wikidata Wikifunctions Wikimedia Commons Wikinews Wikiquote Wikipédia Wikisource Wikispecies Wiktionnaire Wikiversité Wikivoyage
+            </div>
+        </div>
+
+      
+
+        <!-- Slide 9 -->
+        <div class="slide">
+            <h2 class="slide-title">Infobox de recherche</h2>
+            <img src="assets/laval.png" class="slide-image" alt="U Laval" />
+            <div class="slide-subtitle">Alimenter des recherches</div>
+        </div>
+
+        <!-- Slide 10 -->
+        <div class="slide">
+            <h2 class="slide-title">Conclusion</h2>
+            <img src="assets/Wikidata-logo-en.svg" class="slide-image" alt="Wikidata Logo" />
+            <div class="slide-subtitle">Partager des connaissances</div>
+        </div>
+
+                <!-- Slide 11 -->
+                <div class="slide">
+                    <h2 class="slide-title">FIN</h2>
+                    <img src="assets/nut.JPG" class="slide-image" alt="Wikidata Logo" />
+                    <div class="slide-subtitle">Merci</div>
+                </div>
+    </div>
+
+    <!-- Progress bar -->
+    <div class="progress-container">
+        <div class="progress-bar" id="progress-bar"></div>
+    </div>
+
+    <!-- Timer display -->
+    <div class="timer-display">
+        <div class="timer-circle" id="timer-circle"></div>
+        <span>Timer</span>
+    </div>
+
+
+    <!-- Controls -->
+    <div class="controls">
+        <button id="prev-btn" onclick="previousSlide()">←</button>
+        <button id="play-pause-btn" onclick="toggleTimer()">❚❚</button>
+        <button id="next-btn" onclick="nextSlide()">→</button>
+    </div>
+
+
+
+    <script>
+        let currentSlide = 0;
+        let totalSlides = 12;
+        let timer = null;
+        let timeLeft = 5;
+        let isPlaying = true;
+        let slideImages = {};
+        let countdownTimer = null; // Separate timer for countdown
+
+        function showSlide(n) {
+            const slides = document.querySelectorAll('.slide');
+            
+            if (n >= totalSlides) currentSlide = totalSlides - 1;
+            if (n < 0) currentSlide = 0;
+            
+            slides.forEach(slide => slide.classList.remove('active'));
+            slides[currentSlide].classList.add('active');
+            
+            // Hide/show controls based on slide
+            const controls = document.querySelector('.controls');
+            const progressContainer = document.querySelector('.progress-container');
+            
+            if (currentSlide === 0) {
+                // Hide controls during countdown
+                controls.style.display = 'none';
+                progressContainer.style.background = 'rgba(255,255,255,0.1)'; // Subtle on black
+            } else {
+                // Show controls for regular slides
+                controls.style.display = 'flex';
+                progressContainer.style.background = 'rgba(255,255,255,0.2)'; // Normal on white
+            }
+            
+            document.getElementById('prev-btn').disabled = currentSlide === 0;
+            document.getElementById('next-btn').disabled = currentSlide === totalSlides - 1;
+            
+            resetTimer();
+        }
+
+        function nextSlide() {
+            if (currentSlide < totalSlides - 1) {
+                currentSlide++;
+                showSlide(currentSlide);
+            }
+        }
+
+        function previousSlide() {
+            if (currentSlide > 0) {
+                currentSlide--;
+                showSlide(currentSlide);
+            }
+        }
+
+        function resetTimer() {
+            if (currentSlide === 0) {
+                // Countdown slide - 5 seconds
+                timeLeft = 5;
+                isCountdownMode = true;
+            } else {
+                // Regular slides - 20 seconds
+                timeLeft = 20;
+                isCountdownMode = false;
+            }
+            updateTimerDisplay();
+            updateProgressBar();
+            if (isPlaying) {
+                startTimer();
+            }
+        }
+
+        function startTimer() {
+            clearInterval(timer);
+            timer = setInterval(() => {
+                timeLeft -= 0.1; // More smooth progress bar
+                updateTimerDisplay();
+                updateProgressBar();
+                
+                if (timeLeft <= 0) {
+                    if (currentSlide < totalSlides - 1) {
+                        nextSlide();
+                    } else {
+                        clearInterval(timer);
+                        isPlaying = false;
+                        document.getElementById('play-pause-btn').textContent = '▶';
+                        document.getElementById('timer-circle').classList.add('paused');
+                    }
+                }
+            }, 100); // Update every 100ms for smooth animation
+        }
+
+        function updateTimerDisplay() {
+            // Only visual spinner now, no numeric countdown
+        }
+
+        function updateProgressBar() {
+            const progress = ((20 - timeLeft) / 20) * 100;
+            document.getElementById('progress-bar').style.width = progress + '%';
+        }
+
+        function toggleTimer() {
+            const btn = document.getElementById('play-pause-btn');
+            
+            if (isPlaying) {
+                clearInterval(timer);
+                clearInterval(countdownTimer);
+                isPlaying = false;
+                btn.textContent = '▶';
+            } else {
+                isPlaying = true;
+                btn.textContent = '❚❚';
+                resetTimer(); // Restart appropriate timer
+            }
+        }
+
+
+        // Keyboard navigation
+        document.addEventListener('keydown', (e) => {
+            switch(e.key) {
+                case 'ArrowLeft':
+                    previousSlide();
+                    break;
+                case 'ArrowRight':
+                case ' ':
+                    e.preventDefault();
+                    nextSlide();
+                    break;
+                case 'Escape':
+                    toggleTimer();
+                    break;
+                case 'u':
+                case 'U':
+                    showUploadDialog();
+                    break;
+            }
+        });
+
+        // Prevent space from scrolling
+        document.addEventListener('keydown', (e) => {
+            if(e.key === ' ' && e.target === document.body) {
+                e.preventDefault();
+            }
+        });
+
+        // Initialize
+        showSlide(0);
+        startTimer();
+    </script>
+</body>
+</html>

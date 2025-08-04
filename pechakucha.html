@@ -205,61 +205,7 @@
             to { transform: rotate(360deg); }
         }
 
-        /* Image placeholder styles */
-        .image-placeholder {
-            width: 100%;
-            max-width: 800px;
-            height: 500px;
-            background: rgba(0, 102, 153, 0.05);
-            border: 3px dashed rgba(0, 102, 153, 0.3);
-            border-radius: 15px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 20px;
-        }
 
-        .placeholder-icon {
-            font-size: 4em;
-            margin-bottom: 20px;
-            opacity: 0.7;
-        }
-
-        .placeholder-text {
-            font-size: 1.2em;
-            opacity: 0.8;
-            text-align: center;
-            line-height: 1.4;
-        }
-
-        /* File upload area */
-        .upload-area {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background: white;
-            border: 2px solid #006699;
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0, 102, 153, 0.2);
-            display: none;
-            z-index: 200;
-            color: #333333;
-        }
-
-        .upload-area.show {
-            display: block;
-        }
-
-        .upload-input {
-            margin: 10px 0;
-            padding: 10px;
-            border: 1px solid #006699;
-            border-radius: 5px;
-            width: 300px;
-        }
     </style>
 </head>
 <body>
@@ -443,7 +389,7 @@
                 timeLeft = 20;
                 isCountdownMode = false;
             }
-            updateTimerDisplay();
+
             updateProgressBar();
             if (isPlaying) {
                 startTimer();
@@ -454,7 +400,7 @@
             clearInterval(timer);
             timer = setInterval(() => {
                 timeLeft -= 0.1; // More smooth progress bar
-                updateTimerDisplay();
+
                 updateProgressBar();
                 
                 if (timeLeft <= 0) {
@@ -470,9 +416,6 @@
             }, 100); // Update every 100ms for smooth animation
         }
 
-        function updateTimerDisplay() {
-            // Only visual spinner now, no numeric countdown
-        }
 
         function updateProgressBar() {
             const progress = ((20 - timeLeft) / 20) * 100;
